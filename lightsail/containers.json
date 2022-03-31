@@ -1,0 +1,8 @@
+{
+    "flask": {
+        "image": ":sp-service.sp.1",
+        "ports": {
+            "5000": "HTTP"
+        }
+    }
+}
