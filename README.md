@@ -10,6 +10,9 @@ Create a virtual env and run:
 ```docker build --tag sp-group-work .```
 
 ## Running the App:
+The coinapi key is injected with an environment variable, so make sure it's set (env variable name: "API_KEY")!
+
+
 Running the app locally:
 
 ```python app.py```
