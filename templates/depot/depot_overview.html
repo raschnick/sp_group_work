@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Depot Overview</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/depot/depot_overview.css') }}">
 </head>
 <body>
 <h1>{{ depot.depot_holder_name }}'s Depot</h1>
+<table>
+    <tr>
+        <th>Transaction Date</th>
+        <th>Amount</th>
+        <th>Currency Rate</th>
+    </tr>
+    {% for transaction in depot.transactions %}
+        <tr>
+            <td>{{ transaction.transaction_date }}</td>
+            <td>{{ transaction.amount }}</td>
+            <td>{{ transaction.currency_rate }}</td>
+        </tr>
+    {% endfor %}
+</table>
 </body>
 </html>

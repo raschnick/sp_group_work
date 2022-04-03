@@ -24,7 +24,7 @@ class DepotRepository:
                         'from': 'transaction',
                         'localField': 'depot_id',
                         'foreignField': 'depot_id',
-                        'as': 'tansaction'
+                        'as': 'transactions'
                     }
                 }
             ])
