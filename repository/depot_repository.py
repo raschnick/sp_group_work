@@ -12,12 +12,25 @@ class DepotRepository:
     def __init__(self, db: Database):
         self.db = db
 
-    def get_depot_by_depot_id(self, depot_id: int) -> dict:
+    def get_depot_by_depot_id(self, depot_id: str) -> dict:
         try:
-            depot_dict = self.db.depot.find_one({"depot_id": int(depot_id)})
-            if depot_dict is not None:
-                return depot_dict
-            else:
+            depot_cursor = self.db.depot.aggregate([
+                {
+                    '$match': {
+                        'depot_id': int(depot_id)
+                    }
+                }, {
+                    '$lookup': {
+                        'from': 'transaction',
+                        'localField': 'depot_id',
+                        'foreignField': 'depot_id',
+                        'as': 'tansaction'
+                    }
+                }
+            ])
+            try:
+                return depot_cursor.next()
+            except StopIteration:
                 return dict()
         except (ValueError, TypeError):
             return dict()

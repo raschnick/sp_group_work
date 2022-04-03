@@ -25,7 +25,6 @@ def search_depot():
 def get_depot():
     depot_id = request.form['depot_id']
     depot = depot_repository.get_depot_by_depot_id(depot_id)
-    print(depot)
     if depot.get('depot_id') is not None:
         return render_template('depot/depot_overview.html', depot=depot)
     else:
