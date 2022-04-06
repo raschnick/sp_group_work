@@ -2,6 +2,10 @@ from flask import Flask, render_template, request
 
 from repository.depot_repository import DepotRepository
 from service.db_service import DbService
+import json
+import os
+
+import requests
 
 app = Flask(__name__)
 # Load Configurations
@@ -12,8 +16,37 @@ depot_repository = DepotRepository(db_service.db)
 
 
 @app.route('/')
-def hello_world():
-    return 'Hello, can someone here me? I am stuck in a container!'
+def home():
+    return render_template(
+        'index.html'
+    )
+
+@app.route('/fluff')
+def fluff():
+    return render_template(
+        'fluff.html'
+    )
+
+@app.route('/overview')
+def coin_overview():
+    url = 'https://rest.coinapi.io/v1/assets'
+    headers = {'X-CoinAPI-Key': os.environ['API_KEY']}
+    response = requests.get(url, headers=headers)
+    asset_data = json.loads(response.text)
+
+    crypto_asset_data = dict()
+
+    for asset in asset_data:
+        if(asset.get('type_is_crypto') == 1):
+            crypto_asset_data[asset.get('name')] = asset
+
+
+    return render_template(
+        'overview.html',
+        title="Coin Overview",
+        description="A list of crypto currencies:",
+        crypto_asset_data=crypto_asset_data
+    )
 
 
 @app.route('/depot/search', methods=['GET'])
