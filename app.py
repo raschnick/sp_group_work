@@ -54,7 +54,7 @@ def hello() -> Response:
 
 @app.route('/depot/search', methods=['GET'])
 def search_depot() -> str:
-    return render_template(template_name_or_list='depot/depot_search.html')
+    return render_template(template_name_or_list='depot/depot_search.html', title="Depot Search", )
 
 
 @app.route('/depot/overview', methods=['POST'])
@@ -62,7 +62,7 @@ def get_depot() -> str:
     depot_id = request.form['depot_id']
     depot = depot_repository.get_depot_by_depot_id(depot_id=depot_id)
     if depot.get('depot_id') is not None:
-        return render_template(template_name_or_list='depot/depot_overview.html', depot=depot)
+        return render_template(template_name_or_list='depot/depot_overview.html', title="Depot Overview", depot=depot)
     else:
         return f'No Depot found with id: {depot_id}'
 
