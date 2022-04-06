@@ -1,9 +1,4 @@
-import json
-from collections import namedtuple
-
 from pymongo.database import Database
-
-from model.depot_dbo import DepotDbo
 
 
 class DepotRepository:
