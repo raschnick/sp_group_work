@@ -4,6 +4,8 @@ import os
 from pymongo import MongoClient
 from pymongo.database import Database
 
+from service.environment_service import get_environment_variable
+
 
 class DbService:
     db: Database
@@ -13,8 +15,8 @@ class DbService:
         self.setup_db()
 
     def connect_db(self) -> None:
-        username = os.environ['DB_USER']
-        password = os.environ['DB_PASS']
+        username = get_environment_variable('DB_USER')
+        password = get_environment_variable('DB_PASS')
         client = MongoClient(host=
             f"mongodb://{username}:{password}@cluster0-shard-00-00.mkt3y.mongodb.net:27017,cluster0-shard-00-01.mkt3y.mongodb.net:27017,cluster0-shard-00-02.mkt3y.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-46zapx-shard-0&authSource=admin&retryWrites=true&w=majority")
         self.db = client['portfolio_management']
