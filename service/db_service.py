@@ -13,14 +13,8 @@ class DbService:
         self.setup_db()
 
     def connect_db(self) -> None:
-        username: str
-        password: str
-        try:
-            username = os.environ['DB_USER']
-            password = os.environ['DB_PASS']
-        except KeyError:
-            print('You have to define a Mongo User (DB_USER) and Password (DB_PASS) in your environment')
-            exit()
+        username = os.environ['DB_USER']
+        password = os.environ['DB_PASS']
         client = MongoClient(host=
             f"mongodb://{username}:{password}@cluster0-shard-00-00.mkt3y.mongodb.net:27017,cluster0-shard-00-01.mkt3y.mongodb.net:27017,cluster0-shard-00-02.mkt3y.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-46zapx-shard-0&authSource=admin&retryWrites=true&w=majority")
         self.db = client['portfolio_management']

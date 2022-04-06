@@ -5,6 +5,8 @@ import json
 import os
 import requests
 
+from service.environment_service import get_environment_variable
+
 app = Flask(__name__)
 # Load Configurations
 app.config.from_object('config')
@@ -27,7 +29,7 @@ def fluff() -> str:
 @app.route('/overview')
 def coin_overview() -> str:
     url = 'https://rest.coinapi.io/v1/assets'
-    headers = {'X-CoinAPI-Key': os.environ['API_KEY']}
+    headers = {'X-CoinAPI-Key': get_environment_variable(key='API_KEY')}
     response = requests.get(url=url, headers=headers)
     asset_data = json.loads(s=response.text)
 
