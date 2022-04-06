@@ -1,11 +1,8 @@
-import json
-
-import requests
 from flask import Flask, render_template, request, redirect, url_for, Response
 
 from repository.depot_repository import DepotRepository
+from service.api_service import get_coin_overview
 from service.db_service import DbService
-from service.environment_service import get_environment_variable
 
 app = Flask(__name__)
 # Load Configurations
@@ -28,17 +25,7 @@ def fluff() -> str:
 
 @app.route('/overview')
 def coin_overview() -> str:
-    url = 'https://rest.coinapi.io/v1/assets'
-    headers = {'X-CoinAPI-Key': get_environment_variable(key='API_KEY')}
-    response = requests.get(url=url, headers=headers)
-    asset_data = json.loads(s=response.text)
-
-    crypto_asset_data = dict()
-
-    for asset in asset_data:
-        if asset.get('type_is_crypto') == 1:
-            crypto_asset_data[asset.get('name')] = asset
-
+    crypto_asset_data = get_coin_overview()
     return render_template(
         template_name_or_list='fluff/overview.html',
         title="Coin Overview",
