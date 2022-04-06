@@ -1,10 +1,10 @@
+import json
+
+import requests
 from flask import Flask, render_template, request, redirect, url_for, Response
+
 from repository.depot_repository import DepotRepository
 from service.db_service import DbService
-import json
-import os
-import requests
-
 from service.environment_service import get_environment_variable
 
 app = Flask(__name__)
