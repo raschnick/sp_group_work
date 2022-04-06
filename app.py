@@ -1,16 +1,15 @@
 from flask import Flask, render_template, request, redirect, url_for, Response
-
 from repository.depot_repository import DepotRepository
 from service.db_service import DbService
 import json
 import os
-
 import requests
 
 app = Flask(__name__)
 # Load Configurations
 app.config.from_object('config')
 
+# global variables
 db_service = DbService()
 depot_repository = DepotRepository(db_service.db)
 
