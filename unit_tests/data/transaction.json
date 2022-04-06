@@ -1,0 +1,8002 @@
+[
+  {
+    "transaction_id": 1,
+    "transaction_date": "2020-11-12 14:37:48",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 90.11,
+    "amount": 2.162
+  },
+  {
+    "transaction_id": 2,
+    "transaction_date": "2022-02-07 09:04:25",
+    "depot_id": 8,
+    "currency_id": 4,
+    "currency_rate": 21.16,
+    "amount": 403.515
+  },
+  {
+    "transaction_id": 3,
+    "transaction_date": "2016-10-19 09:54:23",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 62.51,
+    "amount": 231.295
+  },
+  {
+    "transaction_id": 4,
+    "transaction_date": "2016-01-20 11:49:12",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 91.81,
+    "amount": 270.994
+  },
+  {
+    "transaction_id": 5,
+    "transaction_date": "2019-01-14 07:52:21",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 22.3,
+    "amount": 751.22
+  },
+  {
+    "transaction_id": 6,
+    "transaction_date": "2017-04-26 19:50:40",
+    "depot_id": 10,
+    "currency_id": 6,
+    "currency_rate": 34.61,
+    "amount": 458.144
+  },
+  {
+    "transaction_id": 7,
+    "transaction_date": "2021-11-25 01:02:55",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 48.78,
+    "amount": 604.045
+  },
+  {
+    "transaction_id": 8,
+    "transaction_date": "2021-03-07 22:15:58",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 73.92,
+    "amount": 885.454
+  },
+  {
+    "transaction_id": 9,
+    "transaction_date": "2018-08-08 20:17:24",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 79.77,
+    "amount": 735.694
+  },
+  {
+    "transaction_id": 10,
+    "transaction_date": "2017-06-23 13:20:37",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 52.41,
+    "amount": 500.116
+  },
+  {
+    "transaction_id": 11,
+    "transaction_date": "2021-04-12 06:01:53",
+    "depot_id": 6,
+    "currency_id": 7,
+    "currency_rate": 11.73,
+    "amount": 541.499
+  },
+  {
+    "transaction_id": 12,
+    "transaction_date": "2020-02-21 16:09:19",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 15.04,
+    "amount": 720.964
+  },
+  {
+    "transaction_id": 13,
+    "transaction_date": "2022-01-21 20:21:13",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 7.33,
+    "amount": 908.004
+  },
+  {
+    "transaction_id": 14,
+    "transaction_date": "2020-04-16 21:30:18",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 4.51,
+    "amount": 429.461
+  },
+  {
+    "transaction_id": 15,
+    "transaction_date": "2016-02-17 16:06:02",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 74.79,
+    "amount": 17.719
+  },
+  {
+    "transaction_id": 16,
+    "transaction_date": "2019-06-29 21:44:59",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 19.1,
+    "amount": 967.212
+  },
+  {
+    "transaction_id": 17,
+    "transaction_date": "2018-11-04 18:47:53",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 41.61,
+    "amount": 555.865
+  },
+  {
+    "transaction_id": 18,
+    "transaction_date": "2020-01-23 10:30:15",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 73.96,
+    "amount": 206.581
+  },
+  {
+    "transaction_id": 19,
+    "transaction_date": "2021-01-23 14:00:00",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 65.74,
+    "amount": 512.373
+  },
+  {
+    "transaction_id": 20,
+    "transaction_date": "2020-08-19 03:26:45",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 84.27,
+    "amount": 283.752
+  },
+  {
+    "transaction_id": 21,
+    "transaction_date": "2016-12-09 23:43:33",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 41.79,
+    "amount": 742.198
+  },
+  {
+    "transaction_id": 22,
+    "transaction_date": "2021-12-05 22:24:36",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 49.46,
+    "amount": 279.525
+  },
+  {
+    "transaction_id": 23,
+    "transaction_date": "2016-02-19 08:06:54",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 50.17,
+    "amount": 391.371
+  },
+  {
+    "transaction_id": 24,
+    "transaction_date": "2016-08-01 08:46:39",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 93.34,
+    "amount": 635.606
+  },
+  {
+    "transaction_id": 25,
+    "transaction_date": "2018-11-08 06:09:10",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 1.58,
+    "amount": 797.62
+  },
+  {
+    "transaction_id": 26,
+    "transaction_date": "2016-01-22 03:11:35",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 81.24,
+    "amount": 534.602
+  },
+  {
+    "transaction_id": 27,
+    "transaction_date": "2019-02-17 02:34:06",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 78.81,
+    "amount": 659.057
+  },
+  {
+    "transaction_id": 28,
+    "transaction_date": "2018-05-20 21:16:57",
+    "depot_id": 7,
+    "currency_id": 6,
+    "currency_rate": 10.22,
+    "amount": 442.645
+  },
+  {
+    "transaction_id": 29,
+    "transaction_date": "2017-09-13 19:04:16",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 39.75,
+    "amount": 132.844
+  },
+  {
+    "transaction_id": 30,
+    "transaction_date": "2016-07-10 16:21:10",
+    "depot_id": 4,
+    "currency_id": 8,
+    "currency_rate": 4.09,
+    "amount": 703.474
+  },
+  {
+    "transaction_id": 31,
+    "transaction_date": "2016-07-27 23:08:55",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 74.2,
+    "amount": 196.031
+  },
+  {
+    "transaction_id": 32,
+    "transaction_date": "2018-02-07 21:34:26",
+    "depot_id": 4,
+    "currency_id": 3,
+    "currency_rate": 65.3,
+    "amount": 646.759
+  },
+  {
+    "transaction_id": 33,
+    "transaction_date": "2021-12-30 02:08:06",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 6.51,
+    "amount": 901.067
+  },
+  {
+    "transaction_id": 34,
+    "transaction_date": "2021-04-12 06:18:15",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 7.06,
+    "amount": 882.687
+  },
+  {
+    "transaction_id": 35,
+    "transaction_date": "2019-01-13 20:54:31",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 35.18,
+    "amount": 864.61
+  },
+  {
+    "transaction_id": 36,
+    "transaction_date": "2016-01-30 20:32:11",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 42.29,
+    "amount": 982.425
+  },
+  {
+    "transaction_id": 37,
+    "transaction_date": "2017-01-12 18:23:38",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 23.84,
+    "amount": 427.83
+  },
+  {
+    "transaction_id": 38,
+    "transaction_date": "2020-07-03 01:51:53",
+    "depot_id": 3,
+    "currency_id": 6,
+    "currency_rate": 29.47,
+    "amount": 747.856
+  },
+  {
+    "transaction_id": 39,
+    "transaction_date": "2020-01-13 18:42:32",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 93.62,
+    "amount": 309.547
+  },
+  {
+    "transaction_id": 40,
+    "transaction_date": "2016-06-02 20:58:44",
+    "depot_id": 4,
+    "currency_id": 4,
+    "currency_rate": 70.17,
+    "amount": 178.836
+  },
+  {
+    "transaction_id": 41,
+    "transaction_date": "2016-03-13 19:56:33",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 49.85,
+    "amount": 468.623
+  },
+  {
+    "transaction_id": 42,
+    "transaction_date": "2021-12-18 08:44:09",
+    "depot_id": 9,
+    "currency_id": 4,
+    "currency_rate": 94.7,
+    "amount": 721.335
+  },
+  {
+    "transaction_id": 43,
+    "transaction_date": "2016-05-17 14:03:15",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 70.54,
+    "amount": 584.49
+  },
+  {
+    "transaction_id": 44,
+    "transaction_date": "2020-01-15 16:28:31",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 29.5,
+    "amount": 929.305
+  },
+  {
+    "transaction_id": 45,
+    "transaction_date": "2020-05-03 21:33:59",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 83.93,
+    "amount": 752.145
+  },
+  {
+    "transaction_id": 46,
+    "transaction_date": "2019-06-04 20:33:14",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 5.98,
+    "amount": 87.654
+  },
+  {
+    "transaction_id": 47,
+    "transaction_date": "2018-09-14 02:51:58",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 24.62,
+    "amount": 64.549
+  },
+  {
+    "transaction_id": 48,
+    "transaction_date": "2021-07-07 03:55:58",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 77.76,
+    "amount": 477.21
+  },
+  {
+    "transaction_id": 49,
+    "transaction_date": "2016-03-08 13:13:57",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 87.36,
+    "amount": 523.138
+  },
+  {
+    "transaction_id": 50,
+    "transaction_date": "2019-08-30 01:08:18",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 37.43,
+    "amount": 226.97
+  },
+  {
+    "transaction_id": 51,
+    "transaction_date": "2020-12-15 07:17:25",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 86.28,
+    "amount": 178.346
+  },
+  {
+    "transaction_id": 52,
+    "transaction_date": "2020-07-07 00:57:37",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 57.49,
+    "amount": 918.096
+  },
+  {
+    "transaction_id": 53,
+    "transaction_date": "2017-07-07 04:48:34",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 42.35,
+    "amount": 549.904
+  },
+  {
+    "transaction_id": 54,
+    "transaction_date": "2020-04-05 11:49:30",
+    "depot_id": 5,
+    "currency_id": 7,
+    "currency_rate": 34.58,
+    "amount": 983.334
+  },
+  {
+    "transaction_id": 55,
+    "transaction_date": "2018-04-24 17:25:42",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 62.62,
+    "amount": 228.329
+  },
+  {
+    "transaction_id": 56,
+    "transaction_date": "2016-02-24 11:03:40",
+    "depot_id": 4,
+    "currency_id": 4,
+    "currency_rate": 1.86,
+    "amount": 403.361
+  },
+  {
+    "transaction_id": 57,
+    "transaction_date": "2018-12-02 11:18:06",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 67.07,
+    "amount": 855.714
+  },
+  {
+    "transaction_id": 58,
+    "transaction_date": "2017-03-06 11:51:46",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 4.31,
+    "amount": 850.444
+  },
+  {
+    "transaction_id": 59,
+    "transaction_date": "2019-10-29 08:37:53",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 21.55,
+    "amount": 450.163
+  },
+  {
+    "transaction_id": 60,
+    "transaction_date": "2019-04-02 19:06:14",
+    "depot_id": 2,
+    "currency_id": 1,
+    "currency_rate": 37.61,
+    "amount": 707.323
+  },
+  {
+    "transaction_id": 61,
+    "transaction_date": "2018-09-01 21:44:02",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 82.95,
+    "amount": 19.696
+  },
+  {
+    "transaction_id": 62,
+    "transaction_date": "2018-12-16 18:57:22",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 91.12,
+    "amount": 954.879
+  },
+  {
+    "transaction_id": 63,
+    "transaction_date": "2019-09-27 17:48:25",
+    "depot_id": 10,
+    "currency_id": 6,
+    "currency_rate": 99.43,
+    "amount": 480.22
+  },
+  {
+    "transaction_id": 64,
+    "transaction_date": "2017-03-08 07:45:37",
+    "depot_id": 4,
+    "currency_id": 3,
+    "currency_rate": 83.13,
+    "amount": 86.464
+  },
+  {
+    "transaction_id": 65,
+    "transaction_date": "2020-03-02 23:40:12",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 29.42,
+    "amount": 802.139
+  },
+  {
+    "transaction_id": 66,
+    "transaction_date": "2018-08-19 02:10:30",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 88.23,
+    "amount": 120.546
+  },
+  {
+    "transaction_id": 67,
+    "transaction_date": "2020-12-22 12:59:03",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 68.11,
+    "amount": 76.744
+  },
+  {
+    "transaction_id": 68,
+    "transaction_date": "2021-10-17 10:59:34",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 24.43,
+    "amount": 319.246
+  },
+  {
+    "transaction_id": 69,
+    "transaction_date": "2016-08-02 06:17:35",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 88.73,
+    "amount": 985.901
+  },
+  {
+    "transaction_id": 70,
+    "transaction_date": "2017-12-09 08:08:56",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 81.54,
+    "amount": 783.034
+  },
+  {
+    "transaction_id": 71,
+    "transaction_date": "2019-07-31 09:33:18",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 72.79,
+    "amount": 797.652
+  },
+  {
+    "transaction_id": 72,
+    "transaction_date": "2016-02-21 22:57:23",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 41.04,
+    "amount": 700.621
+  },
+  {
+    "transaction_id": 73,
+    "transaction_date": "2017-11-17 08:56:21",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 62.55,
+    "amount": 106.941
+  },
+  {
+    "transaction_id": 74,
+    "transaction_date": "2020-09-02 01:40:45",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 27.44,
+    "amount": 1.636
+  },
+  {
+    "transaction_id": 75,
+    "transaction_date": "2016-12-21 00:49:21",
+    "depot_id": 6,
+    "currency_id": 3,
+    "currency_rate": 91.31,
+    "amount": 109.039
+  },
+  {
+    "transaction_id": 76,
+    "transaction_date": "2018-08-12 14:24:03",
+    "depot_id": 6,
+    "currency_id": 7,
+    "currency_rate": 64.13,
+    "amount": 350.126
+  },
+  {
+    "transaction_id": 77,
+    "transaction_date": "2021-09-06 17:22:33",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 28.86,
+    "amount": 695.038
+  },
+  {
+    "transaction_id": 78,
+    "transaction_date": "2017-07-07 07:22:03",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 22.45,
+    "amount": 938.47
+  },
+  {
+    "transaction_id": 79,
+    "transaction_date": "2020-12-07 22:38:47",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 5.13,
+    "amount": 900.986
+  },
+  {
+    "transaction_id": 80,
+    "transaction_date": "2017-01-19 20:38:49",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 86.61,
+    "amount": 920.993
+  },
+  {
+    "transaction_id": 81,
+    "transaction_date": "2019-05-08 09:23:27",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 51.51,
+    "amount": 948.46
+  },
+  {
+    "transaction_id": 82,
+    "transaction_date": "2022-01-10 11:35:22",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 39.19,
+    "amount": 929.691
+  },
+  {
+    "transaction_id": 83,
+    "transaction_date": "2019-10-15 05:41:12",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 79.11,
+    "amount": 267.889
+  },
+  {
+    "transaction_id": 84,
+    "transaction_date": "2018-10-28 14:52:10",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 83.49,
+    "amount": 783.508
+  },
+  {
+    "transaction_id": 85,
+    "transaction_date": "2018-07-12 22:45:23",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 15.36,
+    "amount": 440.251
+  },
+  {
+    "transaction_id": 86,
+    "transaction_date": "2019-01-11 12:04:27",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 42.23,
+    "amount": 665.75
+  },
+  {
+    "transaction_id": 87,
+    "transaction_date": "2018-01-21 15:08:33",
+    "depot_id": 8,
+    "currency_id": 6,
+    "currency_rate": 46.21,
+    "amount": 132.494
+  },
+  {
+    "transaction_id": 88,
+    "transaction_date": "2019-04-12 04:02:42",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 49.6,
+    "amount": 281.684
+  },
+  {
+    "transaction_id": 89,
+    "transaction_date": "2020-07-12 06:10:29",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 7.08,
+    "amount": 604.712
+  },
+  {
+    "transaction_id": 90,
+    "transaction_date": "2019-04-02 14:30:20",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 73.84,
+    "amount": 274.005
+  },
+  {
+    "transaction_id": 91,
+    "transaction_date": "2019-07-17 18:33:23",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 81.81,
+    "amount": 326.812
+  },
+  {
+    "transaction_id": 92,
+    "transaction_date": "2016-11-21 12:33:43",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 93.07,
+    "amount": 661.105
+  },
+  {
+    "transaction_id": 93,
+    "transaction_date": "2021-05-06 11:28:49",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 31.1,
+    "amount": 816.887
+  },
+  {
+    "transaction_id": 94,
+    "transaction_date": "2021-03-23 05:13:15",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 63.27,
+    "amount": 102.889
+  },
+  {
+    "transaction_id": 95,
+    "transaction_date": "2016-11-28 12:03:53",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 2.25,
+    "amount": 694.71
+  },
+  {
+    "transaction_id": 96,
+    "transaction_date": "2016-10-08 00:48:46",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 15.95,
+    "amount": 905.63
+  },
+  {
+    "transaction_id": 97,
+    "transaction_date": "2020-09-11 04:40:35",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 71.71,
+    "amount": 16.698
+  },
+  {
+    "transaction_id": 98,
+    "transaction_date": "2019-11-03 13:07:47",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 77.75,
+    "amount": 493.296
+  },
+  {
+    "transaction_id": 99,
+    "transaction_date": "2022-01-26 01:31:29",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 86.34,
+    "amount": 659.884
+  },
+  {
+    "transaction_id": 100,
+    "transaction_date": "2017-09-14 20:34:58",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 26.46,
+    "amount": 103.085
+  },
+  {
+    "transaction_id": 101,
+    "transaction_date": "2019-12-02 21:59:44",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 32.32,
+    "amount": 821.071
+  },
+  {
+    "transaction_id": 102,
+    "transaction_date": "2020-07-10 23:42:01",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 39.84,
+    "amount": 953.262
+  },
+  {
+    "transaction_id": 103,
+    "transaction_date": "2021-06-25 14:21:17",
+    "depot_id": 4,
+    "currency_id": 3,
+    "currency_rate": 24.94,
+    "amount": 25.171
+  },
+  {
+    "transaction_id": 104,
+    "transaction_date": "2021-01-09 18:42:07",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 6.26,
+    "amount": 25.394
+  },
+  {
+    "transaction_id": 105,
+    "transaction_date": "2018-12-15 10:06:11",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 70.9,
+    "amount": 730.88
+  },
+  {
+    "transaction_id": 106,
+    "transaction_date": "2017-06-01 14:52:14",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 27.96,
+    "amount": 890.074
+  },
+  {
+    "transaction_id": 107,
+    "transaction_date": "2021-05-11 18:06:13",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 13.72,
+    "amount": 500.248
+  },
+  {
+    "transaction_id": 108,
+    "transaction_date": "2016-09-30 03:17:38",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 25.77,
+    "amount": 983.637
+  },
+  {
+    "transaction_id": 109,
+    "transaction_date": "2020-05-13 19:20:14",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 77.45,
+    "amount": 266.612
+  },
+  {
+    "transaction_id": 110,
+    "transaction_date": "2017-12-28 19:21:36",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 47.27,
+    "amount": 116.188
+  },
+  {
+    "transaction_id": 111,
+    "transaction_date": "2019-01-22 10:48:17",
+    "depot_id": 10,
+    "currency_id": 6,
+    "currency_rate": 27.25,
+    "amount": 51.005
+  },
+  {
+    "transaction_id": 112,
+    "transaction_date": "2021-03-05 21:57:30",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 1.31,
+    "amount": 470.99
+  },
+  {
+    "transaction_id": 113,
+    "transaction_date": "2021-02-09 02:45:24",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 63.15,
+    "amount": 802.524
+  },
+  {
+    "transaction_id": 114,
+    "transaction_date": "2021-11-15 12:02:08",
+    "depot_id": 5,
+    "currency_id": 2,
+    "currency_rate": 22.14,
+    "amount": 766.876
+  },
+  {
+    "transaction_id": 115,
+    "transaction_date": "2020-05-16 12:40:09",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 11.57,
+    "amount": 865.369
+  },
+  {
+    "transaction_id": 116,
+    "transaction_date": "2019-03-24 17:28:39",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 25.72,
+    "amount": 7.917
+  },
+  {
+    "transaction_id": 117,
+    "transaction_date": "2021-04-08 07:08:28",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 56.3,
+    "amount": 699.388
+  },
+  {
+    "transaction_id": 118,
+    "transaction_date": "2019-12-31 05:03:36",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 91.24,
+    "amount": 785.761
+  },
+  {
+    "transaction_id": 119,
+    "transaction_date": "2017-06-08 07:19:04",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 12.38,
+    "amount": 182.4
+  },
+  {
+    "transaction_id": 120,
+    "transaction_date": "2020-10-08 20:59:18",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 20.16,
+    "amount": 876.08
+  },
+  {
+    "transaction_id": 121,
+    "transaction_date": "2021-03-01 00:07:30",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 48.87,
+    "amount": 339.553
+  },
+  {
+    "transaction_id": 122,
+    "transaction_date": "2021-02-14 06:51:08",
+    "depot_id": 5,
+    "currency_id": 2,
+    "currency_rate": 8.89,
+    "amount": 978.778
+  },
+  {
+    "transaction_id": 123,
+    "transaction_date": "2018-09-02 08:27:14",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 55.37,
+    "amount": 297.016
+  },
+  {
+    "transaction_id": 124,
+    "transaction_date": "2020-02-12 14:18:31",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 70.72,
+    "amount": 742.733
+  },
+  {
+    "transaction_id": 125,
+    "transaction_date": "2017-10-09 19:34:35",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 62.15,
+    "amount": 572.171
+  },
+  {
+    "transaction_id": 126,
+    "transaction_date": "2019-09-09 18:47:59",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 97.86,
+    "amount": 365.27
+  },
+  {
+    "transaction_id": 127,
+    "transaction_date": "2018-02-06 05:27:15",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 47.51,
+    "amount": 429.686
+  },
+  {
+    "transaction_id": 128,
+    "transaction_date": "2018-09-18 06:18:24",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 34.14,
+    "amount": 83.399
+  },
+  {
+    "transaction_id": 129,
+    "transaction_date": "2018-12-14 10:10:21",
+    "depot_id": 8,
+    "currency_id": 6,
+    "currency_rate": 92.28,
+    "amount": 142.072
+  },
+  {
+    "transaction_id": 130,
+    "transaction_date": "2019-11-25 02:09:05",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 40.83,
+    "amount": 126.928
+  },
+  {
+    "transaction_id": 131,
+    "transaction_date": "2018-12-25 13:41:29",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 50.09,
+    "amount": 319.391
+  },
+  {
+    "transaction_id": 132,
+    "transaction_date": "2018-03-09 21:13:57",
+    "depot_id": 7,
+    "currency_id": 6,
+    "currency_rate": 54.68,
+    "amount": 336.453
+  },
+  {
+    "transaction_id": 133,
+    "transaction_date": "2021-10-29 23:50:37",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 70.11,
+    "amount": 574.76
+  },
+  {
+    "transaction_id": 134,
+    "transaction_date": "2018-02-22 20:22:37",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 37.03,
+    "amount": 351.981
+  },
+  {
+    "transaction_id": 135,
+    "transaction_date": "2019-02-04 21:48:15",
+    "depot_id": 4,
+    "currency_id": 8,
+    "currency_rate": 42.09,
+    "amount": 593.724
+  },
+  {
+    "transaction_id": 136,
+    "transaction_date": "2017-03-26 11:25:50",
+    "depot_id": 1,
+    "currency_id": 6,
+    "currency_rate": 39.86,
+    "amount": 627.601
+  },
+  {
+    "transaction_id": 137,
+    "transaction_date": "2021-03-23 00:15:37",
+    "depot_id": 6,
+    "currency_id": 3,
+    "currency_rate": 4.28,
+    "amount": 926.552
+  },
+  {
+    "transaction_id": 138,
+    "transaction_date": "2019-10-27 01:58:16",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 46.87,
+    "amount": 205.263
+  },
+  {
+    "transaction_id": 139,
+    "transaction_date": "2018-07-03 14:27:43",
+    "depot_id": 7,
+    "currency_id": 6,
+    "currency_rate": 12.49,
+    "amount": 998.201
+  },
+  {
+    "transaction_id": 140,
+    "transaction_date": "2019-04-18 13:44:32",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 94.23,
+    "amount": 475.31
+  },
+  {
+    "transaction_id": 141,
+    "transaction_date": "2020-06-03 16:44:53",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 30.74,
+    "amount": 105.657
+  },
+  {
+    "transaction_id": 142,
+    "transaction_date": "2016-12-19 05:06:50",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 59.25,
+    "amount": 609.631
+  },
+  {
+    "transaction_id": 143,
+    "transaction_date": "2017-04-12 15:58:55",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 83.74,
+    "amount": 863.305
+  },
+  {
+    "transaction_id": 144,
+    "transaction_date": "2017-08-28 00:39:12",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 29.16,
+    "amount": 912.233
+  },
+  {
+    "transaction_id": 145,
+    "transaction_date": "2021-12-05 15:39:06",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 98.86,
+    "amount": 939.559
+  },
+  {
+    "transaction_id": 146,
+    "transaction_date": "2016-12-02 07:55:48",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 4.7,
+    "amount": 446.087
+  },
+  {
+    "transaction_id": 147,
+    "transaction_date": "2019-11-01 23:50:57",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 10.78,
+    "amount": 24.083
+  },
+  {
+    "transaction_id": 148,
+    "transaction_date": "2020-01-07 00:58:42",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 72.63,
+    "amount": 539.566
+  },
+  {
+    "transaction_id": 149,
+    "transaction_date": "2021-01-11 20:19:02",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 31.47,
+    "amount": 952.281
+  },
+  {
+    "transaction_id": 150,
+    "transaction_date": "2019-01-19 17:03:01",
+    "depot_id": 7,
+    "currency_id": 6,
+    "currency_rate": 70.8,
+    "amount": 943.59
+  },
+  {
+    "transaction_id": 151,
+    "transaction_date": "2020-12-10 00:39:59",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 61.06,
+    "amount": 390.596
+  },
+  {
+    "transaction_id": 152,
+    "transaction_date": "2019-08-31 19:52:41",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 55.65,
+    "amount": 644.738
+  },
+  {
+    "transaction_id": 153,
+    "transaction_date": "2020-07-14 20:04:49",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 11.12,
+    "amount": 40.65
+  },
+  {
+    "transaction_id": 154,
+    "transaction_date": "2018-04-01 10:47:44",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 12.86,
+    "amount": 390.281
+  },
+  {
+    "transaction_id": 155,
+    "transaction_date": "2021-05-01 02:35:36",
+    "depot_id": 10,
+    "currency_id": 6,
+    "currency_rate": 47.86,
+    "amount": 276.699
+  },
+  {
+    "transaction_id": 156,
+    "transaction_date": "2019-05-31 11:12:35",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 84.95,
+    "amount": 555.486
+  },
+  {
+    "transaction_id": 157,
+    "transaction_date": "2020-02-09 13:13:47",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 94.55,
+    "amount": 282.4
+  },
+  {
+    "transaction_id": 158,
+    "transaction_date": "2017-12-30 04:36:05",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 28.23,
+    "amount": 995.88
+  },
+  {
+    "transaction_id": 159,
+    "transaction_date": "2016-09-30 18:35:53",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 18.76,
+    "amount": 940.677
+  },
+  {
+    "transaction_id": 160,
+    "transaction_date": "2017-06-24 12:03:53",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 90.44,
+    "amount": 850.504
+  },
+  {
+    "transaction_id": 161,
+    "transaction_date": "2018-06-08 21:27:56",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 98.23,
+    "amount": 462.043
+  },
+  {
+    "transaction_id": 162,
+    "transaction_date": "2017-03-18 18:58:50",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 60.76,
+    "amount": 99.422
+  },
+  {
+    "transaction_id": 163,
+    "transaction_date": "2021-12-04 01:28:13",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 97.66,
+    "amount": 799.451
+  },
+  {
+    "transaction_id": 164,
+    "transaction_date": "2017-03-16 04:52:21",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 84.85,
+    "amount": 417.295
+  },
+  {
+    "transaction_id": 165,
+    "transaction_date": "2017-03-07 17:48:55",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 9.52,
+    "amount": 488.309
+  },
+  {
+    "transaction_id": 166,
+    "transaction_date": "2016-06-14 04:41:37",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 26.66,
+    "amount": 799.226
+  },
+  {
+    "transaction_id": 167,
+    "transaction_date": "2016-06-09 20:07:27",
+    "depot_id": 5,
+    "currency_id": 9,
+    "currency_rate": 61.42,
+    "amount": 775.788
+  },
+  {
+    "transaction_id": 168,
+    "transaction_date": "2020-10-16 04:32:43",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 46.03,
+    "amount": 43.377
+  },
+  {
+    "transaction_id": 169,
+    "transaction_date": "2017-05-31 18:23:24",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 75.7,
+    "amount": 298.287
+  },
+  {
+    "transaction_id": 170,
+    "transaction_date": "2018-11-09 16:50:05",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 96.28,
+    "amount": 788.977
+  },
+  {
+    "transaction_id": 171,
+    "transaction_date": "2016-11-25 22:57:24",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 89.54,
+    "amount": 170.879
+  },
+  {
+    "transaction_id": 172,
+    "transaction_date": "2018-10-23 08:09:21",
+    "depot_id": 5,
+    "currency_id": 9,
+    "currency_rate": 93.6,
+    "amount": 954.514
+  },
+  {
+    "transaction_id": 173,
+    "transaction_date": "2016-09-04 14:36:50",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 59.79,
+    "amount": 759.873
+  },
+  {
+    "transaction_id": 174,
+    "transaction_date": "2019-04-05 14:47:28",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 35.21,
+    "amount": 273.027
+  },
+  {
+    "transaction_id": 175,
+    "transaction_date": "2017-12-05 09:06:30",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 14.89,
+    "amount": 318.078
+  },
+  {
+    "transaction_id": 176,
+    "transaction_date": "2019-09-29 01:43:32",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 46.6,
+    "amount": 33.352
+  },
+  {
+    "transaction_id": 177,
+    "transaction_date": "2021-08-26 19:18:35",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 34.74,
+    "amount": 61.107
+  },
+  {
+    "transaction_id": 178,
+    "transaction_date": "2016-08-23 08:07:22",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 15.91,
+    "amount": 484.478
+  },
+  {
+    "transaction_id": 179,
+    "transaction_date": "2018-01-04 09:26:37",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 38.53,
+    "amount": 574.296
+  },
+  {
+    "transaction_id": 180,
+    "transaction_date": "2021-12-08 17:09:18",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 17.54,
+    "amount": 88.608
+  },
+  {
+    "transaction_id": 181,
+    "transaction_date": "2017-06-10 13:16:05",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 43.55,
+    "amount": 201.748
+  },
+  {
+    "transaction_id": 182,
+    "transaction_date": "2019-11-14 08:22:07",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 43.33,
+    "amount": 24.786
+  },
+  {
+    "transaction_id": 183,
+    "transaction_date": "2016-07-16 23:01:07",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 13.3,
+    "amount": 595.117
+  },
+  {
+    "transaction_id": 184,
+    "transaction_date": "2016-06-29 15:31:05",
+    "depot_id": 5,
+    "currency_id": 2,
+    "currency_rate": 8.64,
+    "amount": 117.705
+  },
+  {
+    "transaction_id": 185,
+    "transaction_date": "2016-11-25 07:41:28",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 70.59,
+    "amount": 533.104
+  },
+  {
+    "transaction_id": 186,
+    "transaction_date": "2019-05-27 09:02:00",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 51.32,
+    "amount": 588.813
+  },
+  {
+    "transaction_id": 187,
+    "transaction_date": "2016-01-10 06:51:36",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 37.07,
+    "amount": 264.635
+  },
+  {
+    "transaction_id": 188,
+    "transaction_date": "2019-03-21 22:53:48",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 82.98,
+    "amount": 279.156
+  },
+  {
+    "transaction_id": 189,
+    "transaction_date": "2017-04-23 03:39:21",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 43.06,
+    "amount": 579.212
+  },
+  {
+    "transaction_id": 190,
+    "transaction_date": "2021-09-12 09:14:44",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 51.68,
+    "amount": 342.222
+  },
+  {
+    "transaction_id": 191,
+    "transaction_date": "2018-02-27 20:01:22",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 56.67,
+    "amount": 772.013
+  },
+  {
+    "transaction_id": 192,
+    "transaction_date": "2019-04-10 11:04:19",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 77.96,
+    "amount": 466.957
+  },
+  {
+    "transaction_id": 193,
+    "transaction_date": "2017-11-25 23:55:29",
+    "depot_id": 4,
+    "currency_id": 8,
+    "currency_rate": 17.97,
+    "amount": 893.39
+  },
+  {
+    "transaction_id": 194,
+    "transaction_date": "2021-01-30 16:57:58",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 66.23,
+    "amount": 919.071
+  },
+  {
+    "transaction_id": 195,
+    "transaction_date": "2017-01-21 13:54:33",
+    "depot_id": 1,
+    "currency_id": 6,
+    "currency_rate": 54.27,
+    "amount": 837.867
+  },
+  {
+    "transaction_id": 196,
+    "transaction_date": "2016-08-08 22:39:46",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 51.21,
+    "amount": 760.19
+  },
+  {
+    "transaction_id": 197,
+    "transaction_date": "2019-11-02 13:46:17",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 76.85,
+    "amount": 263.133
+  },
+  {
+    "transaction_id": 198,
+    "transaction_date": "2019-04-25 22:07:11",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 88.55,
+    "amount": 463.362
+  },
+  {
+    "transaction_id": 199,
+    "transaction_date": "2020-07-10 10:56:48",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 1.41,
+    "amount": 745.494
+  },
+  {
+    "transaction_id": 200,
+    "transaction_date": "2020-09-09 14:14:41",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 31.4,
+    "amount": 120.258
+  },
+  {
+    "transaction_id": 201,
+    "transaction_date": "2019-09-11 18:33:46",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 39.76,
+    "amount": 299.884
+  },
+  {
+    "transaction_id": 202,
+    "transaction_date": "2022-02-24 21:21:00",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 72.2,
+    "amount": 337.348
+  },
+  {
+    "transaction_id": 203,
+    "transaction_date": "2017-05-24 10:16:05",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 4.84,
+    "amount": 307.682
+  },
+  {
+    "transaction_id": 204,
+    "transaction_date": "2017-11-29 22:04:59",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 80.2,
+    "amount": 698.513
+  },
+  {
+    "transaction_id": 205,
+    "transaction_date": "2019-06-21 01:17:10",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 32.1,
+    "amount": 643.313
+  },
+  {
+    "transaction_id": 206,
+    "transaction_date": "2020-08-04 02:10:06",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 68.41,
+    "amount": 517.83
+  },
+  {
+    "transaction_id": 207,
+    "transaction_date": "2020-04-27 04:13:26",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 75.83,
+    "amount": 702.028
+  },
+  {
+    "transaction_id": 208,
+    "transaction_date": "2020-10-23 17:01:01",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 97.98,
+    "amount": 171.583
+  },
+  {
+    "transaction_id": 209,
+    "transaction_date": "2018-04-08 11:09:51",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 90.81,
+    "amount": 980.888
+  },
+  {
+    "transaction_id": 210,
+    "transaction_date": "2017-09-04 02:26:45",
+    "depot_id": 5,
+    "currency_id": 2,
+    "currency_rate": 18.6,
+    "amount": 587.845
+  },
+  {
+    "transaction_id": 211,
+    "transaction_date": "2021-08-09 06:04:34",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 4.77,
+    "amount": 597.397
+  },
+  {
+    "transaction_id": 212,
+    "transaction_date": "2019-11-21 15:25:45",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 90.94,
+    "amount": 596.651
+  },
+  {
+    "transaction_id": 213,
+    "transaction_date": "2017-09-19 16:06:27",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 21.55,
+    "amount": 625.498
+  },
+  {
+    "transaction_id": 214,
+    "transaction_date": "2021-08-13 00:28:15",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 33.57,
+    "amount": 771.525
+  },
+  {
+    "transaction_id": 215,
+    "transaction_date": "2021-04-03 21:50:01",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 94.17,
+    "amount": 780.686
+  },
+  {
+    "transaction_id": 216,
+    "transaction_date": "2018-08-21 10:53:08",
+    "depot_id": 5,
+    "currency_id": 7,
+    "currency_rate": 66.22,
+    "amount": 187.684
+  },
+  {
+    "transaction_id": 217,
+    "transaction_date": "2020-04-29 00:21:04",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 69.45,
+    "amount": 474.199
+  },
+  {
+    "transaction_id": 218,
+    "transaction_date": "2020-06-08 04:34:44",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 34.15,
+    "amount": 121.634
+  },
+  {
+    "transaction_id": 219,
+    "transaction_date": "2016-11-01 05:05:30",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 81.01,
+    "amount": 508.739
+  },
+  {
+    "transaction_id": 220,
+    "transaction_date": "2020-04-27 12:04:47",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 22.94,
+    "amount": 756.997
+  },
+  {
+    "transaction_id": 221,
+    "transaction_date": "2018-05-20 15:16:23",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 30.41,
+    "amount": 88.969
+  },
+  {
+    "transaction_id": 222,
+    "transaction_date": "2022-02-22 10:53:31",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 94.69,
+    "amount": 149.794
+  },
+  {
+    "transaction_id": 223,
+    "transaction_date": "2017-05-29 00:16:48",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 84.67,
+    "amount": 694.727
+  },
+  {
+    "transaction_id": 224,
+    "transaction_date": "2017-05-22 19:06:43",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 73.83,
+    "amount": 740.219
+  },
+  {
+    "transaction_id": 225,
+    "transaction_date": "2016-03-06 00:44:29",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 84.34,
+    "amount": 290.266
+  },
+  {
+    "transaction_id": 226,
+    "transaction_date": "2022-03-09 10:14:41",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 99.14,
+    "amount": 857.467
+  },
+  {
+    "transaction_id": 227,
+    "transaction_date": "2020-12-08 06:22:51",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 80.32,
+    "amount": 267.782
+  },
+  {
+    "transaction_id": 228,
+    "transaction_date": "2018-03-17 01:21:55",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 16.77,
+    "amount": 156.912
+  },
+  {
+    "transaction_id": 229,
+    "transaction_date": "2019-10-10 04:52:55",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 42.53,
+    "amount": 655.38
+  },
+  {
+    "transaction_id": 230,
+    "transaction_date": "2020-09-13 06:43:35",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 36.32,
+    "amount": 843.466
+  },
+  {
+    "transaction_id": 231,
+    "transaction_date": "2017-10-11 15:52:39",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 50.26,
+    "amount": 345.533
+  },
+  {
+    "transaction_id": 232,
+    "transaction_date": "2020-10-13 13:43:22",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 70.64,
+    "amount": 987.208
+  },
+  {
+    "transaction_id": 233,
+    "transaction_date": "2018-09-01 11:43:03",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 13.91,
+    "amount": 822.129
+  },
+  {
+    "transaction_id": 234,
+    "transaction_date": "2016-01-06 13:30:01",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 10.8,
+    "amount": 506.58
+  },
+  {
+    "transaction_id": 235,
+    "transaction_date": "2019-01-05 15:25:01",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 19.83,
+    "amount": 450.183
+  },
+  {
+    "transaction_id": 236,
+    "transaction_date": "2017-06-08 14:44:11",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 30.48,
+    "amount": 684.185
+  },
+  {
+    "transaction_id": 237,
+    "transaction_date": "2017-12-12 03:39:38",
+    "depot_id": 7,
+    "currency_id": 6,
+    "currency_rate": 76.34,
+    "amount": 567.34
+  },
+  {
+    "transaction_id": 238,
+    "transaction_date": "2020-06-14 13:44:12",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 34.72,
+    "amount": 680.96
+  },
+  {
+    "transaction_id": 239,
+    "transaction_date": "2017-07-12 18:42:45",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 65.82,
+    "amount": 255.361
+  },
+  {
+    "transaction_id": 240,
+    "transaction_date": "2021-06-27 04:16:16",
+    "depot_id": 4,
+    "currency_id": 4,
+    "currency_rate": 12.08,
+    "amount": 106.495
+  },
+  {
+    "transaction_id": 241,
+    "transaction_date": "2022-02-15 05:37:19",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 58.72,
+    "amount": 430.645
+  },
+  {
+    "transaction_id": 242,
+    "transaction_date": "2019-06-15 07:20:39",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 46.22,
+    "amount": 136.358
+  },
+  {
+    "transaction_id": 243,
+    "transaction_date": "2018-03-20 10:41:25",
+    "depot_id": 2,
+    "currency_id": 6,
+    "currency_rate": 31.99,
+    "amount": 573.113
+  },
+  {
+    "transaction_id": 244,
+    "transaction_date": "2021-03-16 00:06:52",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 16.0,
+    "amount": 643.705
+  },
+  {
+    "transaction_id": 245,
+    "transaction_date": "2020-04-13 13:11:46",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 47.5,
+    "amount": 37.949
+  },
+  {
+    "transaction_id": 246,
+    "transaction_date": "2021-03-28 04:11:01",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 70.59,
+    "amount": 452.461
+  },
+  {
+    "transaction_id": 247,
+    "transaction_date": "2022-03-22 19:07:16",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 11.24,
+    "amount": 973.915
+  },
+  {
+    "transaction_id": 248,
+    "transaction_date": "2017-05-14 04:18:16",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 48.93,
+    "amount": 533.908
+  },
+  {
+    "transaction_id": 249,
+    "transaction_date": "2019-01-10 23:44:24",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 73.73,
+    "amount": 824.056
+  },
+  {
+    "transaction_id": 250,
+    "transaction_date": "2016-09-10 02:25:39",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 61.25,
+    "amount": 628.991
+  },
+  {
+    "transaction_id": 251,
+    "transaction_date": "2016-08-05 06:58:36",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 91.47,
+    "amount": 677.929
+  },
+  {
+    "transaction_id": 252,
+    "transaction_date": "2017-11-03 10:54:07",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 12.95,
+    "amount": 170.961
+  },
+  {
+    "transaction_id": 253,
+    "transaction_date": "2020-01-12 04:30:54",
+    "depot_id": 1,
+    "currency_id": 6,
+    "currency_rate": 70.09,
+    "amount": 453.219
+  },
+  {
+    "transaction_id": 254,
+    "transaction_date": "2017-04-01 06:59:51",
+    "depot_id": 2,
+    "currency_id": 1,
+    "currency_rate": 41.36,
+    "amount": 267.755
+  },
+  {
+    "transaction_id": 255,
+    "transaction_date": "2017-05-03 04:26:01",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 50.53,
+    "amount": 587.814
+  },
+  {
+    "transaction_id": 256,
+    "transaction_date": "2017-10-21 16:32:35",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 65.46,
+    "amount": 722.733
+  },
+  {
+    "transaction_id": 257,
+    "transaction_date": "2016-07-30 05:19:11",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 83.57,
+    "amount": 87.995
+  },
+  {
+    "transaction_id": 258,
+    "transaction_date": "2018-07-12 11:28:27",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 94.34,
+    "amount": 153.202
+  },
+  {
+    "transaction_id": 259,
+    "transaction_date": "2022-03-04 07:26:00",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 10.17,
+    "amount": 847.107
+  },
+  {
+    "transaction_id": 260,
+    "transaction_date": "2022-03-07 19:44:33",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 55.02,
+    "amount": 777.437
+  },
+  {
+    "transaction_id": 261,
+    "transaction_date": "2016-07-12 11:35:23",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 68.97,
+    "amount": 384.257
+  },
+  {
+    "transaction_id": 262,
+    "transaction_date": "2018-06-03 22:25:48",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 97.12,
+    "amount": 411.868
+  },
+  {
+    "transaction_id": 263,
+    "transaction_date": "2019-04-24 08:45:39",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 69.31,
+    "amount": 762.097
+  },
+  {
+    "transaction_id": 264,
+    "transaction_date": "2021-04-23 18:20:18",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 37.01,
+    "amount": 983.195
+  },
+  {
+    "transaction_id": 265,
+    "transaction_date": "2018-03-12 07:30:16",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 29.1,
+    "amount": 220.436
+  },
+  {
+    "transaction_id": 266,
+    "transaction_date": "2020-10-17 14:02:17",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 16.56,
+    "amount": 517.251
+  },
+  {
+    "transaction_id": 267,
+    "transaction_date": "2016-11-05 09:10:36",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 59.15,
+    "amount": 193.347
+  },
+  {
+    "transaction_id": 268,
+    "transaction_date": "2021-05-18 05:02:47",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 33.82,
+    "amount": 278.562
+  },
+  {
+    "transaction_id": 269,
+    "transaction_date": "2020-04-29 19:26:13",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 14.69,
+    "amount": 46.625
+  },
+  {
+    "transaction_id": 270,
+    "transaction_date": "2017-07-20 12:35:19",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 98.23,
+    "amount": 790.046
+  },
+  {
+    "transaction_id": 271,
+    "transaction_date": "2016-07-08 17:50:06",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 89.65,
+    "amount": 454.05
+  },
+  {
+    "transaction_id": 272,
+    "transaction_date": "2016-07-06 14:03:59",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 79.18,
+    "amount": 501.084
+  },
+  {
+    "transaction_id": 273,
+    "transaction_date": "2018-09-29 08:01:04",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 41.83,
+    "amount": 522.658
+  },
+  {
+    "transaction_id": 274,
+    "transaction_date": "2018-06-15 11:53:39",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 67.25,
+    "amount": 663.28
+  },
+  {
+    "transaction_id": 275,
+    "transaction_date": "2019-11-16 08:09:57",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 33.15,
+    "amount": 590.722
+  },
+  {
+    "transaction_id": 276,
+    "transaction_date": "2016-02-01 13:47:18",
+    "depot_id": 6,
+    "currency_id": 7,
+    "currency_rate": 1.25,
+    "amount": 761.176
+  },
+  {
+    "transaction_id": 277,
+    "transaction_date": "2016-05-02 12:40:55",
+    "depot_id": 9,
+    "currency_id": 8,
+    "currency_rate": 5.08,
+    "amount": 664.817
+  },
+  {
+    "transaction_id": 278,
+    "transaction_date": "2018-04-09 17:04:56",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 6.06,
+    "amount": 773.414
+  },
+  {
+    "transaction_id": 279,
+    "transaction_date": "2018-01-01 22:55:49",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 24.51,
+    "amount": 449.095
+  },
+  {
+    "transaction_id": 280,
+    "transaction_date": "2017-10-27 10:44:13",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 36.45,
+    "amount": 852.23
+  },
+  {
+    "transaction_id": 281,
+    "transaction_date": "2020-06-11 03:22:14",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 21.19,
+    "amount": 324.806
+  },
+  {
+    "transaction_id": 282,
+    "transaction_date": "2021-07-01 07:10:18",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 94.89,
+    "amount": 252.294
+  },
+  {
+    "transaction_id": 283,
+    "transaction_date": "2021-07-08 05:31:54",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 25.97,
+    "amount": 337.974
+  },
+  {
+    "transaction_id": 284,
+    "transaction_date": "2019-03-06 13:19:01",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 37.73,
+    "amount": 437.328
+  },
+  {
+    "transaction_id": 285,
+    "transaction_date": "2018-11-22 06:51:15",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 35.91,
+    "amount": 39.184
+  },
+  {
+    "transaction_id": 286,
+    "transaction_date": "2016-09-07 04:15:52",
+    "depot_id": 5,
+    "currency_id": 9,
+    "currency_rate": 18.38,
+    "amount": 994.468
+  },
+  {
+    "transaction_id": 287,
+    "transaction_date": "2020-05-15 21:42:07",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 90.09,
+    "amount": 700.458
+  },
+  {
+    "transaction_id": 288,
+    "transaction_date": "2020-11-02 16:24:52",
+    "depot_id": 6,
+    "currency_id": 3,
+    "currency_rate": 81.79,
+    "amount": 205.661
+  },
+  {
+    "transaction_id": 289,
+    "transaction_date": "2017-02-12 23:13:04",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 41.58,
+    "amount": 446.711
+  },
+  {
+    "transaction_id": 290,
+    "transaction_date": "2021-07-27 08:11:50",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 4.1,
+    "amount": 563.709
+  },
+  {
+    "transaction_id": 291,
+    "transaction_date": "2016-12-29 01:40:56",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 98.88,
+    "amount": 31.427
+  },
+  {
+    "transaction_id": 292,
+    "transaction_date": "2017-09-25 09:14:53",
+    "depot_id": 4,
+    "currency_id": 4,
+    "currency_rate": 77.65,
+    "amount": 32.86
+  },
+  {
+    "transaction_id": 293,
+    "transaction_date": "2016-05-05 03:49:51",
+    "depot_id": 2,
+    "currency_id": 6,
+    "currency_rate": 48.07,
+    "amount": 520.274
+  },
+  {
+    "transaction_id": 294,
+    "transaction_date": "2022-02-12 15:00:35",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 47.24,
+    "amount": 175.909
+  },
+  {
+    "transaction_id": 295,
+    "transaction_date": "2021-07-16 03:58:44",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 18.18,
+    "amount": 763.821
+  },
+  {
+    "transaction_id": 296,
+    "transaction_date": "2019-05-09 01:27:58",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 5.21,
+    "amount": 870.447
+  },
+  {
+    "transaction_id": 297,
+    "transaction_date": "2020-03-14 04:55:10",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 4.46,
+    "amount": 385.616
+  },
+  {
+    "transaction_id": 298,
+    "transaction_date": "2016-02-28 17:02:10",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 10.8,
+    "amount": 844.524
+  },
+  {
+    "transaction_id": 299,
+    "transaction_date": "2017-06-21 10:40:10",
+    "depot_id": 8,
+    "currency_id": 6,
+    "currency_rate": 10.06,
+    "amount": 812.432
+  },
+  {
+    "transaction_id": 300,
+    "transaction_date": "2017-04-19 17:02:43",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 15.99,
+    "amount": 716.938
+  },
+  {
+    "transaction_id": 301,
+    "transaction_date": "2017-10-29 23:31:15",
+    "depot_id": 5,
+    "currency_id": 7,
+    "currency_rate": 59.46,
+    "amount": 636.635
+  },
+  {
+    "transaction_id": 302,
+    "transaction_date": "2020-06-26 00:44:43",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 26.36,
+    "amount": 903.595
+  },
+  {
+    "transaction_id": 303,
+    "transaction_date": "2021-07-17 11:44:07",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 63.99,
+    "amount": 761.602
+  },
+  {
+    "transaction_id": 304,
+    "transaction_date": "2018-02-22 05:28:20",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 18.58,
+    "amount": 712.073
+  },
+  {
+    "transaction_id": 305,
+    "transaction_date": "2022-01-01 02:26:06",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 46.07,
+    "amount": 16.194
+  },
+  {
+    "transaction_id": 306,
+    "transaction_date": "2021-02-19 08:15:47",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 18.17,
+    "amount": 855.901
+  },
+  {
+    "transaction_id": 307,
+    "transaction_date": "2021-04-03 22:01:16",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 40.3,
+    "amount": 407.772
+  },
+  {
+    "transaction_id": 308,
+    "transaction_date": "2016-12-19 09:27:28",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 68.06,
+    "amount": 470.097
+  },
+  {
+    "transaction_id": 309,
+    "transaction_date": "2016-08-10 17:32:40",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 59.5,
+    "amount": 81.647
+  },
+  {
+    "transaction_id": 310,
+    "transaction_date": "2018-11-05 05:09:21",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 3.04,
+    "amount": 690.809
+  },
+  {
+    "transaction_id": 311,
+    "transaction_date": "2017-10-29 00:53:41",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 21.14,
+    "amount": 512.503
+  },
+  {
+    "transaction_id": 312,
+    "transaction_date": "2016-03-11 21:28:04",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 67.0,
+    "amount": 219.424
+  },
+  {
+    "transaction_id": 313,
+    "transaction_date": "2018-09-26 09:00:19",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 30.84,
+    "amount": 437.074
+  },
+  {
+    "transaction_id": 314,
+    "transaction_date": "2018-01-24 12:29:33",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 29.4,
+    "amount": 717.406
+  },
+  {
+    "transaction_id": 315,
+    "transaction_date": "2020-10-30 21:42:59",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 17.43,
+    "amount": 87.596
+  },
+  {
+    "transaction_id": 316,
+    "transaction_date": "2018-02-24 15:38:54",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 32.07,
+    "amount": 36.683
+  },
+  {
+    "transaction_id": 317,
+    "transaction_date": "2021-06-25 19:36:23",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 55.96,
+    "amount": 786.829
+  },
+  {
+    "transaction_id": 318,
+    "transaction_date": "2016-03-29 13:33:02",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 93.61,
+    "amount": 929.092
+  },
+  {
+    "transaction_id": 319,
+    "transaction_date": "2021-08-05 00:22:02",
+    "depot_id": 4,
+    "currency_id": 4,
+    "currency_rate": 87.24,
+    "amount": 101.56
+  },
+  {
+    "transaction_id": 320,
+    "transaction_date": "2020-09-24 10:26:03",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 20.94,
+    "amount": 123.428
+  },
+  {
+    "transaction_id": 321,
+    "transaction_date": "2016-10-20 06:08:42",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 75.76,
+    "amount": 188.509
+  },
+  {
+    "transaction_id": 322,
+    "transaction_date": "2016-06-10 19:12:14",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 21.34,
+    "amount": 867.806
+  },
+  {
+    "transaction_id": 323,
+    "transaction_date": "2017-10-09 16:21:21",
+    "depot_id": 2,
+    "currency_id": 6,
+    "currency_rate": 38.13,
+    "amount": 288.222
+  },
+  {
+    "transaction_id": 324,
+    "transaction_date": "2019-02-10 20:43:50",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 61.67,
+    "amount": 235.746
+  },
+  {
+    "transaction_id": 325,
+    "transaction_date": "2018-02-16 12:57:11",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 28.31,
+    "amount": 53.778
+  },
+  {
+    "transaction_id": 326,
+    "transaction_date": "2021-01-21 00:31:08",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 82.57,
+    "amount": 866.758
+  },
+  {
+    "transaction_id": 327,
+    "transaction_date": "2021-11-18 21:09:19",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 11.46,
+    "amount": 487.134
+  },
+  {
+    "transaction_id": 328,
+    "transaction_date": "2019-07-16 06:43:50",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 40.97,
+    "amount": 305.921
+  },
+  {
+    "transaction_id": 329,
+    "transaction_date": "2022-01-11 16:20:41",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 98.66,
+    "amount": 615.14
+  },
+  {
+    "transaction_id": 330,
+    "transaction_date": "2018-06-26 18:39:41",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 29.89,
+    "amount": 264.808
+  },
+  {
+    "transaction_id": 331,
+    "transaction_date": "2020-12-18 02:11:51",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 81.29,
+    "amount": 426.329
+  },
+  {
+    "transaction_id": 332,
+    "transaction_date": "2017-03-10 04:02:51",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 98.26,
+    "amount": 191.36
+  },
+  {
+    "transaction_id": 333,
+    "transaction_date": "2021-12-28 20:31:25",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 76.46,
+    "amount": 839.407
+  },
+  {
+    "transaction_id": 334,
+    "transaction_date": "2020-09-25 08:30:18",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 33.4,
+    "amount": 812.4
+  },
+  {
+    "transaction_id": 335,
+    "transaction_date": "2016-06-15 04:19:12",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 47.71,
+    "amount": 336.239
+  },
+  {
+    "transaction_id": 336,
+    "transaction_date": "2018-04-19 17:59:27",
+    "depot_id": 6,
+    "currency_id": 7,
+    "currency_rate": 35.3,
+    "amount": 614.781
+  },
+  {
+    "transaction_id": 337,
+    "transaction_date": "2020-09-08 00:04:30",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 67.63,
+    "amount": 851.058
+  },
+  {
+    "transaction_id": 338,
+    "transaction_date": "2018-05-21 14:06:03",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 12.32,
+    "amount": 207.756
+  },
+  {
+    "transaction_id": 339,
+    "transaction_date": "2017-07-25 06:44:43",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 21.76,
+    "amount": 409.496
+  },
+  {
+    "transaction_id": 340,
+    "transaction_date": "2020-12-29 02:18:06",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 53.76,
+    "amount": 988.814
+  },
+  {
+    "transaction_id": 341,
+    "transaction_date": "2017-10-23 22:08:26",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 44.8,
+    "amount": 284.46
+  },
+  {
+    "transaction_id": 342,
+    "transaction_date": "2019-06-19 19:14:31",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 52.59,
+    "amount": 696.038
+  },
+  {
+    "transaction_id": 343,
+    "transaction_date": "2018-12-30 16:42:12",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 5.92,
+    "amount": 150.959
+  },
+  {
+    "transaction_id": 344,
+    "transaction_date": "2020-11-27 09:55:13",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 79.91,
+    "amount": 837.816
+  },
+  {
+    "transaction_id": 345,
+    "transaction_date": "2020-12-13 04:16:19",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 17.69,
+    "amount": 893.125
+  },
+  {
+    "transaction_id": 346,
+    "transaction_date": "2016-11-04 03:03:14",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 76.19,
+    "amount": 707.058
+  },
+  {
+    "transaction_id": 347,
+    "transaction_date": "2021-04-03 21:13:38",
+    "depot_id": 9,
+    "currency_id": 4,
+    "currency_rate": 5.28,
+    "amount": 678.842
+  },
+  {
+    "transaction_id": 348,
+    "transaction_date": "2020-12-31 17:26:50",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 81.54,
+    "amount": 745.156
+  },
+  {
+    "transaction_id": 349,
+    "transaction_date": "2020-04-10 01:26:01",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 79.6,
+    "amount": 584.955
+  },
+  {
+    "transaction_id": 350,
+    "transaction_date": "2019-02-26 07:29:45",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 91.23,
+    "amount": 716.515
+  },
+  {
+    "transaction_id": 351,
+    "transaction_date": "2017-03-25 11:16:32",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 83.75,
+    "amount": 629.642
+  },
+  {
+    "transaction_id": 352,
+    "transaction_date": "2019-03-04 19:08:05",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 16.4,
+    "amount": 798.507
+  },
+  {
+    "transaction_id": 353,
+    "transaction_date": "2017-09-09 20:29:39",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 70.36,
+    "amount": 810.854
+  },
+  {
+    "transaction_id": 354,
+    "transaction_date": "2021-05-22 23:35:14",
+    "depot_id": 2,
+    "currency_id": 1,
+    "currency_rate": 40.92,
+    "amount": 226.804
+  },
+  {
+    "transaction_id": 355,
+    "transaction_date": "2019-12-12 12:10:36",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 38.21,
+    "amount": 417.937
+  },
+  {
+    "transaction_id": 356,
+    "transaction_date": "2016-12-10 22:38:31",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 48.66,
+    "amount": 461.645
+  },
+  {
+    "transaction_id": 357,
+    "transaction_date": "2021-12-06 20:27:04",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 61.43,
+    "amount": 976.786
+  },
+  {
+    "transaction_id": 358,
+    "transaction_date": "2021-03-20 16:34:31",
+    "depot_id": 2,
+    "currency_id": 6,
+    "currency_rate": 62.37,
+    "amount": 180.368
+  },
+  {
+    "transaction_id": 359,
+    "transaction_date": "2018-06-29 09:58:08",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 8.46,
+    "amount": 865.751
+  },
+  {
+    "transaction_id": 360,
+    "transaction_date": "2021-02-24 08:37:38",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 32.28,
+    "amount": 651.395
+  },
+  {
+    "transaction_id": 361,
+    "transaction_date": "2016-01-16 10:33:58",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 49.16,
+    "amount": 423.503
+  },
+  {
+    "transaction_id": 362,
+    "transaction_date": "2019-08-16 17:04:53",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 76.8,
+    "amount": 220.528
+  },
+  {
+    "transaction_id": 363,
+    "transaction_date": "2017-08-01 16:01:26",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 48.52,
+    "amount": 865.869
+  },
+  {
+    "transaction_id": 364,
+    "transaction_date": "2017-12-31 14:56:31",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 87.75,
+    "amount": 963.687
+  },
+  {
+    "transaction_id": 365,
+    "transaction_date": "2018-06-29 21:30:14",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 54.02,
+    "amount": 713.315
+  },
+  {
+    "transaction_id": 366,
+    "transaction_date": "2016-04-27 16:56:31",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 93.86,
+    "amount": 460.755
+  },
+  {
+    "transaction_id": 367,
+    "transaction_date": "2017-12-16 19:44:12",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 43.45,
+    "amount": 883.574
+  },
+  {
+    "transaction_id": 368,
+    "transaction_date": "2021-10-07 00:37:38",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 39.62,
+    "amount": 291.953
+  },
+  {
+    "transaction_id": 369,
+    "transaction_date": "2020-08-23 12:19:58",
+    "depot_id": 5,
+    "currency_id": 6,
+    "currency_rate": 59.31,
+    "amount": 41.216
+  },
+  {
+    "transaction_id": 370,
+    "transaction_date": "2021-09-20 03:39:10",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 13.05,
+    "amount": 494.863
+  },
+  {
+    "transaction_id": 371,
+    "transaction_date": "2020-08-03 09:06:08",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 56.64,
+    "amount": 842.113
+  },
+  {
+    "transaction_id": 372,
+    "transaction_date": "2018-04-26 13:26:00",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 59.01,
+    "amount": 553.179
+  },
+  {
+    "transaction_id": 373,
+    "transaction_date": "2020-03-18 23:01:33",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 91.5,
+    "amount": 989.905
+  },
+  {
+    "transaction_id": 374,
+    "transaction_date": "2018-04-12 10:22:05",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 29.69,
+    "amount": 600.866
+  },
+  {
+    "transaction_id": 375,
+    "transaction_date": "2019-09-15 06:58:41",
+    "depot_id": 9,
+    "currency_id": 8,
+    "currency_rate": 88.59,
+    "amount": 597.773
+  },
+  {
+    "transaction_id": 376,
+    "transaction_date": "2021-10-07 09:22:00",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 78.04,
+    "amount": 581.65
+  },
+  {
+    "transaction_id": 377,
+    "transaction_date": "2016-01-02 22:25:56",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 60.24,
+    "amount": 407.315
+  },
+  {
+    "transaction_id": 378,
+    "transaction_date": "2018-11-23 04:22:16",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 1.75,
+    "amount": 750.593
+  },
+  {
+    "transaction_id": 379,
+    "transaction_date": "2018-11-29 00:56:32",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 56.44,
+    "amount": 424.441
+  },
+  {
+    "transaction_id": 380,
+    "transaction_date": "2021-08-16 18:40:15",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 37.75,
+    "amount": 460.926
+  },
+  {
+    "transaction_id": 381,
+    "transaction_date": "2021-10-10 01:27:13",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 76.01,
+    "amount": 707.303
+  },
+  {
+    "transaction_id": 382,
+    "transaction_date": "2016-07-08 06:38:21",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 48.34,
+    "amount": 534.484
+  },
+  {
+    "transaction_id": 383,
+    "transaction_date": "2020-03-29 06:44:20",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 38.76,
+    "amount": 80.027
+  },
+  {
+    "transaction_id": 384,
+    "transaction_date": "2019-07-15 02:55:45",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 67.7,
+    "amount": 530.679
+  },
+  {
+    "transaction_id": 385,
+    "transaction_date": "2020-02-16 21:14:21",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 80.87,
+    "amount": 488.748
+  },
+  {
+    "transaction_id": 386,
+    "transaction_date": "2021-08-03 14:58:46",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 17.37,
+    "amount": 49.899
+  },
+  {
+    "transaction_id": 387,
+    "transaction_date": "2019-05-29 03:30:36",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 20.55,
+    "amount": 695.207
+  },
+  {
+    "transaction_id": 388,
+    "transaction_date": "2018-03-14 10:46:31",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 38.76,
+    "amount": 570.531
+  },
+  {
+    "transaction_id": 389,
+    "transaction_date": "2016-05-10 05:31:32",
+    "depot_id": 4,
+    "currency_id": 8,
+    "currency_rate": 9.37,
+    "amount": 258.427
+  },
+  {
+    "transaction_id": 390,
+    "transaction_date": "2019-03-08 03:33:54",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 35.41,
+    "amount": 347.868
+  },
+  {
+    "transaction_id": 391,
+    "transaction_date": "2018-02-11 17:49:05",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 62.91,
+    "amount": 886.786
+  },
+  {
+    "transaction_id": 392,
+    "transaction_date": "2019-12-07 10:57:56",
+    "depot_id": 9,
+    "currency_id": 4,
+    "currency_rate": 15.56,
+    "amount": 104.146
+  },
+  {
+    "transaction_id": 393,
+    "transaction_date": "2020-05-17 08:01:50",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 79.02,
+    "amount": 445.165
+  },
+  {
+    "transaction_id": 394,
+    "transaction_date": "2017-07-29 04:59:06",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 33.54,
+    "amount": 447.706
+  },
+  {
+    "transaction_id": 395,
+    "transaction_date": "2018-02-01 07:33:58",
+    "depot_id": 4,
+    "currency_id": 3,
+    "currency_rate": 38.79,
+    "amount": 388.567
+  },
+  {
+    "transaction_id": 396,
+    "transaction_date": "2020-12-09 01:25:46",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 90.45,
+    "amount": 59.386
+  },
+  {
+    "transaction_id": 397,
+    "transaction_date": "2021-03-17 22:18:56",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 56.17,
+    "amount": 344.375
+  },
+  {
+    "transaction_id": 398,
+    "transaction_date": "2016-06-02 07:23:28",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 24.21,
+    "amount": 451.171
+  },
+  {
+    "transaction_id": 399,
+    "transaction_date": "2016-05-27 19:02:19",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 20.66,
+    "amount": 519.397
+  },
+  {
+    "transaction_id": 400,
+    "transaction_date": "2021-09-15 06:53:29",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 86.61,
+    "amount": 470.884
+  },
+  {
+    "transaction_id": 401,
+    "transaction_date": "2016-06-28 22:01:14",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 55.81,
+    "amount": 190.152
+  },
+  {
+    "transaction_id": 402,
+    "transaction_date": "2020-09-16 19:34:32",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 23.0,
+    "amount": 513.484
+  },
+  {
+    "transaction_id": 403,
+    "transaction_date": "2020-01-22 06:21:24",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 18.81,
+    "amount": 728.141
+  },
+  {
+    "transaction_id": 404,
+    "transaction_date": "2022-03-04 02:04:26",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 33.84,
+    "amount": 610.229
+  },
+  {
+    "transaction_id": 405,
+    "transaction_date": "2020-08-08 12:41:47",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 57.32,
+    "amount": 655.952
+  },
+  {
+    "transaction_id": 406,
+    "transaction_date": "2021-04-03 21:31:19",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 95.25,
+    "amount": 86.336
+  },
+  {
+    "transaction_id": 407,
+    "transaction_date": "2019-03-29 16:13:00",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 86.79,
+    "amount": 929.627
+  },
+  {
+    "transaction_id": 408,
+    "transaction_date": "2018-10-14 06:48:36",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 97.35,
+    "amount": 697.852
+  },
+  {
+    "transaction_id": 409,
+    "transaction_date": "2016-05-03 16:48:39",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 29.4,
+    "amount": 432.925
+  },
+  {
+    "transaction_id": 410,
+    "transaction_date": "2021-08-21 13:39:26",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 6.72,
+    "amount": 566.009
+  },
+  {
+    "transaction_id": 411,
+    "transaction_date": "2017-11-18 01:56:18",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 85.93,
+    "amount": 953.968
+  },
+  {
+    "transaction_id": 412,
+    "transaction_date": "2016-11-23 10:24:29",
+    "depot_id": 10,
+    "currency_id": 6,
+    "currency_rate": 40.79,
+    "amount": 437.994
+  },
+  {
+    "transaction_id": 413,
+    "transaction_date": "2016-03-31 02:21:55",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 29.4,
+    "amount": 142.185
+  },
+  {
+    "transaction_id": 414,
+    "transaction_date": "2016-01-10 16:36:32",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 31.97,
+    "amount": 625.039
+  },
+  {
+    "transaction_id": 415,
+    "transaction_date": "2021-02-17 18:40:03",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 15.95,
+    "amount": 556.645
+  },
+  {
+    "transaction_id": 416,
+    "transaction_date": "2016-08-04 23:52:23",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 99.9,
+    "amount": 955.245
+  },
+  {
+    "transaction_id": 417,
+    "transaction_date": "2019-02-09 21:17:42",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 43.2,
+    "amount": 706.837
+  },
+  {
+    "transaction_id": 418,
+    "transaction_date": "2017-08-23 14:57:44",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 63.37,
+    "amount": 208.662
+  },
+  {
+    "transaction_id": 419,
+    "transaction_date": "2020-06-29 07:40:02",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 55.02,
+    "amount": 857.878
+  },
+  {
+    "transaction_id": 420,
+    "transaction_date": "2017-03-28 02:26:40",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 68.18,
+    "amount": 13.317
+  },
+  {
+    "transaction_id": 421,
+    "transaction_date": "2021-10-28 10:16:59",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 9.87,
+    "amount": 266.171
+  },
+  {
+    "transaction_id": 422,
+    "transaction_date": "2019-07-22 08:53:49",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 50.04,
+    "amount": 562.967
+  },
+  {
+    "transaction_id": 423,
+    "transaction_date": "2021-01-02 07:27:21",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 28.64,
+    "amount": 221.222
+  },
+  {
+    "transaction_id": 424,
+    "transaction_date": "2017-01-16 10:39:52",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 85.37,
+    "amount": 342.507
+  },
+  {
+    "transaction_id": 425,
+    "transaction_date": "2018-12-05 05:48:02",
+    "depot_id": 1,
+    "currency_id": 6,
+    "currency_rate": 43.95,
+    "amount": 483.849
+  },
+  {
+    "transaction_id": 426,
+    "transaction_date": "2020-11-25 01:34:51",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 22.35,
+    "amount": 968.721
+  },
+  {
+    "transaction_id": 427,
+    "transaction_date": "2020-10-16 03:40:04",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 98.98,
+    "amount": 389.858
+  },
+  {
+    "transaction_id": 428,
+    "transaction_date": "2018-06-14 20:42:48",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 29.4,
+    "amount": 121.701
+  },
+  {
+    "transaction_id": 429,
+    "transaction_date": "2016-11-05 17:36:21",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 61.9,
+    "amount": 317.289
+  },
+  {
+    "transaction_id": 430,
+    "transaction_date": "2018-12-17 21:16:41",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 96.61,
+    "amount": 553.278
+  },
+  {
+    "transaction_id": 431,
+    "transaction_date": "2020-11-23 02:25:53",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 69.33,
+    "amount": 573.877
+  },
+  {
+    "transaction_id": 432,
+    "transaction_date": "2016-07-25 05:57:44",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 2.91,
+    "amount": 248.389
+  },
+  {
+    "transaction_id": 433,
+    "transaction_date": "2021-07-23 09:28:40",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 50.97,
+    "amount": 204.491
+  },
+  {
+    "transaction_id": 434,
+    "transaction_date": "2017-08-27 12:45:04",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 61.07,
+    "amount": 821.242
+  },
+  {
+    "transaction_id": 435,
+    "transaction_date": "2022-01-15 19:25:54",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 83.36,
+    "amount": 947.353
+  },
+  {
+    "transaction_id": 436,
+    "transaction_date": "2019-09-22 23:35:44",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 31.7,
+    "amount": 570.196
+  },
+  {
+    "transaction_id": 437,
+    "transaction_date": "2019-08-24 16:26:37",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 31.49,
+    "amount": 801.469
+  },
+  {
+    "transaction_id": 438,
+    "transaction_date": "2017-09-20 01:23:00",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 77.99,
+    "amount": 624.227
+  },
+  {
+    "transaction_id": 439,
+    "transaction_date": "2017-05-26 18:17:46",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 74.6,
+    "amount": 642.845
+  },
+  {
+    "transaction_id": 440,
+    "transaction_date": "2017-11-18 18:33:59",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 36.56,
+    "amount": 733.364
+  },
+  {
+    "transaction_id": 441,
+    "transaction_date": "2018-09-29 05:45:53",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 4.53,
+    "amount": 834.865
+  },
+  {
+    "transaction_id": 442,
+    "transaction_date": "2019-11-25 17:35:17",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 12.7,
+    "amount": 65.776
+  },
+  {
+    "transaction_id": 443,
+    "transaction_date": "2018-04-14 10:04:33",
+    "depot_id": 5,
+    "currency_id": 7,
+    "currency_rate": 61.38,
+    "amount": 346.0
+  },
+  {
+    "transaction_id": 444,
+    "transaction_date": "2019-01-22 14:51:15",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 47.78,
+    "amount": 188.012
+  },
+  {
+    "transaction_id": 445,
+    "transaction_date": "2022-03-29 15:03:02",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 48.4,
+    "amount": 978.013
+  },
+  {
+    "transaction_id": 446,
+    "transaction_date": "2018-04-23 07:47:43",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 32.23,
+    "amount": 678.941
+  },
+  {
+    "transaction_id": 447,
+    "transaction_date": "2018-07-25 06:51:21",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 39.39,
+    "amount": 198.314
+  },
+  {
+    "transaction_id": 448,
+    "transaction_date": "2018-09-15 19:19:00",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 18.56,
+    "amount": 98.596
+  },
+  {
+    "transaction_id": 449,
+    "transaction_date": "2020-01-15 21:34:17",
+    "depot_id": 4,
+    "currency_id": 4,
+    "currency_rate": 17.93,
+    "amount": 296.442
+  },
+  {
+    "transaction_id": 450,
+    "transaction_date": "2021-12-04 13:27:12",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 2.56,
+    "amount": 322.822
+  },
+  {
+    "transaction_id": 451,
+    "transaction_date": "2020-01-06 23:15:02",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 14.05,
+    "amount": 644.035
+  },
+  {
+    "transaction_id": 452,
+    "transaction_date": "2021-02-27 21:11:07",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 60.44,
+    "amount": 374.701
+  },
+  {
+    "transaction_id": 453,
+    "transaction_date": "2021-05-25 08:05:02",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 48.61,
+    "amount": 953.08
+  },
+  {
+    "transaction_id": 454,
+    "transaction_date": "2021-09-08 17:52:38",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 43.64,
+    "amount": 410.057
+  },
+  {
+    "transaction_id": 455,
+    "transaction_date": "2020-02-18 19:58:41",
+    "depot_id": 8,
+    "currency_id": 6,
+    "currency_rate": 6.54,
+    "amount": 48.277
+  },
+  {
+    "transaction_id": 456,
+    "transaction_date": "2018-02-27 21:27:22",
+    "depot_id": 5,
+    "currency_id": 7,
+    "currency_rate": 30.12,
+    "amount": 755.822
+  },
+  {
+    "transaction_id": 457,
+    "transaction_date": "2019-05-19 12:56:30",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 48.79,
+    "amount": 264.171
+  },
+  {
+    "transaction_id": 458,
+    "transaction_date": "2016-02-18 13:19:28",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 50.33,
+    "amount": 841.696
+  },
+  {
+    "transaction_id": 459,
+    "transaction_date": "2020-11-06 18:34:19",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 98.67,
+    "amount": 795.082
+  },
+  {
+    "transaction_id": 460,
+    "transaction_date": "2019-03-03 15:40:29",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 95.46,
+    "amount": 311.81
+  },
+  {
+    "transaction_id": 461,
+    "transaction_date": "2018-04-28 15:48:40",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 87.68,
+    "amount": 957.635
+  },
+  {
+    "transaction_id": 462,
+    "transaction_date": "2017-12-21 08:28:54",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 8.36,
+    "amount": 902.192
+  },
+  {
+    "transaction_id": 463,
+    "transaction_date": "2019-05-21 04:23:19",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 90.56,
+    "amount": 368.378
+  },
+  {
+    "transaction_id": 464,
+    "transaction_date": "2020-06-02 00:54:58",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 44.1,
+    "amount": 610.912
+  },
+  {
+    "transaction_id": 465,
+    "transaction_date": "2016-01-09 17:34:38",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 58.18,
+    "amount": 44.155
+  },
+  {
+    "transaction_id": 466,
+    "transaction_date": "2017-07-11 11:47:53",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 63.3,
+    "amount": 285.35
+  },
+  {
+    "transaction_id": 467,
+    "transaction_date": "2021-03-04 01:13:52",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 16.83,
+    "amount": 316.019
+  },
+  {
+    "transaction_id": 468,
+    "transaction_date": "2019-02-03 18:29:04",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 19.2,
+    "amount": 399.571
+  },
+  {
+    "transaction_id": 469,
+    "transaction_date": "2016-02-23 13:53:35",
+    "depot_id": 9,
+    "currency_id": 4,
+    "currency_rate": 94.09,
+    "amount": 992.941
+  },
+  {
+    "transaction_id": 470,
+    "transaction_date": "2017-01-02 09:58:59",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 84.96,
+    "amount": 802.837
+  },
+  {
+    "transaction_id": 471,
+    "transaction_date": "2021-09-27 06:14:28",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 9.05,
+    "amount": 834.488
+  },
+  {
+    "transaction_id": 472,
+    "transaction_date": "2016-07-30 09:40:40",
+    "depot_id": 4,
+    "currency_id": 4,
+    "currency_rate": 41.24,
+    "amount": 895.306
+  },
+  {
+    "transaction_id": 473,
+    "transaction_date": "2021-03-20 04:44:59",
+    "depot_id": 1,
+    "currency_id": 6,
+    "currency_rate": 17.87,
+    "amount": 307.18
+  },
+  {
+    "transaction_id": 474,
+    "transaction_date": "2016-05-08 21:43:55",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 37.48,
+    "amount": 376.944
+  },
+  {
+    "transaction_id": 475,
+    "transaction_date": "2016-11-06 21:53:22",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 14.26,
+    "amount": 284.632
+  },
+  {
+    "transaction_id": 476,
+    "transaction_date": "2019-04-23 12:14:51",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 24.25,
+    "amount": 151.031
+  },
+  {
+    "transaction_id": 477,
+    "transaction_date": "2016-09-18 10:31:07",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 8.19,
+    "amount": 363.504
+  },
+  {
+    "transaction_id": 478,
+    "transaction_date": "2017-11-02 07:03:05",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 9.06,
+    "amount": 814.031
+  },
+  {
+    "transaction_id": 479,
+    "transaction_date": "2017-07-24 08:13:50",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 47.94,
+    "amount": 128.138
+  },
+  {
+    "transaction_id": 480,
+    "transaction_date": "2020-10-26 08:22:47",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 7.87,
+    "amount": 186.643
+  },
+  {
+    "transaction_id": 481,
+    "transaction_date": "2016-09-07 05:24:40",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 14.88,
+    "amount": 858.927
+  },
+  {
+    "transaction_id": 482,
+    "transaction_date": "2020-12-20 02:55:25",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 37.85,
+    "amount": 514.076
+  },
+  {
+    "transaction_id": 483,
+    "transaction_date": "2019-09-09 07:43:14",
+    "depot_id": 8,
+    "currency_id": 4,
+    "currency_rate": 21.65,
+    "amount": 558.648
+  },
+  {
+    "transaction_id": 484,
+    "transaction_date": "2021-12-12 08:59:35",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 70.99,
+    "amount": 976.417
+  },
+  {
+    "transaction_id": 485,
+    "transaction_date": "2017-08-04 09:33:01",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 67.25,
+    "amount": 402.326
+  },
+  {
+    "transaction_id": 486,
+    "transaction_date": "2016-09-23 16:52:11",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 10.26,
+    "amount": 219.814
+  },
+  {
+    "transaction_id": 487,
+    "transaction_date": "2022-01-01 03:22:57",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 34.9,
+    "amount": 539.725
+  },
+  {
+    "transaction_id": 488,
+    "transaction_date": "2021-09-13 13:25:18",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 63.69,
+    "amount": 920.917
+  },
+  {
+    "transaction_id": 489,
+    "transaction_date": "2021-08-21 18:58:30",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 72.38,
+    "amount": 758.653
+  },
+  {
+    "transaction_id": 490,
+    "transaction_date": "2021-11-29 02:00:38",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 81.66,
+    "amount": 430.715
+  },
+  {
+    "transaction_id": 491,
+    "transaction_date": "2020-01-27 22:46:32",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 82.15,
+    "amount": 103.048
+  },
+  {
+    "transaction_id": 492,
+    "transaction_date": "2018-09-14 00:41:38",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 22.39,
+    "amount": 921.056
+  },
+  {
+    "transaction_id": 493,
+    "transaction_date": "2021-04-22 06:34:59",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 45.45,
+    "amount": 849.065
+  },
+  {
+    "transaction_id": 494,
+    "transaction_date": "2018-11-20 07:09:35",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 84.24,
+    "amount": 315.928
+  },
+  {
+    "transaction_id": 495,
+    "transaction_date": "2016-02-15 17:28:24",
+    "depot_id": 6,
+    "currency_id": 3,
+    "currency_rate": 78.89,
+    "amount": 381.227
+  },
+  {
+    "transaction_id": 496,
+    "transaction_date": "2018-11-02 10:40:11",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 59.38,
+    "amount": 258.167
+  },
+  {
+    "transaction_id": 497,
+    "transaction_date": "2020-06-07 19:38:12",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 64.24,
+    "amount": 925.201
+  },
+  {
+    "transaction_id": 498,
+    "transaction_date": "2019-03-08 08:30:07",
+    "depot_id": 6,
+    "currency_id": 7,
+    "currency_rate": 85.75,
+    "amount": 859.953
+  },
+  {
+    "transaction_id": 499,
+    "transaction_date": "2017-03-27 03:42:21",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 22.19,
+    "amount": 902.943
+  },
+  {
+    "transaction_id": 500,
+    "transaction_date": "2018-09-06 08:46:40",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 2.6,
+    "amount": 633.081
+  },
+  {
+    "transaction_id": 501,
+    "transaction_date": "2016-08-12 11:31:39",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 99.97,
+    "amount": 69.092
+  },
+  {
+    "transaction_id": 502,
+    "transaction_date": "2019-12-04 13:42:19",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 8.13,
+    "amount": 90.901
+  },
+  {
+    "transaction_id": 503,
+    "transaction_date": "2017-11-28 08:16:10",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 2.0,
+    "amount": 800.018
+  },
+  {
+    "transaction_id": 504,
+    "transaction_date": "2019-09-27 17:16:00",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 63.26,
+    "amount": 190.87
+  },
+  {
+    "transaction_id": 505,
+    "transaction_date": "2021-05-04 04:50:24",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 73.92,
+    "amount": 44.104
+  },
+  {
+    "transaction_id": 506,
+    "transaction_date": "2020-09-29 07:45:55",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 27.4,
+    "amount": 336.928
+  },
+  {
+    "transaction_id": 507,
+    "transaction_date": "2018-05-09 19:10:05",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 50.78,
+    "amount": 615.643
+  },
+  {
+    "transaction_id": 508,
+    "transaction_date": "2020-10-30 18:42:31",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 9.67,
+    "amount": 465.129
+  },
+  {
+    "transaction_id": 509,
+    "transaction_date": "2017-08-25 21:18:58",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 15.47,
+    "amount": 538.893
+  },
+  {
+    "transaction_id": 510,
+    "transaction_date": "2019-04-15 19:33:49",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 30.08,
+    "amount": 848.946
+  },
+  {
+    "transaction_id": 511,
+    "transaction_date": "2020-12-21 20:46:21",
+    "depot_id": 4,
+    "currency_id": 8,
+    "currency_rate": 83.21,
+    "amount": 74.279
+  },
+  {
+    "transaction_id": 512,
+    "transaction_date": "2020-04-13 01:28:04",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 94.57,
+    "amount": 486.89
+  },
+  {
+    "transaction_id": 513,
+    "transaction_date": "2019-05-21 07:31:17",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 22.42,
+    "amount": 75.175
+  },
+  {
+    "transaction_id": 514,
+    "transaction_date": "2020-01-06 14:51:39",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 94.26,
+    "amount": 864.296
+  },
+  {
+    "transaction_id": 515,
+    "transaction_date": "2016-01-14 02:31:24",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 62.49,
+    "amount": 673.062
+  },
+  {
+    "transaction_id": 516,
+    "transaction_date": "2020-05-10 08:05:20",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 25.99,
+    "amount": 323.038
+  },
+  {
+    "transaction_id": 517,
+    "transaction_date": "2019-02-24 02:57:25",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 77.12,
+    "amount": 487.262
+  },
+  {
+    "transaction_id": 518,
+    "transaction_date": "2019-06-21 03:42:42",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 46.49,
+    "amount": 195.093
+  },
+  {
+    "transaction_id": 519,
+    "transaction_date": "2021-09-13 22:51:41",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 59.56,
+    "amount": 744.736
+  },
+  {
+    "transaction_id": 520,
+    "transaction_date": "2019-04-22 01:15:24",
+    "depot_id": 5,
+    "currency_id": 6,
+    "currency_rate": 32.71,
+    "amount": 662.194
+  },
+  {
+    "transaction_id": 521,
+    "transaction_date": "2021-12-13 03:50:43",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 81.19,
+    "amount": 933.695
+  },
+  {
+    "transaction_id": 522,
+    "transaction_date": "2020-07-17 06:46:23",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 36.64,
+    "amount": 668.839
+  },
+  {
+    "transaction_id": 523,
+    "transaction_date": "2017-09-20 17:32:11",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 65.31,
+    "amount": 17.312
+  },
+  {
+    "transaction_id": 524,
+    "transaction_date": "2021-04-07 20:56:52",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 60.48,
+    "amount": 875.107
+  },
+  {
+    "transaction_id": 525,
+    "transaction_date": "2021-07-06 23:27:30",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 17.55,
+    "amount": 849.508
+  },
+  {
+    "transaction_id": 526,
+    "transaction_date": "2020-01-07 19:02:07",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 31.22,
+    "amount": 457.178
+  },
+  {
+    "transaction_id": 527,
+    "transaction_date": "2020-01-13 22:18:47",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 92.37,
+    "amount": 118.151
+  },
+  {
+    "transaction_id": 528,
+    "transaction_date": "2016-09-21 19:01:26",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 49.03,
+    "amount": 65.715
+  },
+  {
+    "transaction_id": 529,
+    "transaction_date": "2019-06-04 00:33:05",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 56.59,
+    "amount": 192.158
+  },
+  {
+    "transaction_id": 530,
+    "transaction_date": "2020-08-22 14:01:23",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 36.21,
+    "amount": 584.286
+  },
+  {
+    "transaction_id": 531,
+    "transaction_date": "2017-01-15 09:04:44",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 51.97,
+    "amount": 699.153
+  },
+  {
+    "transaction_id": 532,
+    "transaction_date": "2019-04-03 12:30:05",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 13.95,
+    "amount": 893.293
+  },
+  {
+    "transaction_id": 533,
+    "transaction_date": "2016-11-28 19:17:22",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 71.0,
+    "amount": 879.031
+  },
+  {
+    "transaction_id": 534,
+    "transaction_date": "2017-10-22 06:21:24",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 62.8,
+    "amount": 595.712
+  },
+  {
+    "transaction_id": 535,
+    "transaction_date": "2021-03-03 05:52:01",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 17.53,
+    "amount": 686.586
+  },
+  {
+    "transaction_id": 536,
+    "transaction_date": "2018-10-10 10:29:46",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 23.23,
+    "amount": 31.457
+  },
+  {
+    "transaction_id": 537,
+    "transaction_date": "2016-03-25 20:58:55",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 22.21,
+    "amount": 538.689
+  },
+  {
+    "transaction_id": 538,
+    "transaction_date": "2017-11-07 09:27:42",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 96.89,
+    "amount": 540.138
+  },
+  {
+    "transaction_id": 539,
+    "transaction_date": "2017-11-03 15:01:20",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 54.66,
+    "amount": 708.786
+  },
+  {
+    "transaction_id": 540,
+    "transaction_date": "2016-02-25 05:03:12",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 77.64,
+    "amount": 951.109
+  },
+  {
+    "transaction_id": 541,
+    "transaction_date": "2017-01-07 17:30:32",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 98.62,
+    "amount": 530.077
+  },
+  {
+    "transaction_id": 542,
+    "transaction_date": "2017-03-05 03:25:45",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 13.82,
+    "amount": 909.326
+  },
+  {
+    "transaction_id": 543,
+    "transaction_date": "2017-02-02 04:09:42",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 89.31,
+    "amount": 533.432
+  },
+  {
+    "transaction_id": 544,
+    "transaction_date": "2017-12-29 08:45:15",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 88.54,
+    "amount": 620.659
+  },
+  {
+    "transaction_id": 545,
+    "transaction_date": "2020-08-04 03:45:21",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 11.59,
+    "amount": 834.39
+  },
+  {
+    "transaction_id": 546,
+    "transaction_date": "2018-01-19 10:35:43",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 94.58,
+    "amount": 814.324
+  },
+  {
+    "transaction_id": 547,
+    "transaction_date": "2018-07-24 08:49:08",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 65.36,
+    "amount": 825.118
+  },
+  {
+    "transaction_id": 548,
+    "transaction_date": "2019-05-04 01:42:43",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 66.76,
+    "amount": 519.783
+  },
+  {
+    "transaction_id": 549,
+    "transaction_date": "2017-11-08 13:50:49",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 78.52,
+    "amount": 998.887
+  },
+  {
+    "transaction_id": 550,
+    "transaction_date": "2020-12-05 23:43:17",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 6.65,
+    "amount": 452.071
+  },
+  {
+    "transaction_id": 551,
+    "transaction_date": "2016-04-21 07:20:18",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 47.37,
+    "amount": 217.855
+  },
+  {
+    "transaction_id": 552,
+    "transaction_date": "2022-02-19 11:23:16",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 78.81,
+    "amount": 533.01
+  },
+  {
+    "transaction_id": 553,
+    "transaction_date": "2018-10-04 11:26:35",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 79.57,
+    "amount": 887.562
+  },
+  {
+    "transaction_id": 554,
+    "transaction_date": "2019-12-31 07:42:30",
+    "depot_id": 8,
+    "currency_id": 4,
+    "currency_rate": 39.96,
+    "amount": 638.464
+  },
+  {
+    "transaction_id": 555,
+    "transaction_date": "2021-12-02 16:34:59",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 32.98,
+    "amount": 748.185
+  },
+  {
+    "transaction_id": 556,
+    "transaction_date": "2018-10-30 09:48:09",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 72.7,
+    "amount": 865.498
+  },
+  {
+    "transaction_id": 557,
+    "transaction_date": "2021-04-09 15:26:46",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 15.92,
+    "amount": 693.59
+  },
+  {
+    "transaction_id": 558,
+    "transaction_date": "2018-07-22 22:35:02",
+    "depot_id": 1,
+    "currency_id": 6,
+    "currency_rate": 21.7,
+    "amount": 205.663
+  },
+  {
+    "transaction_id": 559,
+    "transaction_date": "2021-03-28 20:17:40",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 88.93,
+    "amount": 701.319
+  },
+  {
+    "transaction_id": 560,
+    "transaction_date": "2017-07-22 12:25:19",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 58.56,
+    "amount": 574.218
+  },
+  {
+    "transaction_id": 561,
+    "transaction_date": "2021-12-04 18:49:42",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 40.46,
+    "amount": 401.357
+  },
+  {
+    "transaction_id": 562,
+    "transaction_date": "2016-05-24 13:36:43",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 88.53,
+    "amount": 941.516
+  },
+  {
+    "transaction_id": 563,
+    "transaction_date": "2020-03-17 09:01:42",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 36.78,
+    "amount": 954.283
+  },
+  {
+    "transaction_id": 564,
+    "transaction_date": "2019-04-10 16:50:22",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 93.77,
+    "amount": 28.828
+  },
+  {
+    "transaction_id": 565,
+    "transaction_date": "2018-01-30 16:29:02",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 46.47,
+    "amount": 747.876
+  },
+  {
+    "transaction_id": 566,
+    "transaction_date": "2021-11-18 04:20:36",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 53.9,
+    "amount": 913.599
+  },
+  {
+    "transaction_id": 567,
+    "transaction_date": "2018-10-08 18:29:08",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 94.66,
+    "amount": 1.134
+  },
+  {
+    "transaction_id": 568,
+    "transaction_date": "2016-07-09 17:51:38",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 63.14,
+    "amount": 53.495
+  },
+  {
+    "transaction_id": 569,
+    "transaction_date": "2019-05-03 23:12:34",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 29.1,
+    "amount": 383.774
+  },
+  {
+    "transaction_id": 570,
+    "transaction_date": "2020-08-06 21:47:24",
+    "depot_id": 7,
+    "currency_id": 3,
+    "currency_rate": 11.94,
+    "amount": 923.744
+  },
+  {
+    "transaction_id": 571,
+    "transaction_date": "2018-10-26 20:36:33",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 12.03,
+    "amount": 200.996
+  },
+  {
+    "transaction_id": 572,
+    "transaction_date": "2019-07-21 21:19:50",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 38.95,
+    "amount": 202.259
+  },
+  {
+    "transaction_id": 573,
+    "transaction_date": "2019-05-22 13:29:52",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 44.76,
+    "amount": 355.704
+  },
+  {
+    "transaction_id": 574,
+    "transaction_date": "2016-04-05 22:32:43",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 79.65,
+    "amount": 486.632
+  },
+  {
+    "transaction_id": 575,
+    "transaction_date": "2020-11-26 06:18:34",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 92.36,
+    "amount": 953.248
+  },
+  {
+    "transaction_id": 576,
+    "transaction_date": "2017-05-12 09:36:17",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 26.46,
+    "amount": 739.098
+  },
+  {
+    "transaction_id": 577,
+    "transaction_date": "2017-07-09 12:47:02",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 82.31,
+    "amount": 306.044
+  },
+  {
+    "transaction_id": 578,
+    "transaction_date": "2021-02-06 19:40:14",
+    "depot_id": 4,
+    "currency_id": 3,
+    "currency_rate": 34.63,
+    "amount": 660.427
+  },
+  {
+    "transaction_id": 579,
+    "transaction_date": "2020-07-19 00:20:07",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 68.5,
+    "amount": 761.74
+  },
+  {
+    "transaction_id": 580,
+    "transaction_date": "2021-04-28 01:34:44",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 10.47,
+    "amount": 548.952
+  },
+  {
+    "transaction_id": 581,
+    "transaction_date": "2019-01-25 05:32:08",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 1.82,
+    "amount": 533.352
+  },
+  {
+    "transaction_id": 582,
+    "transaction_date": "2020-11-18 16:58:14",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 56.28,
+    "amount": 439.375
+  },
+  {
+    "transaction_id": 583,
+    "transaction_date": "2022-01-20 07:40:09",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 34.66,
+    "amount": 729.793
+  },
+  {
+    "transaction_id": 584,
+    "transaction_date": "2021-03-08 03:15:16",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 10.23,
+    "amount": 469.32
+  },
+  {
+    "transaction_id": 585,
+    "transaction_date": "2016-09-21 01:25:38",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 6.28,
+    "amount": 335.981
+  },
+  {
+    "transaction_id": 586,
+    "transaction_date": "2019-05-19 00:00:35",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 44.64,
+    "amount": 21.972
+  },
+  {
+    "transaction_id": 587,
+    "transaction_date": "2017-12-01 04:32:27",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 39.01,
+    "amount": 369.344
+  },
+  {
+    "transaction_id": 588,
+    "transaction_date": "2018-07-11 10:27:03",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 6.22,
+    "amount": 213.512
+  },
+  {
+    "transaction_id": 589,
+    "transaction_date": "2019-12-10 23:27:47",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 43.82,
+    "amount": 734.625
+  },
+  {
+    "transaction_id": 590,
+    "transaction_date": "2017-04-11 23:31:47",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 70.84,
+    "amount": 255.531
+  },
+  {
+    "transaction_id": 591,
+    "transaction_date": "2020-07-06 03:12:56",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 86.23,
+    "amount": 489.052
+  },
+  {
+    "transaction_id": 592,
+    "transaction_date": "2016-07-01 01:49:45",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 95.47,
+    "amount": 980.906
+  },
+  {
+    "transaction_id": 593,
+    "transaction_date": "2018-10-18 03:24:30",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 52.52,
+    "amount": 760.375
+  },
+  {
+    "transaction_id": 594,
+    "transaction_date": "2019-01-18 08:21:31",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 49.2,
+    "amount": 301.455
+  },
+  {
+    "transaction_id": 595,
+    "transaction_date": "2017-08-12 13:22:06",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 43.56,
+    "amount": 434.015
+  },
+  {
+    "transaction_id": 596,
+    "transaction_date": "2019-01-17 01:30:22",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 36.67,
+    "amount": 764.714
+  },
+  {
+    "transaction_id": 597,
+    "transaction_date": "2021-12-30 09:58:24",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 72.41,
+    "amount": 162.136
+  },
+  {
+    "transaction_id": 598,
+    "transaction_date": "2018-07-20 10:54:09",
+    "depot_id": 4,
+    "currency_id": 3,
+    "currency_rate": 76.43,
+    "amount": 3.82
+  },
+  {
+    "transaction_id": 599,
+    "transaction_date": "2019-01-23 12:06:10",
+    "depot_id": 8,
+    "currency_id": 6,
+    "currency_rate": 31.67,
+    "amount": 192.551
+  },
+  {
+    "transaction_id": 600,
+    "transaction_date": "2019-09-15 16:48:06",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 18.54,
+    "amount": 549.586
+  },
+  {
+    "transaction_id": 601,
+    "transaction_date": "2017-08-05 04:50:34",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 14.21,
+    "amount": 287.747
+  },
+  {
+    "transaction_id": 602,
+    "transaction_date": "2020-10-23 03:06:37",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 4.18,
+    "amount": 541.705
+  },
+  {
+    "transaction_id": 603,
+    "transaction_date": "2016-12-15 14:42:04",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 55.22,
+    "amount": 190.058
+  },
+  {
+    "transaction_id": 604,
+    "transaction_date": "2018-09-16 13:06:01",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 90.71,
+    "amount": 694.919
+  },
+  {
+    "transaction_id": 605,
+    "transaction_date": "2018-09-15 05:53:45",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 45.18,
+    "amount": 904.116
+  },
+  {
+    "transaction_id": 606,
+    "transaction_date": "2017-09-24 20:36:52",
+    "depot_id": 2,
+    "currency_id": 1,
+    "currency_rate": 26.66,
+    "amount": 757.358
+  },
+  {
+    "transaction_id": 607,
+    "transaction_date": "2020-07-03 13:51:29",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 57.16,
+    "amount": 820.024
+  },
+  {
+    "transaction_id": 608,
+    "transaction_date": "2021-06-27 02:28:16",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 34.45,
+    "amount": 572.933
+  },
+  {
+    "transaction_id": 609,
+    "transaction_date": "2019-02-03 04:06:57",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 30.24,
+    "amount": 887.325
+  },
+  {
+    "transaction_id": 610,
+    "transaction_date": "2021-12-12 07:04:50",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 20.33,
+    "amount": 479.262
+  },
+  {
+    "transaction_id": 611,
+    "transaction_date": "2017-11-08 10:54:12",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 88.28,
+    "amount": 691.361
+  },
+  {
+    "transaction_id": 612,
+    "transaction_date": "2018-01-05 02:34:59",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 28.3,
+    "amount": 805.246
+  },
+  {
+    "transaction_id": 613,
+    "transaction_date": "2018-01-07 16:57:43",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 37.93,
+    "amount": 304.682
+  },
+  {
+    "transaction_id": 614,
+    "transaction_date": "2021-10-03 18:21:22",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 49.99,
+    "amount": 624.11
+  },
+  {
+    "transaction_id": 615,
+    "transaction_date": "2021-05-11 00:40:13",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 79.47,
+    "amount": 99.402
+  },
+  {
+    "transaction_id": 616,
+    "transaction_date": "2019-11-27 18:43:29",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 17.76,
+    "amount": 283.826
+  },
+  {
+    "transaction_id": 617,
+    "transaction_date": "2022-03-15 04:54:46",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 49.67,
+    "amount": 926.99
+  },
+  {
+    "transaction_id": 618,
+    "transaction_date": "2020-10-25 13:46:39",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 31.27,
+    "amount": 960.077
+  },
+  {
+    "transaction_id": 619,
+    "transaction_date": "2019-04-04 17:59:42",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 13.34,
+    "amount": 18.696
+  },
+  {
+    "transaction_id": 620,
+    "transaction_date": "2018-07-24 04:07:34",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 11.89,
+    "amount": 282.343
+  },
+  {
+    "transaction_id": 621,
+    "transaction_date": "2020-01-20 11:04:27",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 97.87,
+    "amount": 698.265
+  },
+  {
+    "transaction_id": 622,
+    "transaction_date": "2017-02-28 22:28:53",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 9.17,
+    "amount": 112.194
+  },
+  {
+    "transaction_id": 623,
+    "transaction_date": "2021-03-16 18:07:27",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 97.41,
+    "amount": 624.602
+  },
+  {
+    "transaction_id": 624,
+    "transaction_date": "2017-10-09 20:45:24",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 28.39,
+    "amount": 627.999
+  },
+  {
+    "transaction_id": 625,
+    "transaction_date": "2017-06-08 21:13:48",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 19.44,
+    "amount": 240.624
+  },
+  {
+    "transaction_id": 626,
+    "transaction_date": "2017-03-26 18:17:16",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 46.48,
+    "amount": 695.139
+  },
+  {
+    "transaction_id": 627,
+    "transaction_date": "2017-04-17 17:28:32",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 37.62,
+    "amount": 341.7
+  },
+  {
+    "transaction_id": 628,
+    "transaction_date": "2018-01-23 09:37:56",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 42.41,
+    "amount": 810.707
+  },
+  {
+    "transaction_id": 629,
+    "transaction_date": "2020-01-06 14:12:32",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 50.68,
+    "amount": 356.314
+  },
+  {
+    "transaction_id": 630,
+    "transaction_date": "2018-01-29 03:37:10",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 5.74,
+    "amount": 660.251
+  },
+  {
+    "transaction_id": 631,
+    "transaction_date": "2017-11-17 17:48:45",
+    "depot_id": 4,
+    "currency_id": 8,
+    "currency_rate": 69.37,
+    "amount": 499.764
+  },
+  {
+    "transaction_id": 632,
+    "transaction_date": "2017-08-04 12:09:49",
+    "depot_id": 2,
+    "currency_id": 6,
+    "currency_rate": 30.85,
+    "amount": 363.7
+  },
+  {
+    "transaction_id": 633,
+    "transaction_date": "2018-11-17 23:11:46",
+    "depot_id": 6,
+    "currency_id": 7,
+    "currency_rate": 19.54,
+    "amount": 73.827
+  },
+  {
+    "transaction_id": 634,
+    "transaction_date": "2017-08-11 08:15:09",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 38.01,
+    "amount": 889.154
+  },
+  {
+    "transaction_id": 635,
+    "transaction_date": "2017-06-24 06:51:57",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 21.69,
+    "amount": 714.779
+  },
+  {
+    "transaction_id": 636,
+    "transaction_date": "2020-03-15 17:43:26",
+    "depot_id": 2,
+    "currency_id": 1,
+    "currency_rate": 75.92,
+    "amount": 960.474
+  },
+  {
+    "transaction_id": 637,
+    "transaction_date": "2016-08-03 22:54:13",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 15.07,
+    "amount": 783.706
+  },
+  {
+    "transaction_id": 638,
+    "transaction_date": "2020-08-06 21:06:50",
+    "depot_id": 8,
+    "currency_id": 6,
+    "currency_rate": 63.84,
+    "amount": 180.326
+  },
+  {
+    "transaction_id": 639,
+    "transaction_date": "2018-03-03 02:32:03",
+    "depot_id": 8,
+    "currency_id": 6,
+    "currency_rate": 53.17,
+    "amount": 84.168
+  },
+  {
+    "transaction_id": 640,
+    "transaction_date": "2019-11-17 03:23:03",
+    "depot_id": 5,
+    "currency_id": 7,
+    "currency_rate": 29.36,
+    "amount": 624.928
+  },
+  {
+    "transaction_id": 641,
+    "transaction_date": "2016-04-29 00:42:40",
+    "depot_id": 6,
+    "currency_id": 3,
+    "currency_rate": 15.75,
+    "amount": 254.022
+  },
+  {
+    "transaction_id": 642,
+    "transaction_date": "2021-09-01 03:32:29",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 81.71,
+    "amount": 538.141
+  },
+  {
+    "transaction_id": 643,
+    "transaction_date": "2021-04-12 16:56:42",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 4.62,
+    "amount": 719.471
+  },
+  {
+    "transaction_id": 644,
+    "transaction_date": "2017-10-03 08:27:33",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 54.58,
+    "amount": 784.013
+  },
+  {
+    "transaction_id": 645,
+    "transaction_date": "2021-10-11 16:04:04",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 34.18,
+    "amount": 627.784
+  },
+  {
+    "transaction_id": 646,
+    "transaction_date": "2016-03-11 05:28:32",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 65.0,
+    "amount": 721.727
+  },
+  {
+    "transaction_id": 647,
+    "transaction_date": "2016-04-05 02:28:28",
+    "depot_id": 9,
+    "currency_id": 4,
+    "currency_rate": 34.64,
+    "amount": 149.553
+  },
+  {
+    "transaction_id": 648,
+    "transaction_date": "2017-12-04 20:51:36",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 42.46,
+    "amount": 298.298
+  },
+  {
+    "transaction_id": 649,
+    "transaction_date": "2017-07-14 05:47:39",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 58.03,
+    "amount": 477.828
+  },
+  {
+    "transaction_id": 650,
+    "transaction_date": "2020-12-15 13:49:34",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 64.2,
+    "amount": 538.992
+  },
+  {
+    "transaction_id": 651,
+    "transaction_date": "2017-03-26 00:03:12",
+    "depot_id": 6,
+    "currency_id": 7,
+    "currency_rate": 79.51,
+    "amount": 222.201
+  },
+  {
+    "transaction_id": 652,
+    "transaction_date": "2019-04-04 11:43:03",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 84.47,
+    "amount": 642.446
+  },
+  {
+    "transaction_id": 653,
+    "transaction_date": "2017-07-10 08:52:32",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 79.51,
+    "amount": 512.844
+  },
+  {
+    "transaction_id": 654,
+    "transaction_date": "2019-04-29 23:49:57",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 87.46,
+    "amount": 352.462
+  },
+  {
+    "transaction_id": 655,
+    "transaction_date": "2020-02-02 10:57:03",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 97.59,
+    "amount": 156.355
+  },
+  {
+    "transaction_id": 656,
+    "transaction_date": "2021-03-23 18:30:49",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 88.9,
+    "amount": 996.999
+  },
+  {
+    "transaction_id": 657,
+    "transaction_date": "2017-03-29 04:11:33",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 41.87,
+    "amount": 449.156
+  },
+  {
+    "transaction_id": 658,
+    "transaction_date": "2017-08-25 20:32:28",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 17.41,
+    "amount": 969.208
+  },
+  {
+    "transaction_id": 659,
+    "transaction_date": "2016-02-27 14:07:42",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 75.6,
+    "amount": 520.171
+  },
+  {
+    "transaction_id": 660,
+    "transaction_date": "2016-01-04 09:48:00",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 95.28,
+    "amount": 507.628
+  },
+  {
+    "transaction_id": 661,
+    "transaction_date": "2021-06-21 07:25:00",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 2.29,
+    "amount": 962.22
+  },
+  {
+    "transaction_id": 662,
+    "transaction_date": "2019-02-05 12:18:54",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 53.82,
+    "amount": 783.287
+  },
+  {
+    "transaction_id": 663,
+    "transaction_date": "2018-10-27 14:31:51",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 24.79,
+    "amount": 553.148
+  },
+  {
+    "transaction_id": 664,
+    "transaction_date": "2016-10-06 11:51:37",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 54.78,
+    "amount": 14.607
+  },
+  {
+    "transaction_id": 665,
+    "transaction_date": "2020-12-07 14:28:50",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 88.66,
+    "amount": 933.341
+  },
+  {
+    "transaction_id": 666,
+    "transaction_date": "2017-02-14 06:48:26",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 61.37,
+    "amount": 649.014
+  },
+  {
+    "transaction_id": 667,
+    "transaction_date": "2022-02-13 00:01:54",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 51.46,
+    "amount": 584.043
+  },
+  {
+    "transaction_id": 668,
+    "transaction_date": "2018-11-23 06:00:42",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 6.1,
+    "amount": 511.337
+  },
+  {
+    "transaction_id": 669,
+    "transaction_date": "2018-04-04 10:53:52",
+    "depot_id": 2,
+    "currency_id": 1,
+    "currency_rate": 79.99,
+    "amount": 219.928
+  },
+  {
+    "transaction_id": 670,
+    "transaction_date": "2020-10-16 11:53:52",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 87.71,
+    "amount": 983.036
+  },
+  {
+    "transaction_id": 671,
+    "transaction_date": "2020-02-14 16:52:11",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 38.31,
+    "amount": 951.147
+  },
+  {
+    "transaction_id": 672,
+    "transaction_date": "2019-11-24 13:08:50",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 48.64,
+    "amount": 573.394
+  },
+  {
+    "transaction_id": 673,
+    "transaction_date": "2021-07-31 09:00:36",
+    "depot_id": 4,
+    "currency_id": 8,
+    "currency_rate": 6.29,
+    "amount": 783.836
+  },
+  {
+    "transaction_id": 674,
+    "transaction_date": "2019-12-12 10:35:02",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 13.1,
+    "amount": 293.125
+  },
+  {
+    "transaction_id": 675,
+    "transaction_date": "2021-12-30 20:12:25",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 16.87,
+    "amount": 731.14
+  },
+  {
+    "transaction_id": 676,
+    "transaction_date": "2020-03-16 17:59:50",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 46.06,
+    "amount": 350.204
+  },
+  {
+    "transaction_id": 677,
+    "transaction_date": "2018-12-12 20:29:30",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 66.5,
+    "amount": 62.807
+  },
+  {
+    "transaction_id": 678,
+    "transaction_date": "2020-07-06 13:13:39",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 52.21,
+    "amount": 549.828
+  },
+  {
+    "transaction_id": 679,
+    "transaction_date": "2020-06-19 02:08:06",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 4.31,
+    "amount": 512.659
+  },
+  {
+    "transaction_id": 680,
+    "transaction_date": "2020-09-05 22:28:29",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 47.69,
+    "amount": 572.456
+  },
+  {
+    "transaction_id": 681,
+    "transaction_date": "2021-10-09 23:21:33",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 29.21,
+    "amount": 812.56
+  },
+  {
+    "transaction_id": 682,
+    "transaction_date": "2019-09-29 22:56:57",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 52.72,
+    "amount": 236.999
+  },
+  {
+    "transaction_id": 683,
+    "transaction_date": "2022-03-17 20:14:01",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 71.45,
+    "amount": 8.478
+  },
+  {
+    "transaction_id": 684,
+    "transaction_date": "2021-11-12 05:11:27",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 48.53,
+    "amount": 935.881
+  },
+  {
+    "transaction_id": 685,
+    "transaction_date": "2016-08-27 12:21:53",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 86.56,
+    "amount": 136.646
+  },
+  {
+    "transaction_id": 686,
+    "transaction_date": "2020-01-26 15:00:04",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 26.51,
+    "amount": 571.453
+  },
+  {
+    "transaction_id": 687,
+    "transaction_date": "2018-02-26 02:14:00",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 66.73,
+    "amount": 700.496
+  },
+  {
+    "transaction_id": 688,
+    "transaction_date": "2016-11-18 11:24:11",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 24.4,
+    "amount": 20.839
+  },
+  {
+    "transaction_id": 689,
+    "transaction_date": "2019-12-11 15:52:25",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 32.89,
+    "amount": 688.501
+  },
+  {
+    "transaction_id": 690,
+    "transaction_date": "2022-02-17 11:26:16",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 32.9,
+    "amount": 985.092
+  },
+  {
+    "transaction_id": 691,
+    "transaction_date": "2016-11-15 13:50:21",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 48.56,
+    "amount": 908.55
+  },
+  {
+    "transaction_id": 692,
+    "transaction_date": "2021-05-14 20:23:23",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 38.91,
+    "amount": 865.666
+  },
+  {
+    "transaction_id": 693,
+    "transaction_date": "2017-03-02 14:41:07",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 45.69,
+    "amount": 312.187
+  },
+  {
+    "transaction_id": 694,
+    "transaction_date": "2018-11-10 22:30:57",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 43.27,
+    "amount": 406.246
+  },
+  {
+    "transaction_id": 695,
+    "transaction_date": "2021-02-19 11:51:30",
+    "depot_id": 5,
+    "currency_id": 2,
+    "currency_rate": 43.94,
+    "amount": 330.35
+  },
+  {
+    "transaction_id": 696,
+    "transaction_date": "2016-08-21 21:56:38",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 84.62,
+    "amount": 121.802
+  },
+  {
+    "transaction_id": 697,
+    "transaction_date": "2016-03-07 18:51:04",
+    "depot_id": 5,
+    "currency_id": 6,
+    "currency_rate": 34.52,
+    "amount": 857.666
+  },
+  {
+    "transaction_id": 698,
+    "transaction_date": "2021-11-23 00:31:25",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 74.64,
+    "amount": 445.046
+  },
+  {
+    "transaction_id": 699,
+    "transaction_date": "2017-02-10 19:30:12",
+    "depot_id": 5,
+    "currency_id": 2,
+    "currency_rate": 11.58,
+    "amount": 172.754
+  },
+  {
+    "transaction_id": 700,
+    "transaction_date": "2016-01-14 05:28:24",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 78.6,
+    "amount": 47.892
+  },
+  {
+    "transaction_id": 701,
+    "transaction_date": "2017-08-23 12:54:43",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 31.87,
+    "amount": 848.008
+  },
+  {
+    "transaction_id": 702,
+    "transaction_date": "2021-10-10 07:50:16",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 58.43,
+    "amount": 357.039
+  },
+  {
+    "transaction_id": 703,
+    "transaction_date": "2020-04-30 01:43:54",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 51.77,
+    "amount": 331.973
+  },
+  {
+    "transaction_id": 704,
+    "transaction_date": "2020-07-13 21:08:21",
+    "depot_id": 9,
+    "currency_id": 4,
+    "currency_rate": 41.93,
+    "amount": 976.829
+  },
+  {
+    "transaction_id": 705,
+    "transaction_date": "2020-12-28 04:29:16",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 44.94,
+    "amount": 996.479
+  },
+  {
+    "transaction_id": 706,
+    "transaction_date": "2016-11-29 06:21:49",
+    "depot_id": 10,
+    "currency_id": 6,
+    "currency_rate": 76.51,
+    "amount": 305.15
+  },
+  {
+    "transaction_id": 707,
+    "transaction_date": "2019-01-10 11:01:05",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 11.02,
+    "amount": 28.675
+  },
+  {
+    "transaction_id": 708,
+    "transaction_date": "2021-05-23 04:09:43",
+    "depot_id": 4,
+    "currency_id": 3,
+    "currency_rate": 8.25,
+    "amount": 790.963
+  },
+  {
+    "transaction_id": 709,
+    "transaction_date": "2017-02-02 16:36:10",
+    "depot_id": 3,
+    "currency_id": 6,
+    "currency_rate": 83.25,
+    "amount": 114.709
+  },
+  {
+    "transaction_id": 710,
+    "transaction_date": "2017-03-16 22:22:17",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 48.37,
+    "amount": 163.875
+  },
+  {
+    "transaction_id": 711,
+    "transaction_date": "2020-12-06 19:14:12",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 64.71,
+    "amount": 706.288
+  },
+  {
+    "transaction_id": 712,
+    "transaction_date": "2022-01-11 08:32:28",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 94.78,
+    "amount": 884.422
+  },
+  {
+    "transaction_id": 713,
+    "transaction_date": "2019-08-02 11:35:36",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 53.15,
+    "amount": 763.045
+  },
+  {
+    "transaction_id": 714,
+    "transaction_date": "2020-10-27 11:42:35",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 81.57,
+    "amount": 71.8
+  },
+  {
+    "transaction_id": 715,
+    "transaction_date": "2016-12-20 15:42:21",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 57.96,
+    "amount": 9.107
+  },
+  {
+    "transaction_id": 716,
+    "transaction_date": "2016-05-10 03:02:40",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 96.74,
+    "amount": 603.743
+  },
+  {
+    "transaction_id": 717,
+    "transaction_date": "2021-01-09 11:48:23",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 80.6,
+    "amount": 661.825
+  },
+  {
+    "transaction_id": 718,
+    "transaction_date": "2018-08-01 11:26:14",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 25.56,
+    "amount": 847.822
+  },
+  {
+    "transaction_id": 719,
+    "transaction_date": "2018-09-19 12:32:58",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 47.1,
+    "amount": 171.809
+  },
+  {
+    "transaction_id": 720,
+    "transaction_date": "2017-01-28 18:33:36",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 55.0,
+    "amount": 133.186
+  },
+  {
+    "transaction_id": 721,
+    "transaction_date": "2020-10-14 09:40:55",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 58.25,
+    "amount": 153.674
+  },
+  {
+    "transaction_id": 722,
+    "transaction_date": "2017-03-21 06:48:57",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 15.94,
+    "amount": 6.587
+  },
+  {
+    "transaction_id": 723,
+    "transaction_date": "2021-07-23 21:33:58",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 71.58,
+    "amount": 351.966
+  },
+  {
+    "transaction_id": 724,
+    "transaction_date": "2021-04-21 10:25:43",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 51.58,
+    "amount": 249.535
+  },
+  {
+    "transaction_id": 725,
+    "transaction_date": "2020-03-10 11:43:06",
+    "depot_id": 2,
+    "currency_id": 6,
+    "currency_rate": 71.31,
+    "amount": 222.481
+  },
+  {
+    "transaction_id": 726,
+    "transaction_date": "2016-10-24 20:57:03",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 31.36,
+    "amount": 52.649
+  },
+  {
+    "transaction_id": 727,
+    "transaction_date": "2018-12-08 23:14:26",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 23.95,
+    "amount": 834.092
+  },
+  {
+    "transaction_id": 728,
+    "transaction_date": "2021-09-25 12:18:42",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 60.91,
+    "amount": 449.136
+  },
+  {
+    "transaction_id": 729,
+    "transaction_date": "2017-12-18 19:36:38",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 64.6,
+    "amount": 220.081
+  },
+  {
+    "transaction_id": 730,
+    "transaction_date": "2017-03-03 00:05:04",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 91.96,
+    "amount": 982.559
+  },
+  {
+    "transaction_id": 731,
+    "transaction_date": "2021-05-01 21:47:36",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 96.16,
+    "amount": 930.755
+  },
+  {
+    "transaction_id": 732,
+    "transaction_date": "2018-05-05 02:44:29",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 98.3,
+    "amount": 614.047
+  },
+  {
+    "transaction_id": 733,
+    "transaction_date": "2019-02-09 16:24:19",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 11.51,
+    "amount": 676.798
+  },
+  {
+    "transaction_id": 734,
+    "transaction_date": "2017-09-14 06:32:42",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 45.81,
+    "amount": 618.76
+  },
+  {
+    "transaction_id": 735,
+    "transaction_date": "2018-05-25 14:59:15",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 56.58,
+    "amount": 363.441
+  },
+  {
+    "transaction_id": 736,
+    "transaction_date": "2016-06-18 18:50:14",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 75.89,
+    "amount": 164.567
+  },
+  {
+    "transaction_id": 737,
+    "transaction_date": "2017-11-16 17:41:08",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 37.26,
+    "amount": 529.977
+  },
+  {
+    "transaction_id": 738,
+    "transaction_date": "2019-06-30 05:59:37",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 89.26,
+    "amount": 713.246
+  },
+  {
+    "transaction_id": 739,
+    "transaction_date": "2021-03-28 00:56:50",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 39.37,
+    "amount": 329.035
+  },
+  {
+    "transaction_id": 740,
+    "transaction_date": "2017-02-25 15:56:01",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 96.23,
+    "amount": 415.757
+  },
+  {
+    "transaction_id": 741,
+    "transaction_date": "2020-06-03 20:06:30",
+    "depot_id": 6,
+    "currency_id": 7,
+    "currency_rate": 27.72,
+    "amount": 196.976
+  },
+  {
+    "transaction_id": 742,
+    "transaction_date": "2016-03-28 16:40:02",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 78.43,
+    "amount": 937.05
+  },
+  {
+    "transaction_id": 743,
+    "transaction_date": "2017-03-23 15:25:11",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 59.45,
+    "amount": 233.13
+  },
+  {
+    "transaction_id": 744,
+    "transaction_date": "2019-11-19 00:44:49",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 37.66,
+    "amount": 155.595
+  },
+  {
+    "transaction_id": 745,
+    "transaction_date": "2021-01-31 06:47:28",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 1.51,
+    "amount": 214.21
+  },
+  {
+    "transaction_id": 746,
+    "transaction_date": "2019-02-12 12:35:02",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 7.88,
+    "amount": 315.701
+  },
+  {
+    "transaction_id": 747,
+    "transaction_date": "2019-01-06 20:59:25",
+    "depot_id": 5,
+    "currency_id": 9,
+    "currency_rate": 95.79,
+    "amount": 105.364
+  },
+  {
+    "transaction_id": 748,
+    "transaction_date": "2021-03-27 21:14:52",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 75.06,
+    "amount": 614.12
+  },
+  {
+    "transaction_id": 749,
+    "transaction_date": "2020-07-25 07:43:39",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 61.49,
+    "amount": 464.004
+  },
+  {
+    "transaction_id": 750,
+    "transaction_date": "2016-01-31 05:30:52",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 33.52,
+    "amount": 629.413
+  },
+  {
+    "transaction_id": 751,
+    "transaction_date": "2016-06-13 22:50:36",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 46.48,
+    "amount": 915.655
+  },
+  {
+    "transaction_id": 752,
+    "transaction_date": "2017-02-08 23:26:29",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 86.41,
+    "amount": 805.746
+  },
+  {
+    "transaction_id": 753,
+    "transaction_date": "2018-10-28 03:50:49",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 80.13,
+    "amount": 389.474
+  },
+  {
+    "transaction_id": 754,
+    "transaction_date": "2019-01-05 06:01:54",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 11.73,
+    "amount": 711.209
+  },
+  {
+    "transaction_id": 755,
+    "transaction_date": "2018-04-24 20:39:54",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 6.46,
+    "amount": 80.049
+  },
+  {
+    "transaction_id": 756,
+    "transaction_date": "2016-09-10 06:21:22",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 2.41,
+    "amount": 916.578
+  },
+  {
+    "transaction_id": 757,
+    "transaction_date": "2017-06-20 15:12:28",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 23.15,
+    "amount": 654.911
+  },
+  {
+    "transaction_id": 758,
+    "transaction_date": "2017-07-02 08:34:10",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 42.98,
+    "amount": 959.898
+  },
+  {
+    "transaction_id": 759,
+    "transaction_date": "2017-08-05 03:13:17",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 88.79,
+    "amount": 278.449
+  },
+  {
+    "transaction_id": 760,
+    "transaction_date": "2018-03-26 18:08:53",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 20.43,
+    "amount": 977.72
+  },
+  {
+    "transaction_id": 761,
+    "transaction_date": "2017-09-23 20:10:22",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 65.23,
+    "amount": 363.828
+  },
+  {
+    "transaction_id": 762,
+    "transaction_date": "2018-01-18 01:27:32",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 10.17,
+    "amount": 374.939
+  },
+  {
+    "transaction_id": 763,
+    "transaction_date": "2022-02-08 10:26:10",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 60.46,
+    "amount": 648.692
+  },
+  {
+    "transaction_id": 764,
+    "transaction_date": "2020-02-19 07:30:10",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 12.52,
+    "amount": 456.379
+  },
+  {
+    "transaction_id": 765,
+    "transaction_date": "2020-12-20 16:55:35",
+    "depot_id": 6,
+    "currency_id": 3,
+    "currency_rate": 87.25,
+    "amount": 731.029
+  },
+  {
+    "transaction_id": 766,
+    "transaction_date": "2021-01-24 13:28:00",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 20.63,
+    "amount": 778.862
+  },
+  {
+    "transaction_id": 767,
+    "transaction_date": "2016-09-23 08:47:19",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 93.98,
+    "amount": 279.886
+  },
+  {
+    "transaction_id": 768,
+    "transaction_date": "2017-08-06 10:05:40",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 1.93,
+    "amount": 336.897
+  },
+  {
+    "transaction_id": 769,
+    "transaction_date": "2019-07-18 08:17:02",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 42.56,
+    "amount": 11.294
+  },
+  {
+    "transaction_id": 770,
+    "transaction_date": "2020-01-18 07:31:07",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 2.61,
+    "amount": 135.335
+  },
+  {
+    "transaction_id": 771,
+    "transaction_date": "2019-02-15 20:41:11",
+    "depot_id": 9,
+    "currency_id": 8,
+    "currency_rate": 31.96,
+    "amount": 215.837
+  },
+  {
+    "transaction_id": 772,
+    "transaction_date": "2018-05-31 21:37:02",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 42.2,
+    "amount": 365.06
+  },
+  {
+    "transaction_id": 773,
+    "transaction_date": "2016-02-17 14:08:32",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 98.61,
+    "amount": 488.382
+  },
+  {
+    "transaction_id": 774,
+    "transaction_date": "2022-02-07 04:00:50",
+    "depot_id": 5,
+    "currency_id": 5,
+    "currency_rate": 61.07,
+    "amount": 91.431
+  },
+  {
+    "transaction_id": 775,
+    "transaction_date": "2017-06-08 16:19:46",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 69.65,
+    "amount": 635.138
+  },
+  {
+    "transaction_id": 776,
+    "transaction_date": "2018-08-01 06:12:47",
+    "depot_id": 10,
+    "currency_id": 6,
+    "currency_rate": 65.16,
+    "amount": 909.066
+  },
+  {
+    "transaction_id": 777,
+    "transaction_date": "2016-12-12 07:11:38",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 65.58,
+    "amount": 119.651
+  },
+  {
+    "transaction_id": 778,
+    "transaction_date": "2018-09-04 15:59:10",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 51.58,
+    "amount": 430.913
+  },
+  {
+    "transaction_id": 779,
+    "transaction_date": "2020-11-15 20:29:34",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 19.85,
+    "amount": 964.881
+  },
+  {
+    "transaction_id": 780,
+    "transaction_date": "2021-01-20 06:49:14",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 53.08,
+    "amount": 533.421
+  },
+  {
+    "transaction_id": 781,
+    "transaction_date": "2019-03-18 20:10:33",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 45.64,
+    "amount": 181.322
+  },
+  {
+    "transaction_id": 782,
+    "transaction_date": "2021-07-26 17:52:57",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 7.15,
+    "amount": 565.814
+  },
+  {
+    "transaction_id": 783,
+    "transaction_date": "2020-02-04 18:32:25",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 45.39,
+    "amount": 551.147
+  },
+  {
+    "transaction_id": 784,
+    "transaction_date": "2020-06-21 20:52:21",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 89.74,
+    "amount": 104.468
+  },
+  {
+    "transaction_id": 785,
+    "transaction_date": "2020-03-06 03:28:53",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 98.12,
+    "amount": 461.227
+  },
+  {
+    "transaction_id": 786,
+    "transaction_date": "2016-06-12 12:36:00",
+    "depot_id": 1,
+    "currency_id": 6,
+    "currency_rate": 76.21,
+    "amount": 416.205
+  },
+  {
+    "transaction_id": 787,
+    "transaction_date": "2018-08-26 23:40:36",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 49.94,
+    "amount": 825.224
+  },
+  {
+    "transaction_id": 788,
+    "transaction_date": "2016-08-31 05:57:03",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 97.57,
+    "amount": 707.568
+  },
+  {
+    "transaction_id": 789,
+    "transaction_date": "2016-03-10 23:29:22",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 9.06,
+    "amount": 299.777
+  },
+  {
+    "transaction_id": 790,
+    "transaction_date": "2017-09-17 06:47:59",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 91.3,
+    "amount": 387.251
+  },
+  {
+    "transaction_id": 791,
+    "transaction_date": "2021-03-10 22:07:23",
+    "depot_id": 2,
+    "currency_id": 6,
+    "currency_rate": 68.81,
+    "amount": 426.288
+  },
+  {
+    "transaction_id": 792,
+    "transaction_date": "2019-10-25 12:19:36",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 9.82,
+    "amount": 355.382
+  },
+  {
+    "transaction_id": 793,
+    "transaction_date": "2021-05-07 12:34:06",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 76.68,
+    "amount": 409.249
+  },
+  {
+    "transaction_id": 794,
+    "transaction_date": "2016-08-09 20:36:21",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 80.73,
+    "amount": 20.978
+  },
+  {
+    "transaction_id": 795,
+    "transaction_date": "2017-03-24 08:08:32",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 29.12,
+    "amount": 364.225
+  },
+  {
+    "transaction_id": 796,
+    "transaction_date": "2017-01-26 13:15:36",
+    "depot_id": 8,
+    "currency_id": 4,
+    "currency_rate": 82.67,
+    "amount": 745.442
+  },
+  {
+    "transaction_id": 797,
+    "transaction_date": "2019-11-04 14:22:24",
+    "depot_id": 5,
+    "currency_id": 8,
+    "currency_rate": 6.86,
+    "amount": 291.253
+  },
+  {
+    "transaction_id": 798,
+    "transaction_date": "2022-02-02 00:03:03",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 13.77,
+    "amount": 346.596
+  },
+  {
+    "transaction_id": 799,
+    "transaction_date": "2016-08-16 20:38:36",
+    "depot_id": 5,
+    "currency_id": 2,
+    "currency_rate": 62.26,
+    "amount": 351.988
+  },
+  {
+    "transaction_id": 800,
+    "transaction_date": "2018-10-21 04:56:05",
+    "depot_id": 2,
+    "currency_id": 6,
+    "currency_rate": 57.37,
+    "amount": 668.256
+  },
+  {
+    "transaction_id": 801,
+    "transaction_date": "2016-04-05 06:45:40",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 86.16,
+    "amount": 315.297
+  },
+  {
+    "transaction_id": 802,
+    "transaction_date": "2019-03-25 12:23:18",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 73.51,
+    "amount": 330.639
+  },
+  {
+    "transaction_id": 803,
+    "transaction_date": "2019-09-30 22:37:50",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 28.95,
+    "amount": 314.941
+  },
+  {
+    "transaction_id": 804,
+    "transaction_date": "2022-02-19 21:34:10",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 49.21,
+    "amount": 844.742
+  },
+  {
+    "transaction_id": 805,
+    "transaction_date": "2016-08-15 05:13:50",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 45.52,
+    "amount": 187.907
+  },
+  {
+    "transaction_id": 806,
+    "transaction_date": "2017-01-23 23:26:24",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 76.64,
+    "amount": 983.691
+  },
+  {
+    "transaction_id": 807,
+    "transaction_date": "2021-02-03 13:05:04",
+    "depot_id": 2,
+    "currency_id": 4,
+    "currency_rate": 91.77,
+    "amount": 554.641
+  },
+  {
+    "transaction_id": 808,
+    "transaction_date": "2022-02-05 22:01:30",
+    "depot_id": 2,
+    "currency_id": 5,
+    "currency_rate": 18.25,
+    "amount": 770.474
+  },
+  {
+    "transaction_id": 809,
+    "transaction_date": "2019-10-26 18:30:03",
+    "depot_id": 9,
+    "currency_id": 9,
+    "currency_rate": 42.25,
+    "amount": 656.136
+  },
+  {
+    "transaction_id": 810,
+    "transaction_date": "2019-04-29 05:19:09",
+    "depot_id": 8,
+    "currency_id": 4,
+    "currency_rate": 26.87,
+    "amount": 296.779
+  },
+  {
+    "transaction_id": 811,
+    "transaction_date": "2018-03-21 19:27:25",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 18.73,
+    "amount": 920.728
+  },
+  {
+    "transaction_id": 812,
+    "transaction_date": "2016-07-05 13:18:38",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 11.92,
+    "amount": 354.005
+  },
+  {
+    "transaction_id": 813,
+    "transaction_date": "2020-01-05 14:17:39",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 70.32,
+    "amount": 855.944
+  },
+  {
+    "transaction_id": 814,
+    "transaction_date": "2021-11-15 23:47:31",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 62.19,
+    "amount": 99.98
+  },
+  {
+    "transaction_id": 815,
+    "transaction_date": "2017-01-18 00:46:58",
+    "depot_id": 3,
+    "currency_id": 6,
+    "currency_rate": 44.27,
+    "amount": 478.151
+  },
+  {
+    "transaction_id": 816,
+    "transaction_date": "2017-12-08 14:31:04",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 29.49,
+    "amount": 323.799
+  },
+  {
+    "transaction_id": 817,
+    "transaction_date": "2017-05-29 06:57:59",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 12.76,
+    "amount": 586.998
+  },
+  {
+    "transaction_id": 818,
+    "transaction_date": "2016-07-03 22:14:23",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 81.28,
+    "amount": 69.256
+  },
+  {
+    "transaction_id": 819,
+    "transaction_date": "2016-05-16 22:49:27",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 71.54,
+    "amount": 509.025
+  },
+  {
+    "transaction_id": 820,
+    "transaction_date": "2019-12-10 21:35:07",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 33.13,
+    "amount": 731.463
+  },
+  {
+    "transaction_id": 821,
+    "transaction_date": "2019-01-05 22:59:19",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 59.34,
+    "amount": 549.058
+  },
+  {
+    "transaction_id": 822,
+    "transaction_date": "2017-08-10 15:51:29",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 29.65,
+    "amount": 131.955
+  },
+  {
+    "transaction_id": 823,
+    "transaction_date": "2020-10-10 00:12:27",
+    "depot_id": 5,
+    "currency_id": 9,
+    "currency_rate": 20.33,
+    "amount": 838.615
+  },
+  {
+    "transaction_id": 824,
+    "transaction_date": "2020-08-28 13:02:10",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 69.47,
+    "amount": 972.597
+  },
+  {
+    "transaction_id": 825,
+    "transaction_date": "2019-03-19 18:31:05",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 7.77,
+    "amount": 880.149
+  },
+  {
+    "transaction_id": 826,
+    "transaction_date": "2017-07-14 05:14:29",
+    "depot_id": 8,
+    "currency_id": 4,
+    "currency_rate": 16.9,
+    "amount": 968.035
+  },
+  {
+    "transaction_id": 827,
+    "transaction_date": "2018-10-14 09:03:35",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 6.2,
+    "amount": 62.639
+  },
+  {
+    "transaction_id": 828,
+    "transaction_date": "2021-10-09 10:59:17",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 66.33,
+    "amount": 862.008
+  },
+  {
+    "transaction_id": 829,
+    "transaction_date": "2018-06-13 05:03:12",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 32.89,
+    "amount": 202.047
+  },
+  {
+    "transaction_id": 830,
+    "transaction_date": "2019-09-11 05:49:35",
+    "depot_id": 4,
+    "currency_id": 1,
+    "currency_rate": 56.28,
+    "amount": 628.902
+  },
+  {
+    "transaction_id": 831,
+    "transaction_date": "2020-07-11 05:21:28",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 88.8,
+    "amount": 194.435
+  },
+  {
+    "transaction_id": 832,
+    "transaction_date": "2021-01-29 07:13:46",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 21.71,
+    "amount": 868.722
+  },
+  {
+    "transaction_id": 833,
+    "transaction_date": "2021-03-03 06:52:40",
+    "depot_id": 1,
+    "currency_id": 3,
+    "currency_rate": 15.32,
+    "amount": 545.792
+  },
+  {
+    "transaction_id": 834,
+    "transaction_date": "2017-11-08 06:08:19",
+    "depot_id": 8,
+    "currency_id": 2,
+    "currency_rate": 98.95,
+    "amount": 252.433
+  },
+  {
+    "transaction_id": 835,
+    "transaction_date": "2020-05-08 03:06:18",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 53.58,
+    "amount": 883.739
+  },
+  {
+    "transaction_id": 836,
+    "transaction_date": "2017-12-27 22:14:26",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 50.15,
+    "amount": 235.86
+  },
+  {
+    "transaction_id": 837,
+    "transaction_date": "2021-04-04 05:35:01",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 57.51,
+    "amount": 234.171
+  },
+  {
+    "transaction_id": 838,
+    "transaction_date": "2016-11-25 02:20:00",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 23.19,
+    "amount": 67.368
+  },
+  {
+    "transaction_id": 839,
+    "transaction_date": "2021-01-22 14:34:02",
+    "depot_id": 7,
+    "currency_id": 2,
+    "currency_rate": 99.19,
+    "amount": 207.115
+  },
+  {
+    "transaction_id": 840,
+    "transaction_date": "2016-12-08 22:50:57",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 41.56,
+    "amount": 556.157
+  },
+  {
+    "transaction_id": 841,
+    "transaction_date": "2020-10-28 17:11:49",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 61.45,
+    "amount": 959.083
+  },
+  {
+    "transaction_id": 842,
+    "transaction_date": "2020-04-07 01:46:13",
+    "depot_id": 1,
+    "currency_id": 7,
+    "currency_rate": 89.03,
+    "amount": 819.284
+  },
+  {
+    "transaction_id": 843,
+    "transaction_date": "2018-01-19 04:22:45",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 29.65,
+    "amount": 6.828
+  },
+  {
+    "transaction_id": 844,
+    "transaction_date": "2019-05-23 07:12:19",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 30.9,
+    "amount": 722.301
+  },
+  {
+    "transaction_id": 845,
+    "transaction_date": "2018-12-17 10:13:25",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 29.52,
+    "amount": 475.803
+  },
+  {
+    "transaction_id": 846,
+    "transaction_date": "2016-08-03 15:38:19",
+    "depot_id": 9,
+    "currency_id": 4,
+    "currency_rate": 3.04,
+    "amount": 720.14
+  },
+  {
+    "transaction_id": 847,
+    "transaction_date": "2021-11-09 11:45:00",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 49.84,
+    "amount": 550.888
+  },
+  {
+    "transaction_id": 848,
+    "transaction_date": "2021-09-30 06:12:35",
+    "depot_id": 5,
+    "currency_id": 1,
+    "currency_rate": 71.78,
+    "amount": 724.282
+  },
+  {
+    "transaction_id": 849,
+    "transaction_date": "2016-02-20 01:18:31",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 68.53,
+    "amount": 770.628
+  },
+  {
+    "transaction_id": 850,
+    "transaction_date": "2017-02-11 02:21:59",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 1.74,
+    "amount": 20.678
+  },
+  {
+    "transaction_id": 851,
+    "transaction_date": "2020-08-17 15:49:25",
+    "depot_id": 2,
+    "currency_id": 1,
+    "currency_rate": 21.82,
+    "amount": 249.456
+  },
+  {
+    "transaction_id": 852,
+    "transaction_date": "2019-05-27 16:52:07",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 90.47,
+    "amount": 891.474
+  },
+  {
+    "transaction_id": 853,
+    "transaction_date": "2021-10-07 05:17:16",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 20.6,
+    "amount": 358.659
+  },
+  {
+    "transaction_id": 854,
+    "transaction_date": "2017-12-29 11:05:12",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 10.12,
+    "amount": 63.974
+  },
+  {
+    "transaction_id": 855,
+    "transaction_date": "2019-12-25 11:12:01",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 54.2,
+    "amount": 825.567
+  },
+  {
+    "transaction_id": 856,
+    "transaction_date": "2019-09-29 06:54:52",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 9.86,
+    "amount": 141.033
+  },
+  {
+    "transaction_id": 857,
+    "transaction_date": "2019-07-20 10:51:14",
+    "depot_id": 5,
+    "currency_id": 9,
+    "currency_rate": 27.09,
+    "amount": 861.13
+  },
+  {
+    "transaction_id": 858,
+    "transaction_date": "2021-04-03 14:09:16",
+    "depot_id": 4,
+    "currency_id": 2,
+    "currency_rate": 13.21,
+    "amount": 781.418
+  },
+  {
+    "transaction_id": 859,
+    "transaction_date": "2016-09-29 02:14:57",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 52.7,
+    "amount": 634.111
+  },
+  {
+    "transaction_id": 860,
+    "transaction_date": "2018-07-30 03:09:32",
+    "depot_id": 8,
+    "currency_id": 4,
+    "currency_rate": 1.09,
+    "amount": 189.997
+  },
+  {
+    "transaction_id": 861,
+    "transaction_date": "2021-05-25 07:47:58",
+    "depot_id": 4,
+    "currency_id": 4,
+    "currency_rate": 9.21,
+    "amount": 912.84
+  },
+  {
+    "transaction_id": 862,
+    "transaction_date": "2018-09-24 23:40:17",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 18.43,
+    "amount": 784.275
+  },
+  {
+    "transaction_id": 863,
+    "transaction_date": "2021-08-15 07:51:43",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 27.33,
+    "amount": 594.083
+  },
+  {
+    "transaction_id": 864,
+    "transaction_date": "2021-12-05 21:14:28",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 83.82,
+    "amount": 758.571
+  },
+  {
+    "transaction_id": 865,
+    "transaction_date": "2016-12-17 00:23:45",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 63.84,
+    "amount": 506.683
+  },
+  {
+    "transaction_id": 866,
+    "transaction_date": "2016-09-20 18:12:44",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 16.29,
+    "amount": 676.178
+  },
+  {
+    "transaction_id": 867,
+    "transaction_date": "2019-02-11 13:02:37",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 66.31,
+    "amount": 991.795
+  },
+  {
+    "transaction_id": 868,
+    "transaction_date": "2018-10-30 01:02:40",
+    "depot_id": 6,
+    "currency_id": 3,
+    "currency_rate": 43.45,
+    "amount": 925.025
+  },
+  {
+    "transaction_id": 869,
+    "transaction_date": "2017-04-17 08:09:18",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 62.09,
+    "amount": 683.117
+  },
+  {
+    "transaction_id": 870,
+    "transaction_date": "2019-12-10 13:48:03",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 72.54,
+    "amount": 88.228
+  },
+  {
+    "transaction_id": 871,
+    "transaction_date": "2016-07-21 06:19:34",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 45.47,
+    "amount": 935.414
+  },
+  {
+    "transaction_id": 872,
+    "transaction_date": "2016-12-01 13:19:44",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 38.22,
+    "amount": 826.341
+  },
+  {
+    "transaction_id": 873,
+    "transaction_date": "2017-07-12 02:53:32",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 86.55,
+    "amount": 518.297
+  },
+  {
+    "transaction_id": 874,
+    "transaction_date": "2020-11-29 22:25:04",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 1.35,
+    "amount": 94.504
+  },
+  {
+    "transaction_id": 875,
+    "transaction_date": "2018-05-28 03:23:24",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 26.68,
+    "amount": 616.394
+  },
+  {
+    "transaction_id": 876,
+    "transaction_date": "2018-06-08 16:30:39",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 64.9,
+    "amount": 673.907
+  },
+  {
+    "transaction_id": 877,
+    "transaction_date": "2017-08-30 01:19:32",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 59.91,
+    "amount": 660.081
+  },
+  {
+    "transaction_id": 878,
+    "transaction_date": "2018-06-16 04:05:50",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 50.09,
+    "amount": 962.193
+  },
+  {
+    "transaction_id": 879,
+    "transaction_date": "2020-09-01 06:38:18",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 27.26,
+    "amount": 308.953
+  },
+  {
+    "transaction_id": 880,
+    "transaction_date": "2019-01-28 18:55:24",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 14.89,
+    "amount": 67.946
+  },
+  {
+    "transaction_id": 881,
+    "transaction_date": "2019-08-05 13:43:36",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 84.24,
+    "amount": 543.117
+  },
+  {
+    "transaction_id": 882,
+    "transaction_date": "2018-04-15 14:27:43",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 39.79,
+    "amount": 432.917
+  },
+  {
+    "transaction_id": 883,
+    "transaction_date": "2016-08-26 13:37:37",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 12.32,
+    "amount": 507.085
+  },
+  {
+    "transaction_id": 884,
+    "transaction_date": "2017-08-21 02:03:14",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 43.15,
+    "amount": 486.278
+  },
+  {
+    "transaction_id": 885,
+    "transaction_date": "2018-03-16 11:18:22",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 10.97,
+    "amount": 29.486
+  },
+  {
+    "transaction_id": 886,
+    "transaction_date": "2017-11-05 22:45:51",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 57.67,
+    "amount": 361.68
+  },
+  {
+    "transaction_id": 887,
+    "transaction_date": "2019-04-05 11:35:21",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 43.94,
+    "amount": 989.779
+  },
+  {
+    "transaction_id": 888,
+    "transaction_date": "2021-04-07 01:09:41",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 92.08,
+    "amount": 665.179
+  },
+  {
+    "transaction_id": 889,
+    "transaction_date": "2020-02-11 19:29:29",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 74.55,
+    "amount": 919.08
+  },
+  {
+    "transaction_id": 890,
+    "transaction_date": "2019-11-24 03:22:08",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 9.69,
+    "amount": 313.697
+  },
+  {
+    "transaction_id": 891,
+    "transaction_date": "2016-06-13 07:37:57",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 64.67,
+    "amount": 263.292
+  },
+  {
+    "transaction_id": 892,
+    "transaction_date": "2021-08-07 09:21:15",
+    "depot_id": 5,
+    "currency_id": 6,
+    "currency_rate": 55.39,
+    "amount": 337.944
+  },
+  {
+    "transaction_id": 893,
+    "transaction_date": "2016-09-26 08:40:12",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 42.22,
+    "amount": 732.796
+  },
+  {
+    "transaction_id": 894,
+    "transaction_date": "2017-09-16 17:46:42",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 47.71,
+    "amount": 53.555
+  },
+  {
+    "transaction_id": 895,
+    "transaction_date": "2021-05-05 03:30:24",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 17.48,
+    "amount": 65.995
+  },
+  {
+    "transaction_id": 896,
+    "transaction_date": "2017-03-25 10:18:28",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 25.39,
+    "amount": 765.759
+  },
+  {
+    "transaction_id": 897,
+    "transaction_date": "2018-03-03 19:03:06",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 89.41,
+    "amount": 240.208
+  },
+  {
+    "transaction_id": 898,
+    "transaction_date": "2020-07-15 08:39:36",
+    "depot_id": 9,
+    "currency_id": 3,
+    "currency_rate": 82.57,
+    "amount": 390.082
+  },
+  {
+    "transaction_id": 899,
+    "transaction_date": "2016-05-30 15:22:29",
+    "depot_id": 7,
+    "currency_id": 6,
+    "currency_rate": 5.25,
+    "amount": 712.206
+  },
+  {
+    "transaction_id": 900,
+    "transaction_date": "2020-11-11 04:10:55",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 34.39,
+    "amount": 665.962
+  },
+  {
+    "transaction_id": 901,
+    "transaction_date": "2018-09-05 12:44:21",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 50.27,
+    "amount": 537.705
+  },
+  {
+    "transaction_id": 902,
+    "transaction_date": "2020-02-04 20:51:29",
+    "depot_id": 3,
+    "currency_id": 2,
+    "currency_rate": 91.63,
+    "amount": 706.326
+  },
+  {
+    "transaction_id": 903,
+    "transaction_date": "2016-02-29 17:15:07",
+    "depot_id": 5,
+    "currency_id": 3,
+    "currency_rate": 22.29,
+    "amount": 250.814
+  },
+  {
+    "transaction_id": 904,
+    "transaction_date": "2016-09-20 06:39:36",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 45.54,
+    "amount": 818.716
+  },
+  {
+    "transaction_id": 905,
+    "transaction_date": "2018-03-16 07:55:18",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 42.4,
+    "amount": 315.018
+  },
+  {
+    "transaction_id": 906,
+    "transaction_date": "2022-02-13 05:48:30",
+    "depot_id": 9,
+    "currency_id": 2,
+    "currency_rate": 69.99,
+    "amount": 790.848
+  },
+  {
+    "transaction_id": 907,
+    "transaction_date": "2021-05-21 11:19:47",
+    "depot_id": 2,
+    "currency_id": 1,
+    "currency_rate": 61.85,
+    "amount": 830.587
+  },
+  {
+    "transaction_id": 908,
+    "transaction_date": "2019-09-13 16:45:56",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 30.91,
+    "amount": 696.44
+  },
+  {
+    "transaction_id": 909,
+    "transaction_date": "2018-02-05 00:25:45",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 75.91,
+    "amount": 223.873
+  },
+  {
+    "transaction_id": 910,
+    "transaction_date": "2016-09-14 02:43:41",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 76.24,
+    "amount": 737.108
+  },
+  {
+    "transaction_id": 911,
+    "transaction_date": "2019-08-05 21:46:58",
+    "depot_id": 5,
+    "currency_id": 6,
+    "currency_rate": 73.02,
+    "amount": 777.727
+  },
+  {
+    "transaction_id": 912,
+    "transaction_date": "2017-12-20 18:10:37",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 67.62,
+    "amount": 898.803
+  },
+  {
+    "transaction_id": 913,
+    "transaction_date": "2018-08-06 19:12:34",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 7.0,
+    "amount": 180.735
+  },
+  {
+    "transaction_id": 914,
+    "transaction_date": "2019-06-12 22:30:51",
+    "depot_id": 9,
+    "currency_id": 4,
+    "currency_rate": 93.99,
+    "amount": 948.549
+  },
+  {
+    "transaction_id": 915,
+    "transaction_date": "2017-09-28 16:52:44",
+    "depot_id": 8,
+    "currency_id": 1,
+    "currency_rate": 14.49,
+    "amount": 337.731
+  },
+  {
+    "transaction_id": 916,
+    "transaction_date": "2021-12-30 06:49:05",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 39.66,
+    "amount": 829.112
+  },
+  {
+    "transaction_id": 917,
+    "transaction_date": "2016-11-15 18:23:21",
+    "depot_id": 7,
+    "currency_id": 4,
+    "currency_rate": 54.56,
+    "amount": 44.057
+  },
+  {
+    "transaction_id": 918,
+    "transaction_date": "2016-04-25 03:38:25",
+    "depot_id": 7,
+    "currency_id": 6,
+    "currency_rate": 52.61,
+    "amount": 218.635
+  },
+  {
+    "transaction_id": 919,
+    "transaction_date": "2017-08-27 04:37:29",
+    "depot_id": 2,
+    "currency_id": 7,
+    "currency_rate": 86.64,
+    "amount": 2.016
+  },
+  {
+    "transaction_id": 920,
+    "transaction_date": "2019-10-09 18:13:48",
+    "depot_id": 4,
+    "currency_id": 7,
+    "currency_rate": 44.17,
+    "amount": 201.098
+  },
+  {
+    "transaction_id": 921,
+    "transaction_date": "2016-12-13 07:33:53",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 3.7,
+    "amount": 89.018
+  },
+  {
+    "transaction_id": 922,
+    "transaction_date": "2016-04-20 14:20:32",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 41.16,
+    "amount": 419.897
+  },
+  {
+    "transaction_id": 923,
+    "transaction_date": "2019-07-05 21:37:41",
+    "depot_id": 2,
+    "currency_id": 2,
+    "currency_rate": 20.31,
+    "amount": 227.73
+  },
+  {
+    "transaction_id": 924,
+    "transaction_date": "2017-11-17 00:30:01",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 77.86,
+    "amount": 703.534
+  },
+  {
+    "transaction_id": 925,
+    "transaction_date": "2019-12-31 05:26:33",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 45.84,
+    "amount": 87.189
+  },
+  {
+    "transaction_id": 926,
+    "transaction_date": "2021-03-15 06:56:53",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 79.81,
+    "amount": 666.395
+  },
+  {
+    "transaction_id": 927,
+    "transaction_date": "2021-10-28 21:53:43",
+    "depot_id": 10,
+    "currency_id": 3,
+    "currency_rate": 79.8,
+    "amount": 251.376
+  },
+  {
+    "transaction_id": 928,
+    "transaction_date": "2016-01-18 04:41:06",
+    "depot_id": 6,
+    "currency_id": 9,
+    "currency_rate": 28.03,
+    "amount": 932.237
+  },
+  {
+    "transaction_id": 929,
+    "transaction_date": "2022-03-25 07:54:21",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 52.18,
+    "amount": 742.627
+  },
+  {
+    "transaction_id": 930,
+    "transaction_date": "2018-10-11 22:24:27",
+    "depot_id": 10,
+    "currency_id": 6,
+    "currency_rate": 33.92,
+    "amount": 9.898
+  },
+  {
+    "transaction_id": 931,
+    "transaction_date": "2018-07-05 08:47:32",
+    "depot_id": 1,
+    "currency_id": 5,
+    "currency_rate": 69.41,
+    "amount": 974.661
+  },
+  {
+    "transaction_id": 932,
+    "transaction_date": "2020-03-13 09:33:31",
+    "depot_id": 5,
+    "currency_id": 2,
+    "currency_rate": 25.92,
+    "amount": 272.444
+  },
+  {
+    "transaction_id": 933,
+    "transaction_date": "2018-02-19 12:45:55",
+    "depot_id": 6,
+    "currency_id": 5,
+    "currency_rate": 55.22,
+    "amount": 628.747
+  },
+  {
+    "transaction_id": 934,
+    "transaction_date": "2021-06-28 19:29:52",
+    "depot_id": 10,
+    "currency_id": 9,
+    "currency_rate": 69.21,
+    "amount": 810.756
+  },
+  {
+    "transaction_id": 935,
+    "transaction_date": "2017-11-17 15:41:47",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 16.5,
+    "amount": 175.774
+  },
+  {
+    "transaction_id": 936,
+    "transaction_date": "2021-12-23 17:45:52",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 12.12,
+    "amount": 557.477
+  },
+  {
+    "transaction_id": 937,
+    "transaction_date": "2019-05-23 23:10:46",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 56.99,
+    "amount": 430.238
+  },
+  {
+    "transaction_id": 938,
+    "transaction_date": "2017-08-25 00:34:17",
+    "depot_id": 3,
+    "currency_id": 9,
+    "currency_rate": 76.49,
+    "amount": 656.795
+  },
+  {
+    "transaction_id": 939,
+    "transaction_date": "2017-09-12 19:14:47",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 29.62,
+    "amount": 756.62
+  },
+  {
+    "transaction_id": 940,
+    "transaction_date": "2019-07-03 16:28:05",
+    "depot_id": 5,
+    "currency_id": 4,
+    "currency_rate": 80.69,
+    "amount": 784.156
+  },
+  {
+    "transaction_id": 941,
+    "transaction_date": "2021-09-12 16:54:15",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 87.6,
+    "amount": 902.786
+  },
+  {
+    "transaction_id": 942,
+    "transaction_date": "2016-02-11 07:55:40",
+    "depot_id": 3,
+    "currency_id": 1,
+    "currency_rate": 23.84,
+    "amount": 957.266
+  },
+  {
+    "transaction_id": 943,
+    "transaction_date": "2020-05-13 04:35:42",
+    "depot_id": 7,
+    "currency_id": 6,
+    "currency_rate": 63.13,
+    "amount": 463.424
+  },
+  {
+    "transaction_id": 944,
+    "transaction_date": "2022-01-14 01:59:21",
+    "depot_id": 8,
+    "currency_id": 8,
+    "currency_rate": 7.22,
+    "amount": 152.881
+  },
+  {
+    "transaction_id": 945,
+    "transaction_date": "2016-03-09 19:17:02",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 59.9,
+    "amount": 419.334
+  },
+  {
+    "transaction_id": 946,
+    "transaction_date": "2017-12-11 20:09:24",
+    "depot_id": 10,
+    "currency_id": 8,
+    "currency_rate": 25.8,
+    "amount": 954.66
+  },
+  {
+    "transaction_id": 947,
+    "transaction_date": "2020-07-22 17:21:03",
+    "depot_id": 6,
+    "currency_id": 3,
+    "currency_rate": 74.49,
+    "amount": 579.954
+  },
+  {
+    "transaction_id": 948,
+    "transaction_date": "2020-12-25 14:20:29",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 73.32,
+    "amount": 425.026
+  },
+  {
+    "transaction_id": 949,
+    "transaction_date": "2017-08-18 21:52:05",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 38.44,
+    "amount": 64.462
+  },
+  {
+    "transaction_id": 950,
+    "transaction_date": "2020-03-01 02:19:20",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 12.4,
+    "amount": 406.382
+  },
+  {
+    "transaction_id": 951,
+    "transaction_date": "2020-08-19 22:37:53",
+    "depot_id": 6,
+    "currency_id": 6,
+    "currency_rate": 45.29,
+    "amount": 630.454
+  },
+  {
+    "transaction_id": 952,
+    "transaction_date": "2016-04-16 17:16:33",
+    "depot_id": 4,
+    "currency_id": 5,
+    "currency_rate": 28.78,
+    "amount": 389.618
+  },
+  {
+    "transaction_id": 953,
+    "transaction_date": "2021-11-29 17:54:50",
+    "depot_id": 6,
+    "currency_id": 2,
+    "currency_rate": 84.96,
+    "amount": 202.124
+  },
+  {
+    "transaction_id": 954,
+    "transaction_date": "2017-04-11 15:05:33",
+    "depot_id": 3,
+    "currency_id": 4,
+    "currency_rate": 45.35,
+    "amount": 87.872
+  },
+  {
+    "transaction_id": 955,
+    "transaction_date": "2018-08-23 17:28:04",
+    "depot_id": 2,
+    "currency_id": 9,
+    "currency_rate": 49.01,
+    "amount": 280.494
+  },
+  {
+    "transaction_id": 956,
+    "transaction_date": "2021-08-14 17:13:20",
+    "depot_id": 1,
+    "currency_id": 8,
+    "currency_rate": 93.91,
+    "amount": 539.123
+  },
+  {
+    "transaction_id": 957,
+    "transaction_date": "2019-04-13 08:48:39",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 18.42,
+    "amount": 474.04
+  },
+  {
+    "transaction_id": 958,
+    "transaction_date": "2022-01-04 06:23:45",
+    "depot_id": 4,
+    "currency_id": 3,
+    "currency_rate": 71.8,
+    "amount": 291.768
+  },
+  {
+    "transaction_id": 959,
+    "transaction_date": "2021-03-25 09:31:08",
+    "depot_id": 3,
+    "currency_id": 3,
+    "currency_rate": 48.11,
+    "amount": 102.723
+  },
+  {
+    "transaction_id": 960,
+    "transaction_date": "2021-12-25 22:59:33",
+    "depot_id": 5,
+    "currency_id": 6,
+    "currency_rate": 89.75,
+    "amount": 552.357
+  },
+  {
+    "transaction_id": 961,
+    "transaction_date": "2016-06-27 02:34:32",
+    "depot_id": 3,
+    "currency_id": 8,
+    "currency_rate": 19.21,
+    "amount": 424.315
+  },
+  {
+    "transaction_id": 962,
+    "transaction_date": "2018-05-30 18:44:57",
+    "depot_id": 2,
+    "currency_id": 3,
+    "currency_rate": 69.59,
+    "amount": 435.909
+  },
+  {
+    "transaction_id": 963,
+    "transaction_date": "2017-09-19 04:17:30",
+    "depot_id": 10,
+    "currency_id": 1,
+    "currency_rate": 3.81,
+    "amount": 15.883
+  },
+  {
+    "transaction_id": 964,
+    "transaction_date": "2018-05-14 19:31:19",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 8.38,
+    "amount": 373.772
+  },
+  {
+    "transaction_id": 965,
+    "transaction_date": "2021-10-20 19:08:54",
+    "depot_id": 9,
+    "currency_id": 5,
+    "currency_rate": 27.21,
+    "amount": 343.733
+  },
+  {
+    "transaction_id": 966,
+    "transaction_date": "2020-05-06 05:41:09",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 29.02,
+    "amount": 565.395
+  },
+  {
+    "transaction_id": 967,
+    "transaction_date": "2018-01-30 07:51:33",
+    "depot_id": 4,
+    "currency_id": 6,
+    "currency_rate": 75.07,
+    "amount": 12.703
+  },
+  {
+    "transaction_id": 968,
+    "transaction_date": "2019-03-12 08:19:25",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 87.56,
+    "amount": 464.834
+  },
+  {
+    "transaction_id": 969,
+    "transaction_date": "2018-05-12 03:40:07",
+    "depot_id": 8,
+    "currency_id": 9,
+    "currency_rate": 69.21,
+    "amount": 999.461
+  },
+  {
+    "transaction_id": 970,
+    "transaction_date": "2017-07-12 13:18:23",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 58.29,
+    "amount": 755.118
+  },
+  {
+    "transaction_id": 971,
+    "transaction_date": "2016-10-17 21:17:33",
+    "depot_id": 7,
+    "currency_id": 7,
+    "currency_rate": 31.39,
+    "amount": 172.531
+  },
+  {
+    "transaction_id": 972,
+    "transaction_date": "2019-08-12 12:45:12",
+    "depot_id": 9,
+    "currency_id": 7,
+    "currency_rate": 38.89,
+    "amount": 257.262
+  },
+  {
+    "transaction_id": 973,
+    "transaction_date": "2016-01-13 09:16:41",
+    "depot_id": 9,
+    "currency_id": 6,
+    "currency_rate": 60.08,
+    "amount": 295.839
+  },
+  {
+    "transaction_id": 974,
+    "transaction_date": "2017-08-06 18:41:31",
+    "depot_id": 3,
+    "currency_id": 5,
+    "currency_rate": 95.56,
+    "amount": 866.955
+  },
+  {
+    "transaction_id": 975,
+    "transaction_date": "2016-04-23 06:03:30",
+    "depot_id": 7,
+    "currency_id": 5,
+    "currency_rate": 89.71,
+    "amount": 574.394
+  },
+  {
+    "transaction_id": 976,
+    "transaction_date": "2018-09-09 18:46:53",
+    "depot_id": 6,
+    "currency_id": 1,
+    "currency_rate": 22.42,
+    "amount": 78.131
+  },
+  {
+    "transaction_id": 977,
+    "transaction_date": "2018-11-03 02:00:43",
+    "depot_id": 6,
+    "currency_id": 4,
+    "currency_rate": 29.18,
+    "amount": 949.125
+  },
+  {
+    "transaction_id": 978,
+    "transaction_date": "2016-05-11 04:26:06",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 92.52,
+    "amount": 843.835
+  },
+  {
+    "transaction_id": 979,
+    "transaction_date": "2018-09-23 10:11:11",
+    "depot_id": 1,
+    "currency_id": 9,
+    "currency_rate": 94.98,
+    "amount": 965.132
+  },
+  {
+    "transaction_id": 980,
+    "transaction_date": "2017-09-15 18:34:52",
+    "depot_id": 1,
+    "currency_id": 4,
+    "currency_rate": 59.86,
+    "amount": 756.021
+  },
+  {
+    "transaction_id": 981,
+    "transaction_date": "2016-02-04 15:08:07",
+    "depot_id": 3,
+    "currency_id": 7,
+    "currency_rate": 32.8,
+    "amount": 613.347
+  },
+  {
+    "transaction_id": 982,
+    "transaction_date": "2020-04-24 00:13:24",
+    "depot_id": 8,
+    "currency_id": 3,
+    "currency_rate": 63.42,
+    "amount": 796.517
+  },
+  {
+    "transaction_id": 983,
+    "transaction_date": "2017-08-07 01:25:36",
+    "depot_id": 6,
+    "currency_id": 8,
+    "currency_rate": 77.95,
+    "amount": 829.789
+  },
+  {
+    "transaction_id": 984,
+    "transaction_date": "2020-01-08 07:49:19",
+    "depot_id": 10,
+    "currency_id": 5,
+    "currency_rate": 36.57,
+    "amount": 97.016
+  },
+  {
+    "transaction_id": 985,
+    "transaction_date": "2020-01-27 23:54:06",
+    "depot_id": 7,
+    "currency_id": 1,
+    "currency_rate": 2.12,
+    "amount": 77.23
+  },
+  {
+    "transaction_id": 986,
+    "transaction_date": "2021-01-22 17:19:19",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 84.29,
+    "amount": 111.932
+  },
+  {
+    "transaction_id": 987,
+    "transaction_date": "2017-10-26 12:59:33",
+    "depot_id": 8,
+    "currency_id": 7,
+    "currency_rate": 20.6,
+    "amount": 225.617
+  },
+  {
+    "transaction_id": 988,
+    "transaction_date": "2016-07-20 01:29:12",
+    "depot_id": 9,
+    "currency_id": 8,
+    "currency_rate": 7.52,
+    "amount": 893.484
+  },
+  {
+    "transaction_id": 989,
+    "transaction_date": "2019-08-04 18:50:18",
+    "depot_id": 1,
+    "currency_id": 2,
+    "currency_rate": 18.92,
+    "amount": 396.524
+  },
+  {
+    "transaction_id": 990,
+    "transaction_date": "2017-09-29 21:28:11",
+    "depot_id": 1,
+    "currency_id": 1,
+    "currency_rate": 13.56,
+    "amount": 448.103
+  },
+  {
+    "transaction_id": 991,
+    "transaction_date": "2021-10-15 07:49:52",
+    "depot_id": 10,
+    "currency_id": 2,
+    "currency_rate": 4.86,
+    "amount": 297.976
+  },
+  {
+    "transaction_id": 992,
+    "transaction_date": "2016-11-09 08:28:36",
+    "depot_id": 10,
+    "currency_id": 7,
+    "currency_rate": 92.14,
+    "amount": 180.149
+  },
+  {
+    "transaction_id": 993,
+    "transaction_date": "2016-12-02 01:05:08",
+    "depot_id": 10,
+    "currency_id": 4,
+    "currency_rate": 81.57,
+    "amount": 870.296
+  },
+  {
+    "transaction_id": 994,
+    "transaction_date": "2019-12-02 11:32:45",
+    "depot_id": 2,
+    "currency_id": 8,
+    "currency_rate": 48.46,
+    "amount": 709.702
+  },
+  {
+    "transaction_id": 995,
+    "transaction_date": "2016-03-30 04:54:22",
+    "depot_id": 7,
+    "currency_id": 8,
+    "currency_rate": 75.39,
+    "amount": 300.469
+  },
+  {
+    "transaction_id": 996,
+    "transaction_date": "2020-02-06 17:04:16",
+    "depot_id": 8,
+    "currency_id": 5,
+    "currency_rate": 93.95,
+    "amount": 496.454
+  },
+  {
+    "transaction_id": 997,
+    "transaction_date": "2018-04-20 14:46:31",
+    "depot_id": 7,
+    "currency_id": 9,
+    "currency_rate": 80.95,
+    "amount": 437.471
+  },
+  {
+    "transaction_id": 998,
+    "transaction_date": "2021-06-24 22:35:47",
+    "depot_id": 4,
+    "currency_id": 8,
+    "currency_rate": 47.84,
+    "amount": 903.14
+  },
+  {
+    "transaction_id": 999,
+    "transaction_date": "2018-04-19 14:13:25",
+    "depot_id": 4,
+    "currency_id": 9,
+    "currency_rate": 71.68,
+    "amount": 105.855
+  },
+  {
+    "transaction_id": 1000,
+    "transaction_date": "2019-06-18 02:40:33",
+    "depot_id": 9,
+    "currency_id": 1,
+    "currency_rate": 66.0,
+    "amount": 512.137
+  }
+]
