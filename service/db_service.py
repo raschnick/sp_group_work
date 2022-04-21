@@ -26,7 +26,7 @@ class DbService:
             self.insert_sample_data()
 
     def get_amount_documents(self, collection: str = 'depot') -> int:
-        return self.db[collection].find().count()
+        return self.db[collection].count_documents({})
 
     def insert_sample_data(self) -> None:
         collections = ['currency', 'depot', 'transaction']
