@@ -27,7 +27,7 @@ def fluff() -> str:
 def coin_overview() -> str:
     crypto_asset_data = get_coin_overview()
     return render_template(
-        template_name_or_list='overview.html',
+        template_name_or_list='overview/overview.html',
         title="Coin Overview",
         description="A list of crypto currencies:",
         crypto_asset_data=crypto_asset_data
