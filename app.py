@@ -59,6 +59,7 @@ def get_depot() -> str:
 @app.route('/spotify')
 def spotify() -> str:
     """
+    data from https://www.kaggle.com/datasets/muhmores/spotify-top-100-songs-of-20152019
     An example to return a df as html table
     :return: a df as table
     """
