@@ -1,3 +1,8 @@
+import base64
+from io import BytesIO
+
+from matplotlib.figure import Figure
+
 from flask import Flask, render_template, request, redirect, url_for, Response
 
 from repository.depot_repository import DepotRepository
@@ -66,6 +71,18 @@ def spotify() -> str:
     df = pd.read_csv(filepath_or_buffer='/Users/simon/PycharmProjects/sp_group_work/unit_tests/data/Spotify.csv')
     return render_template('spotify/spotify.html',  tables=[df.to_html(classes='data')], titles=df.columns.values)
 
+
+@app.route('/graph')
+def graph() -> str:
+    fig = Figure()
+    ax = fig.subplots()
+    ax.plot([1, 2])
+    # Save it to a temporary buffer.
+    buf = BytesIO()
+    fig.savefig(buf, format="png")
+    # Embed the result in the html output.
+    data = base64.b64encode(buf.getbuffer()).decode("ascii")
+    return f"<img src='data:image/png;base64,{data}'/>"
 
 @app.errorhandler(404)
 def not_found(error) -> tuple[str, int]:
