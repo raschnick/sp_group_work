@@ -4,6 +4,8 @@ from repository.depot_repository import DepotRepository
 from service.api_service import get_coin_overview
 from service.db_service import DbService
 
+import pandas as pd
+
 app = Flask(__name__)
 # Load Configurations
 app.config.from_object('config')
@@ -52,6 +54,16 @@ def get_depot() -> str:
         return render_template(template_name_or_list='depot/depot_overview.html', title="Depot Overview", depot=depot)
     else:
         return f'No Depot found with id: {depot_id}'
+
+
+@app.route('/spotify')
+def spotify() -> str:
+    """
+    An example to return a df as html table
+    :return: a df as table
+    """
+    df = pd.read_csv(filepath_or_buffer='/Users/simon/PycharmProjects/sp_group_work/unit_tests/data/Spotify.csv')
+    return render_template('spotify/spotify.html',  tables=[df.to_html(classes='data')], titles=df.columns.values)
 
 
 @app.errorhandler(404)
