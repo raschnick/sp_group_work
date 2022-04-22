@@ -31,7 +31,7 @@ class DbService:
     def setup_db(self) -> None:
         """
         Checks if example data needs to be inserted to the DB
-        :return: Nonne
+        :return: None
         """
         if self.get_amount_documents() == 0:
             self.insert_sample_data()

@@ -1,15 +1,20 @@
 import base64
+import datetime
 from io import BytesIO
 
+import requests
 from matplotlib.figure import Figure
 
 from flask import Flask, render_template, request, redirect, url_for, Response
+from pycoingecko import CoinGeckoAPI
 
 from repository.depot_repository import DepotRepository
 from service.api_service import get_coin_overview
 from service.db_service import DbService
 
 import pandas as pd
+
+from service.environment_service import get_environment_variable
 
 app = Flask(__name__)
 # Load Configurations
@@ -23,11 +28,6 @@ depot_repository = DepotRepository(db_service.db)
 @app.route('/')
 def home() -> str:
     return render_template(template_name_or_list='index.html')
-
-
-@app.route('/fluff')
-def fluff() -> str:
-    return render_template(template_name_or_list='fluff/fluff.html')
 
 
 @app.route('/overview')
@@ -69,7 +69,7 @@ def spotify() -> str:
     :return: a df as table
     """
     df = pd.read_csv(filepath_or_buffer='/Users/simon/PycharmProjects/sp_group_work/unit_tests/data/Spotify.csv')
-    return render_template('spotify/spotify.html',  tables=[df.to_html(classes='data')], titles=df.columns.values)
+    return render_template('spotify/spotify.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
 
 
 @app.route('/graph')
@@ -83,6 +83,52 @@ def graph() -> str:
     # Embed the result in the html output.
     data = base64.b64encode(buf.getbuffer()).decode("ascii")
     return f"<img src='data:image/png;base64,{data}'/>"
+
+
+@app.route('/gecko')
+def pygecko():
+    cg = CoinGeckoAPI()
+
+    bitcoin_price_in_usd = cg.get_price(ids=['bitcoin', 'ethereum', 'litecoin'], vs_currencies='usd',
+                                        include_market_cap='true', include_24hr_vol='true', include_24hr_change='true',
+                                        include_last_updated_at='true')
+    print(bitcoin_price_in_usd)
+    print(datetime.datetime.fromtimestamp(bitcoin_price_in_usd.get("bitcoin").get("last_updated_at")))
+
+    historical_bitcoin_price = cg.get_coin_market_chart_by_id(id='bitcoin', vs_currency='usd', days='3')
+    print(historical_bitcoin_price)
+    print(len(historical_bitcoin_price.get("prices")))
+
+    global_mc = cg.get_global(id='btc')
+    print(global_mc)
+
+    return render_template(
+        template_name_or_list='gecko/gecko_test.html',
+        title="Gecko",
+        description="First gecko example",
+    )
+
+
+
+
+@app.route('/fomo')
+def fomo():
+    # https://tokenfomo.io/api/tokens/bsc?limit=10&apikey=APIKEY
+    FOMO_API_KEY = get_environment_variable("FOMO_API_KEY")
+    BASE_URL = 'https://tokenfomo.io/api/tokens/'
+    blockchain = 'eth'
+
+    url = f'{BASE_URL}{blockchain}?limit=10&apikey={FOMO_API_KEY}'
+
+    response = requests.get(url=url)
+    print(response)
+
+    return render_template(
+        template_name_or_list='fomo/fomo_test.html',
+        title="Fomo",
+        description="First Fomo example",
+    )
+
 
 @app.errorhandler(404)
 def not_found(error) -> tuple[str, int]:

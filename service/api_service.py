@@ -7,7 +7,9 @@ from service.environment_service import get_environment_variable
 
 def get_coin_overview() -> dict:
     url = 'https://rest.coinapi.io/v1/assets'
-    headers = {'X-CoinAPI-Key': get_environment_variable(key='API_KEY')}
+    headers = {
+        'X-CoinAPI-Key': get_environment_variable(key='API_KEY')
+    }
     response = requests.get(url=url, headers=headers)
     asset_data = json.loads(s=response.text)
 
