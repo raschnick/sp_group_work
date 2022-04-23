@@ -83,7 +83,7 @@ def graph() -> str:
 
 
 @app.route('/gecko')
-def pygecko():
+def pygecko() -> str:
     cg = CoinGeckoAPI()
 
     bitcoin_price_in_usd = cg.get_price(ids=['bitcoin', 'ethereum', 'litecoin'], vs_currencies='usd',
@@ -107,8 +107,8 @@ def pygecko():
 
 
 @app.route('/fomo')
-def fomo():
-    FOMO_API_KEY = get_environment_variable("FOMO_API_KEY")
+def fomo() -> str:
+    FOMO_API_KEY = get_environment_variable(key="FOMO_API_KEY")
     BASE_URL = 'https://tokenfomo.io/api/tokens/'
     blockchain = 'eth'
 
