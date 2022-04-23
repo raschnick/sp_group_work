@@ -2,18 +2,15 @@ import base64
 import datetime
 from io import BytesIO
 
+import pandas as pd
 import requests
-from matplotlib.figure import Figure
-
 from flask import Flask, render_template, request, redirect, url_for, Response
+from matplotlib.figure import Figure
 from pycoingecko import CoinGeckoAPI
 
 from repository.depot_repository import DepotRepository
 from service.api_service import get_coin_overview
 from service.db_service import DbService
-
-import pandas as pd
-
 from service.environment_service import get_environment_variable
 
 app = Flask(__name__)
@@ -109,11 +106,8 @@ def pygecko():
     )
 
 
-
-
 @app.route('/fomo')
 def fomo():
-    # https://tokenfomo.io/api/tokens/bsc?limit=10&apikey=APIKEY
     FOMO_API_KEY = get_environment_variable("FOMO_API_KEY")
     BASE_URL = 'https://tokenfomo.io/api/tokens/'
     blockchain = 'eth'
@@ -121,12 +115,16 @@ def fomo():
     url = f'{BASE_URL}{blockchain}?limit=10&apikey={FOMO_API_KEY}'
 
     response = requests.get(url=url)
-    print(response)
+    response_json = response.json()
+
+    db_service.db["crypto"].insert_many(response_json)
+
+    print(response_json)
 
     return render_template(
         template_name_or_list='fomo/fomo_test.html',
         title="Fomo",
-        description="First Fomo example",
+        description="Last 7 days of FOMO data have been written to the db!",
     )
 
 
