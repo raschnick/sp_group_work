@@ -1,17 +1,16 @@
 import base64
-import datetime
 from io import BytesIO
 
 import pandas as pd
 import requests
 from flask import Flask, render_template, request, redirect, url_for, Response
 from matplotlib.figure import Figure
-from pycoingecko import CoinGeckoAPI
 
 from repository.depot_repository import DepotRepository
 from service.api_service import get_coin_overview
 from service.db_service import DbService
 from service.environment_service import get_environment_variable
+from service.gecko_service import GeckoService
 
 app = Flask(__name__)
 # Load Configurations
@@ -69,40 +68,15 @@ def spotify() -> str:
     return render_template('spotify/spotify.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
 
 
-@app.route('/graph')
-def graph() -> str:
-    fig = Figure()
-    ax = fig.subplots()
-    ax.plot([1, 2])
-    # Save it to a temporary buffer.
-    buf = BytesIO()
-    fig.savefig(buf, format="png")
-    # Embed the result in the html output.
-    data = base64.b64encode(buf.getbuffer()).decode("ascii")
-    return f"<img src='data:image/png;base64,{data}'/>"
-
-
 @app.route('/gecko')
 def pygecko() -> str:
-    cg = CoinGeckoAPI()
-
-    bitcoin_price_in_usd = cg.get_price(ids=['bitcoin', 'ethereum', 'litecoin'], vs_currencies='usd',
-                                        include_market_cap='true', include_24hr_vol='true', include_24hr_change='true',
-                                        include_last_updated_at='true')
-    print(bitcoin_price_in_usd)
-    print(datetime.datetime.fromtimestamp(bitcoin_price_in_usd.get("bitcoin").get("last_updated_at")))
-
-    historical_bitcoin_price = cg.get_coin_market_chart_by_id(id='bitcoin', vs_currency='usd', days='3')
-    print(historical_bitcoin_price)
-    print(len(historical_bitcoin_price.get("prices")))
-
-    global_mc = cg.get_global(id='btc')
-    print(global_mc)
-
+    gecko_service = GeckoService()
+    crypto_graph = gecko_service.get_bitcoin_data()
     return render_template(
         template_name_or_list='gecko/gecko_test.html',
         title="Gecko",
         description="First gecko example",
+        graph=crypto_graph
     )
 
 
