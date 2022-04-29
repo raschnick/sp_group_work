@@ -6,56 +6,36 @@ from pycoingecko import CoinGeckoAPI
 import matplotlib.pyplot as plt
 
 
-def dict_to_graph_str(dictionary: dict) -> str:
-    prices = list(map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H:%M'), x[1]], dictionary))
-    x_axis = list(map(lambda x: x[0], prices))
-    y_axis = list(map(lambda x: x[1], prices))
-
-    fig, ax = plt.subplots()
-    # set max amount of minor tick labels
-    ax.xaxis.set_major_locator(plt.MaxNLocator(3))
-    ax.plot(x_axis, y_axis, linewidth=2.0)
-    plt.xlabel('currency')
-    plt.ylabel('value in $')
-
-    buf = BytesIO()
-    fig.savefig(buf, format="png")
-    # Embed the result in the html output.
-    data = base64.b64encode(buf.getbuffer()).decode("ascii")
-    return data
-
-
 class GeckoService:
     def __init__(self):
         # https://www.coingecko.com/api/documentations/v3#/
         self.cg_api = CoinGeckoAPI()
-        self.crypto_currencies = ['bitcoin', 'ethereum', 'litecoin']
-
-    def load_currencies(self) -> None:
-        bitcoin_price_in_usd = self.cg_api.get_price(ids=self.crypto_currencies, vs_currencies='usd',
-                                                     include_market_cap='true', include_24hr_vol='true',
-                                                     include_24hr_change='true', include_last_updated_at='true', )
-        dict_to_graph_str(dictionary=bitcoin_price_in_usd)
-        print('0-------------')
-        print(bitcoin_price_in_usd)
-        print('1-------------')
-        print(datetime.fromtimestamp(bitcoin_price_in_usd.get("bitcoin").get("last_updated_at")))
-        print('2-------------')
-        historical_bitcoin_price = self.cg_api.get_coin_market_chart_by_id(id='bitcoin', vs_currency='usd', days='3')
-        print(historical_bitcoin_price)
-        print('3-------------')
-        print(len(historical_bitcoin_price.get("prices")))
-        print('4-------------')
-
-        global_mc = self.cg_api.get_global(id='btc')
-        print(global_mc)
+        self.vs_currency = 'usd'
 
     def get_bitcoin_data(self, currency='bitcoin', last_days=7) -> str:
         bitcoin_prices = self.load_bitcoin_prices(currency_name=currency, last_days=last_days)
-        graph = dict_to_graph_str(bitcoin_prices)
+        graph = self.dict_to_graph_str(bitcoin_prices)
         return graph
 
     def load_bitcoin_prices(self, currency_name: str, last_days: int) -> dict:
-        data = self.cg_api.get_coin_market_chart_by_id(id=currency_name, vs_currency='chf', days=last_days,
-                                                         intervall='daily')
+        data = self.cg_api.get_coin_market_chart_by_id(id=currency_name, vs_currency=self.vs_currency, days=last_days,
+                                                       intervall='daily')
         return data.get('prices')
+
+    def dict_to_graph_str(self, price_dict: dict) -> str:
+        prices = list(map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H:%M'), x[1]], price_dict))
+        x_axis = list(map(lambda x: x[0], prices))
+        y_axis = list(map(lambda x: x[1], prices))
+
+        fig, ax = plt.subplots()
+        # set max amount of minor tick labels
+        ax.xaxis.set_major_locator(plt.MaxNLocator(3))
+        ax.plot(x_axis, y_axis, linewidth=2.0)
+        plt.xlabel('currency')
+        plt.ylabel(f'value in {self.vs_currency.upper()}')
+
+        buf = BytesIO()
+        fig.savefig(buf, format="png")
+        # Embed the result in the html output.
+        data = base64.b64encode(buf.getbuffer()).decode("ascii")
+        return data
