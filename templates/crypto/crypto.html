@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1>Crypto Currency Overview</h1>
+        <p>Show the course of your favourite Currency</p>
+        <form action="{{ url_for("crypto_result") }}" method="post">
+            <div class="form-group">
+                <label for="currency_select">Currency:</label>
+                <select class="form-control" id="currency_select" name="currency_select">
+                    {% for currency in currencies %}
+                        <option value="{{ currency }}">{{ currency }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="last_days_select">Last days:</label>
+                <select class="form-control" id="last_days_select" name="last_days_select">
+                    {% for day in last_days %}
+                        <option value="{{ day }}">{{ day }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <p><input type="submit" value="submit"/></p>
+        </form>
+    </div>
+{% endblock %}

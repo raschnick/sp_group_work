@@ -80,6 +80,22 @@ def pygecko() -> str:
     )
 
 
+@app.route('/crypto', methods=['GET'])
+def crypto() -> str:
+    currencies = ['bitcoin', 'ethereum', 'litecoin']
+    last_days = list(range(2, 31))
+    return render_template(template_name_or_list='crypto/crypto.html', currencies=currencies, last_days=last_days)
+
+
+@app.route('/crypto_result', methods=['POST'])
+def crypto_result() -> str:
+    gecko_service = GeckoService()
+    currency = request.form.get('currency_select')
+    last_days = request.form.get('last_days_select')
+    crypto_graph = gecko_service.get_bitcoin_data(currency=currency, last_days=last_days)
+    return render_template(template_name_or_list='crypto/crypto_result.html', graph=crypto_graph)
+
+
 @app.route('/fomo')
 def fomo() -> str:
     FOMO_API_KEY = get_environment_variable(key="FOMO_API_KEY")

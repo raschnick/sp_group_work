@@ -7,11 +7,13 @@ import matplotlib.pyplot as plt
 
 
 def dict_to_graph_str(dictionary: dict) -> str:
-    prices = list(map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%Y-%m-%d %H'), x[1]], dictionary))
+    prices = list(map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H:%M'), x[1]], dictionary))
     x_axis = list(map(lambda x: x[0], prices))
     y_axis = list(map(lambda x: x[1], prices))
 
     fig, ax = plt.subplots()
+    # set max amount of minor tick labels
+    ax.xaxis.set_major_locator(plt.MaxNLocator(3))
     ax.plot(x_axis, y_axis, linewidth=2.0)
     plt.xlabel('currency')
     plt.ylabel('value in $')
@@ -48,12 +50,12 @@ class GeckoService:
         global_mc = self.cg_api.get_global(id='btc')
         print(global_mc)
 
-    def get_bitcoin_data(self) -> str:
-        bitcoin_prices = self.load_bitcoin_prices()
+    def get_bitcoin_data(self, currency='bitcoin', last_days=7) -> str:
+        bitcoin_prices = self.load_bitcoin_prices(currency_name=currency, last_days=last_days)
         graph = dict_to_graph_str(bitcoin_prices)
         return graph
 
-    def load_bitcoin_prices(self) -> dict:
-        data = self.cg_api.get_coin_market_chart_by_id(id='bitcoin', vs_currency='chf', days=7,
+    def load_bitcoin_prices(self, currency_name: str, last_days: int) -> dict:
+        data = self.cg_api.get_coin_market_chart_by_id(id=currency_name, vs_currency='chf', days=last_days,
                                                          intervall='daily')
         return data.get('prices')
