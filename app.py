@@ -8,6 +8,7 @@ app.config.from_object('config')
 
 routing_service_ = RoutingService()
 
+
 @app.route('/')
 def home() -> str:
     return render_template(template_name_or_list='index.html')
