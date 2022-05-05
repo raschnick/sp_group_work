@@ -12,9 +12,9 @@ class GeckoService:
         self.cg_api = CoinGeckoAPI()
         self.vs_currency = 'usd'
 
-    def get_bitcoin_data(self, currency='bitcoin', last_days=7) -> str:
+    def get_bitcoin_data_as_str_buffer(self, currency='bitcoin', last_days=7) -> str:
         bitcoin_prices = self.load_bitcoin_prices(currency_name=currency, last_days=last_days)
-        graph = self.dict_to_graph_str(bitcoin_prices)
+        graph = self.dict_to_graph_as_str_buffer(bitcoin_prices)
         return graph
 
     def load_bitcoin_prices(self, currency_name: str, last_days: int) -> dict:
@@ -22,7 +22,7 @@ class GeckoService:
                                                        intervall='daily')
         return data.get('prices')
 
-    def dict_to_graph_str(self, price_dict: dict) -> str:
+    def dict_to_graph_as_str_buffer(self, price_dict: dict) -> str:
         prices = list(map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H:%M'), x[1]], price_dict))
         x_axis = list(map(lambda x: x[0], prices))
         y_axis = list(map(lambda x: x[1], prices))
