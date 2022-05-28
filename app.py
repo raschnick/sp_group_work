@@ -1,12 +1,10 @@
-from flask import Flask, render_template, redirect, url_for, Response, request
+from flask import Flask, render_template, request
 
-from service.routing_service import RoutingService
+from service import routing_service
 
 app = Flask(__name__)
 # Load Configurations
 app.config.from_object('config')
-
-routing_service_ = RoutingService()
 
 
 @app.route('/')
@@ -14,29 +12,14 @@ def home() -> str:
     return render_template(template_name_or_list='index.html')
 
 
-@app.route('/depot')
-def hello() -> Response:
-    return redirect(url_for(endpoint='search_depot'))
-
-
-@app.route('/depot/search', methods=['GET'])
-def search_depot() -> str:
-    return routing_service_.search_depot()
-
-
-@app.route('/depot/overview', methods=['POST'])
-def get_depot() -> str:
-    return routing_service_.get_depot()
-
-
 @app.route('/crypto', methods=['GET'])
 def crypto() -> str:
-    return routing_service_.crypto()
+    return routing_service.crypto()
 
 
 @app.route('/crypto_result', methods=['POST'])
 def crypto_result() -> str:
-    return routing_service_.crypto_result()
+    return routing_service.crypto_result()
 
 
 @app.route('/fomo')
@@ -44,12 +27,12 @@ def fomo() -> str:
     blockchain = request.args.get('bc')
     search = request.args.get('search')
 
-    return routing_service_.fomo(search, blockchain)
+    return routing_service.fomo(search, blockchain)
 
 
 @app.errorhandler(404)
 def not_found(error) -> tuple[str, int]:
-    return routing_service_.not_found(error)
+    return routing_service.not_found(error)
 
 
 if __name__ == '__main__':

@@ -1,88 +1,69 @@
-import json
 from datetime import datetime
 
 import pandas as pd
 import requests
-from flask import request, render_template, app
+from flask import request, render_template
 
-from repository import depot_repository
-from repository.depot_repository import DepotRepository
-from service.api_service import get_coin_overview
-from service.db_service import DbService
 from service.environment_service import get_environment_variable
 from service.gecko_service import GeckoService
 
 
-class RoutingService():
-    def __init__(self):
-        self.db_service = DbService()
-        self.depot_repository = DepotRepository(self.db_service.db)
+def crypto() -> str:
+    currencies = ['bitcoin', 'ethereum', 'litecoin']
+    last_days = list(range(2, 31))
+    return render_template(template_name_or_list='crypto/crypto.html', currencies=currencies, last_days=last_days)
 
-    def search_depot(self) -> str:
-        return render_template(template_name_or_list='depot/depot_search.html', title="Depot Search", )
 
-    def get_depot(self) -> str:
-        depot_id = request.form['depot_id']
-        depot = depot_repository.get_depot_by_depot_id(depot_id=depot_id)
-        if depot.get('depot_id') is not None:
-            return render_template(template_name_or_list='depot/depot_overview.html', title="Depot Overview",
-                                   depot=depot)
-        else:
-            return f'No Depot found with id: {depot_id}'
+def crypto_result() -> str:
+    gecko_service = GeckoService()
+    currency = request.form.get('currency_select')
+    last_days = request.form.get('last_days_select')
+    crypto_graph = gecko_service.get_bitcoin_data_as_str_buffer(currency=currency, last_days=last_days)
+    return render_template(template_name_or_list='crypto/crypto_result.html', graph=crypto_graph)
 
-    def crypto(self) -> str:
-        currencies = ['bitcoin', 'ethereum', 'litecoin']
-        last_days = list(range(2, 31))
-        return render_template(template_name_or_list='crypto/crypto.html', currencies=currencies, last_days=last_days)
 
-    def crypto_result(self) -> str:
-        gecko_service = GeckoService()
-        currency = request.form.get('currency_select')
-        last_days = request.form.get('last_days_select')
-        crypto_graph = gecko_service.get_bitcoin_data_as_str_buffer(currency=currency, last_days=last_days)
-        return render_template(template_name_or_list='crypto/crypto_result.html', graph=crypto_graph)
+def fomo(search, blockchain='eth') -> str:
+    FOMO_API_KEY = get_environment_variable(key="FOMO_API_KEY")
+    BASE_URL = 'https://tokenfomo.io/api/tokens/'
 
-    def fomo(self, search, blockchain='eth') -> str:
-        FOMO_API_KEY = get_environment_variable(key="FOMO_API_KEY")
-        BASE_URL = 'https://tokenfomo.io/api/tokens/'
+    url = f'{BASE_URL}{blockchain}?apikey={FOMO_API_KEY}'
 
-        url = f'{BASE_URL}{blockchain}?apikey={FOMO_API_KEY}'
+    response = requests.get(url=url)
 
-        response = requests.get(url=url)
+    fomo_data = response.json()
 
-        fomo_data = response.json()
+    filtered_fomo_data = []
 
-        filtered_fomo_data = []
+    if not search is None:
+        for element in fomo_data:
+            if search in element.get('name'):
+                filtered_fomo_data.append(element)
 
-        if not search is None:
-            for element in fomo_data:
-                if search in element.get('name'):
-                    filtered_fomo_data.append(element)
+        contract_addresses = [addr.get('addr') for addr in filtered_fomo_data]
+        names = [name.get('name') for name in filtered_fomo_data]
+        symbols = [symbol.get('symbol') for symbol in filtered_fomo_data]
+        timestamps = [timestamp.get('timestamp') for timestamp in filtered_fomo_data]
+    else:
+        contract_addresses = [addr.get('addr') for addr in fomo_data]
+        names = [name.get('name') for name in fomo_data]
+        symbols = [symbol.get('symbol') for symbol in fomo_data]
+        timestamps = [timestamp.get('timestamp') for timestamp in fomo_data]
 
-            contract_addresses = [addr.get('addr') for addr in filtered_fomo_data]
-            names = [name.get('name') for name in filtered_fomo_data]
-            symbols = [symbol.get('symbol') for symbol in filtered_fomo_data]
-            timestamps = [timestamp.get('timestamp') for timestamp in filtered_fomo_data]
-        else:
-            contract_addresses = [addr.get('addr') for addr in fomo_data]
-            names = [name.get('name') for name in fomo_data]
-            symbols = [symbol.get('symbol') for symbol in fomo_data]
-            timestamps = [timestamp.get('timestamp') for timestamp in fomo_data]
+    timestamps_formatted = []
 
-        timestamps_formatted = []
+    for timestamp in timestamps:
+        timestamps_formatted.append(datetime.fromtimestamp(int(timestamp)).strftime('%d.%m.%y'))
 
-        for timestamp in timestamps:
-            timestamps_formatted.append(datetime.fromtimestamp(int(timestamp)).strftime('%d.%m.%y'))
+    df = pd.DataFrame({'Contract Address': contract_addresses,
+                       'Name': names,
+                       'Symbol': symbols,
+                       'Timestamp': timestamps_formatted})
 
-        df = pd.DataFrame({'Contract Address': contract_addresses,
-                           'Name': names,
-                           'Symbol': symbols,
-                           'Timestamp': timestamps_formatted})
+    return render_template('fomo/fomo.html', title="Check Token",
+                           tables=[df.to_html(classes='table table-striped table-bordered fomo-table'), ],
+                           titles=df.columns.values)
 
-        return render_template('fomo/fomo.html', title="Check Token",
-                               tables=[df.to_html(classes='table table-striped table-bordered fomo-table'), ],
-                               titles=df.columns.values)
 
-    def not_found(self, error) -> tuple[str, int]:
-        print(error)
-        return render_template(template_name_or_list='404.html'), 404
+def not_found(error) -> tuple[str, int]:
+    print(error)
+    return render_template(template_name_or_list='404.html'), 404
