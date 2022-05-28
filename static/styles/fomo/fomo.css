@@ -1,9 +1,18 @@
+body {
+    color: white;
+}
+
+h1 {
+    color: black;
+}
+
 th {
     text-align: left;
 }
 
 td {
     max-width: 400px;
+    min-width: 275px;
 }
 
 .fomo_table {

@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 
 import pandas as pd
@@ -41,8 +42,7 @@ class RoutingService():
         crypto_graph = gecko_service.get_bitcoin_data_as_str_buffer(currency=currency, last_days=last_days)
         return render_template(template_name_or_list='crypto/crypto_result.html', graph=crypto_graph)
 
-    def fomo(self, blockchain) -> str:
-        print("------------blockchain: " + blockchain)
+    def fomo(self, search, blockchain='eth') -> str:
         FOMO_API_KEY = get_environment_variable(key="FOMO_API_KEY")
         BASE_URL = 'https://tokenfomo.io/api/tokens/'
 
@@ -50,16 +50,26 @@ class RoutingService():
 
         response = requests.get(url=url)
 
-        fomo_data_json = response.json()
+        fomo_data = response.json()
 
-        contract_addresses = [addr.get('addr') for addr in fomo_data_json]
-        names = [name.get('name') for name in fomo_data_json]
-        symbols = [symbol.get('symbol') for symbol in fomo_data_json]
-        timestamps = [timestamp.get('timestamp') for timestamp in fomo_data_json]
+        filtered_fomo_data = []
+
+        if not search is None:
+            for element in fomo_data:
+                if search in element.get('name'):
+                    filtered_fomo_data.append(element)
+
+            contract_addresses = [addr.get('addr') for addr in filtered_fomo_data]
+            names = [name.get('name') for name in filtered_fomo_data]
+            symbols = [symbol.get('symbol') for symbol in filtered_fomo_data]
+            timestamps = [timestamp.get('timestamp') for timestamp in filtered_fomo_data]
+        else:
+            contract_addresses = [addr.get('addr') for addr in fomo_data]
+            names = [name.get('name') for name in fomo_data]
+            symbols = [symbol.get('symbol') for symbol in fomo_data]
+            timestamps = [timestamp.get('timestamp') for timestamp in fomo_data]
+
         timestamps_formatted = []
-
-        print(f'normal length: {len(timestamps)}')
-        print(f'formatted length: {len(timestamps_formatted)}')
 
         for timestamp in timestamps:
             timestamps_formatted.append(datetime.fromtimestamp(int(timestamp)).strftime('%d.%m.%y'))
@@ -69,8 +79,8 @@ class RoutingService():
                            'Symbol': symbols,
                            'Timestamp': timestamps_formatted})
 
-        return render_template('fomo/fomo.html', title="Fomo",
-                               tables=[df.to_html(classes='table table-striped table-bordered fomo-table')],
+        return render_template('fomo/fomo.html', title="Check Token",
+                               tables=[df.to_html(classes='table table-striped table-bordered fomo-table'), ],
                                titles=df.columns.values)
 
     def not_found(self, error) -> tuple[str, int]:

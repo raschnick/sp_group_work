@@ -1,8 +1,18 @@
 {% extends 'layout.html' %}
 
 {% block content %}
+    <script>
+        function search() {
+            let name = document.getElementById('search-input').value;
+            let blockchain = window.location.search.substr(1)
+            window.open("?" + blockchain + "&search=" + name);
+        }
+    </script>
+
     <div class="container">
         <h1>{{ title }}</h1>
+        <input type="text" id="search-input" placeholder="Search for a token" />
+        <button class="btn btn-secondary" onclick="search()">Search</button>
         <div class="fomo_table">
             {% for table in tables %}
                 {{ titles[loop.index] }}

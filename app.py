@@ -41,13 +41,10 @@ def crypto_result() -> str:
 
 @app.route('/fomo')
 def fomo() -> str:
-    if request.args.get(('bc')) is None:
-        blockchain = 'eth'
-    else:
-        blockchain = request.args.get('bc')
-    print("early block: " + blockchain)
+    blockchain = request.args.get('bc')
+    search = request.args.get('search')
 
-    return routing_service_.fomo(blockchain)
+    return routing_service_.fomo(search, blockchain)
 
 
 @app.errorhandler(404)
