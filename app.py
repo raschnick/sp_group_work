@@ -14,11 +14,6 @@ def home() -> str:
     return render_template(template_name_or_list='index.html')
 
 
-@app.route('/overview')
-def coin_overview() -> str:
-    return routing_service_.coin_overview()
-
-
 @app.route('/depot')
 def hello() -> Response:
     return redirect(url_for(endpoint='search_depot'))
@@ -32,11 +27,6 @@ def search_depot() -> str:
 @app.route('/depot/overview', methods=['POST'])
 def get_depot() -> str:
     return routing_service_.get_depot()
-
-
-@app.route('/spotify')
-def spotify() -> str:
-    return routing_service_.spotify()
 
 
 @app.route('/crypto', methods=['GET'])
@@ -56,7 +46,6 @@ def fomo() -> str:
     else:
         blockchain = request.args.get('bc')
     print("early block: " + blockchain)
-
 
     return routing_service_.fomo(blockchain)
 

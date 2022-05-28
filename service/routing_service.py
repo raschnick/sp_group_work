@@ -17,15 +17,6 @@ class RoutingService():
         self.db_service = DbService()
         self.depot_repository = DepotRepository(self.db_service.db)
 
-    def coin_overview(self) -> str:
-        crypto_asset_data = get_coin_overview()
-        return render_template(
-            template_name_or_list='overview/overview.html',
-            title="Coin Overview",
-            description="A list of crypto currencies:",
-            crypto_asset_data=crypto_asset_data
-        )
-
     def search_depot(self) -> str:
         return render_template(template_name_or_list='depot/depot_search.html', title="Depot Search", )
 
@@ -37,15 +28,6 @@ class RoutingService():
                                    depot=depot)
         else:
             return f'No Depot found with id: {depot_id}'
-
-    def spotify(self) -> str:
-        """
-        data from https://www.kaggle.com/datasets/muhmores/spotify-top-100-songs-of-20152019
-        An example to return a df as html table
-        :return: a df as table
-        """
-        df = pd.read_csv(filepath_or_buffer='/Users/simon/PycharmProjects/sp_group_work/unit_tests/data/Spotify.csv')
-        return render_template('spotify/spotify.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
 
     def crypto(self) -> str:
         currencies = ['bitcoin', 'ethereum', 'litecoin']
