@@ -1,0 +1,11 @@
+th {
+    text-align: left;
+}
+
+td {
+    max-width: 400px;
+}
+
+.fomo_table {
+    width: 500px;
+}

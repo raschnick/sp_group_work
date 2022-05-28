@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, Response
+from flask import Flask, render_template, redirect, url_for, Response, request
 
 from service.routing_service import RoutingService
 
@@ -51,7 +51,14 @@ def crypto_result() -> str:
 
 @app.route('/fomo')
 def fomo() -> str:
-    return routing_service_.fomo()
+    if request.args.get(('bc')) is None:
+        blockchain = 'eth'
+    else:
+        blockchain = request.args.get('bc')
+    print("early block: " + blockchain)
+
+
+    return routing_service_.fomo(blockchain)
 
 
 @app.errorhandler(404)

@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import pandas as pd
 import requests
 from flask import request, render_template, app
@@ -57,25 +59,37 @@ class RoutingService():
         crypto_graph = gecko_service.get_bitcoin_data_as_str_buffer(currency=currency, last_days=last_days)
         return render_template(template_name_or_list='crypto/crypto_result.html', graph=crypto_graph)
 
-    def fomo(self) -> str:
+    def fomo(self, blockchain) -> str:
+        print("------------blockchain: " + blockchain)
         FOMO_API_KEY = get_environment_variable(key="FOMO_API_KEY")
         BASE_URL = 'https://tokenfomo.io/api/tokens/'
-        blockchain = 'eth'
 
-        url = f'{BASE_URL}{blockchain}?limit=10&apikey={FOMO_API_KEY}'
+        url = f'{BASE_URL}{blockchain}?apikey={FOMO_API_KEY}'
 
         response = requests.get(url=url)
-        response_json = response.json()
 
-        self.db_service.db["crypto"].insert_many(response_json)
+        fomo_data_json = response.json()
 
-        print(response_json)
+        contract_addresses = [addr.get('addr') for addr in fomo_data_json]
+        names = [name.get('name') for name in fomo_data_json]
+        symbols = [symbol.get('symbol') for symbol in fomo_data_json]
+        timestamps = [timestamp.get('timestamp') for timestamp in fomo_data_json]
+        timestamps_formatted = []
 
-        return render_template(
-            template_name_or_list='fomo/fomo_test.html',
-            title="Fomo",
-            description="Last 7 days of FOMO data have been written to the db!",
-        )
+        print(f'normal length: {len(timestamps)}')
+        print(f'formatted length: {len(timestamps_formatted)}')
+
+        for timestamp in timestamps:
+            timestamps_formatted.append(datetime.fromtimestamp(int(timestamp)).strftime('%d.%m.%y'))
+
+        df = pd.DataFrame({'Contract Address': contract_addresses,
+                           'Name': names,
+                           'Symbol': symbols,
+                           'Timestamp': timestamps_formatted})
+
+        return render_template('fomo/fomo.html', title="Fomo",
+                               tables=[df.to_html(classes='table table-striped table-bordered fomo-table')],
+                               titles=df.columns.values)
 
     def not_found(self, error) -> tuple[str, int]:
         print(error)
