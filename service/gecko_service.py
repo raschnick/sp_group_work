@@ -12,12 +12,18 @@ class GeckoService:
         self.cg_api = CoinGeckoAPI()
         self.vs_currency = 'usd'
 
+    def get_coin_ids(self) -> [str]:
+        coins = self.cg_api.get_coins()
+        coin_ids = [x.get('id') for x in coins]
+        coin_ids.sort()
+        return coin_ids
+
     def get_bitcoin_data_as_str_buffer(self, currency='bitcoin', last_days=7) -> str:
-        bitcoin_prices = self.load_bitcoin_prices(currency_name=currency, last_days=last_days)
-        graph = self.dict_to_graph_as_str_buffer(bitcoin_prices)
+        currency_prices = self.load_currency_prices(currency_name=currency, last_days=last_days)
+        graph = self.dict_to_graph_as_str_buffer(currency_prices)
         return graph
 
-    def load_bitcoin_prices(self, currency_name: str, last_days: int) -> dict:
+    def load_currency_prices(self, currency_name: str, last_days: int) -> dict:
         data = self.cg_api.get_coin_market_chart_by_id(id=currency_name, vs_currency=self.vs_currency, days=last_days,
                                                        intervall='daily')
         return data.get('prices')

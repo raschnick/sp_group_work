@@ -9,7 +9,8 @@ from service.gecko_service import GeckoService
 
 
 def crypto() -> str:
-    currencies = ['bitcoin', 'ethereum', 'litecoin']
+    gecko_service = GeckoService()
+    currencies = gecko_service.get_coin_ids()
     last_days = list(range(2, 31))
     return render_template(template_name_or_list='crypto/crypto.html', currencies=currencies, last_days=last_days)
 
