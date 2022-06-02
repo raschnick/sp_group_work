@@ -12,7 +12,7 @@ def crypto() -> str:
     gecko_service = GeckoService()
     currencies = gecko_service.get_coin_ids()
     last_days = list(range(2, 31))
-    return render_template(template_name_or_list='crypto/crypto.html', currencies=currencies, last_days=last_days)
+    return render_template(template_name_or_list='crypto/crypto.html', title="Check Coins", currencies=currencies, last_days=last_days)
 
 
 def crypto_result() -> str:
@@ -20,7 +20,7 @@ def crypto_result() -> str:
     currency = request.form.get('currency_select')
     last_days = request.form.get('last_days_select')
     crypto_graph = gecko_service.get_bitcoin_data_as_str_buffer(currency=currency, last_days=last_days)
-    return render_template(template_name_or_list='crypto/crypto_result.html', graph=crypto_graph)
+    return render_template(template_name_or_list='crypto/crypto_result.html', title="Check Coins", graph=crypto_graph)
 
 
 def fomo(search, blockchain='eth') -> str:
@@ -60,7 +60,7 @@ def fomo(search, blockchain='eth') -> str:
                        'Symbol': symbols,
                        'Timestamp': timestamps_formatted})
 
-    return render_template('fomo/fomo.html', title="Check Token",
+    return render_template('fomo/fomo.html', title="Check Tokens",
                            tables=[df.to_html(classes='table table-striped table-bordered fomo-table'), ],
                            titles=df.columns.values)
 

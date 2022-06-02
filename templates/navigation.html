@@ -1,21 +1,35 @@
 <!-- https://getbootstrap.com/docs/4.0/components/navbar/#nav -->
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="/">Home</a>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">
-                        Check Token
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/fomo?bc=eth">Ethereum</a></li>
-                        <li><a class="dropdown-item" href="/fomo?bc=bsc">BNB Smart Chain</a></li>
-                        <li><a class="dropdown-item" href="/fomo?bc=poly">Polygon</a></li>
-                    </ul>
-                </li>
-                <a class="nav-item nav-link" href="/crypto">Crypto</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="../static/img/logo.png" alt="..." height="55">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/crypto">Check Coins</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Check Tokens
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/fomo?bc=eth">Ethereum</a></li>
+                            <li><a class="dropdown-item" href="/fomo?bc=bsc">BSC Smart Chain</a></li>
+                            <li><a class="dropdown-item" href="/fomo?bc=poly">Polygon</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>

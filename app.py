@@ -9,7 +9,7 @@ app.config.from_object('config')
 
 @app.route('/')
 def home() -> str:
-    return render_template(template_name_or_list='index.html')
+    return render_template(template_name_or_list='index.html', title="Home")
 
 
 @app.route('/crypto', methods=['GET'])
