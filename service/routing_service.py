@@ -19,7 +19,7 @@ def crypto_result() -> str:
     gecko_service = GeckoService()
     currency = request.form.get('currency_select')
     last_days = request.form.get('last_days_select')
-    crypto_graph = gecko_service.get_bitcoin_data_as_str_buffer(currency=currency, last_days=last_days)
+    crypto_graph = gecko_service.get_crypto_data_as_str_buffer(currency=currency, last_days=last_days)
     return render_template(template_name_or_list='crypto/crypto_result.html', title="Check Coins", graph=crypto_graph)
 
 
