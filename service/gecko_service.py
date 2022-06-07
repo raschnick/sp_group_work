@@ -2,6 +2,7 @@ import base64
 from datetime import datetime
 from io import BytesIO
 
+import matplotlib.ticker
 from pycoingecko import CoinGeckoAPI
 import matplotlib.pyplot as plt
 
@@ -20,28 +21,49 @@ class GeckoService:
 
     def get_crypto_data_as_str_buffer(self, currency='bitcoin', last_days=7) -> str:
         currency_prices = self.load_currency_prices(currency_name=currency, last_days=last_days)
-        graph = self.dict_to_graph_as_str_buffer(currency_prices)
+        graph = self.dict_to_graph_as_str_buffer(currency=currency, price_dict=currency_prices, last_days=last_days)
         return graph
 
     def load_currency_prices(self, currency_name: str, last_days: int) -> dict:
         data = self.cg_api.get_coin_market_chart_by_id(id=currency_name, vs_currency=self.vs_currency, days=last_days,
-                                                       intervall='daily')
+                                                       interval='daily')
         return data.get('prices')
 
-    def dict_to_graph_as_str_buffer(self, price_dict: dict) -> str:
-        prices = list(map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H:%M'), x[1]], price_dict))
+    def dict_to_graph_as_str_buffer(self, currency: str, price_dict: dict, last_days: int) -> str:
+        prices = list(map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H'), x[1]], price_dict))
         x_axis = list(map(lambda x: x[0], prices))
         y_axis = list(map(lambda x: x[1], prices))
 
-        fig, ax = plt.subplots()
-        # set max amount of minor tick labels
-        ax.xaxis.set_major_locator(plt.MaxNLocator(3))
-        ax.plot(x_axis, y_axis, linewidth=2.0)
-        plt.xlabel('currency')
+        bitcoin_prices_dict = self.load_currency_prices(currency_name='bitcoin', last_days=last_days)
+        bitcoin_prices = list(
+            map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H'), x[1]], bitcoin_prices_dict))
+        bitcoin_x_axis = list(map(lambda x: x[0], bitcoin_prices))
+        bitcoin_y_axis = list(map(lambda x: x[1], bitcoin_prices))
+
+        print(bitcoin_prices)
+        print('------')
+        print(prices)
+
+        self.clear_plot()
+
+        plt.plot(x_axis, y_axis, label=currency.capitalize())
+        plt.plot(bitcoin_x_axis, bitcoin_y_axis, label='Bitcoin')
+
+        plt.xlabel('Timestamp')
         plt.ylabel(f'value in {self.vs_currency.upper()}')
 
+        plt.xticks(ticks=[x_axis[0], x_axis[int(len(x_axis) / 2)], x_axis[len(x_axis) - 1]])
+        plt.legend()
+
         buf = BytesIO()
-        fig.savefig(buf, format="png")
+        plt.savefig(buf, format="png")
         # Embed the result in the html output.
         data = base64.b64encode(buf.getbuffer()).decode("ascii")
         return data
+
+    def clear_plot(self):
+        fig = plt.figure()
+        plt.figure().clear()
+        plt.close()
+        plt.cla()
+        plt.clf()
