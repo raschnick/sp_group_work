@@ -18,7 +18,7 @@ class GeckoService:
         coin_ids.sort()
         return coin_ids
 
-    def get_bitcoin_data_as_str_buffer(self, currency='bitcoin', last_days=7) -> str:
+    def get_crypto_data_as_str_buffer(self, currency='bitcoin', last_days=7) -> str:
         currency_prices = self.load_currency_prices(currency_name=currency, last_days=last_days)
         graph = self.dict_to_graph_as_str_buffer(currency_prices)
         return graph
