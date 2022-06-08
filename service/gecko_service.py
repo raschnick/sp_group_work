@@ -19,9 +19,12 @@ class GeckoService:
         coin_ids.sort()
         return coin_ids
 
+    def get_reference_graph_as_str_buffer(self, last_days=7):
+        return self.get_crypto_data_as_str_buffer(currency='bitcoin', last_days=last_days)
+
     def get_crypto_data_as_str_buffer(self, currency='bitcoin', last_days=7) -> str:
         currency_prices = self.load_currency_prices(currency_name=currency, last_days=last_days)
-        graph = self.dict_to_graph_as_str_buffer(currency=currency, price_dict=currency_prices, last_days=last_days)
+        graph = self.dict_to_graph_as_str_buffer(currency=currency, price_dict=currency_prices)
         return graph
 
     def load_currency_prices(self, currency_name: str, last_days: int) -> dict:
@@ -29,25 +32,14 @@ class GeckoService:
                                                        interval='daily')
         return data.get('prices')
 
-    def dict_to_graph_as_str_buffer(self, currency: str, price_dict: dict, last_days: int) -> str:
+    def dict_to_graph_as_str_buffer(self, currency: str, price_dict: dict) -> str:
         prices = list(map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H'), x[1]], price_dict))
         x_axis = list(map(lambda x: x[0], prices))
         y_axis = list(map(lambda x: x[1], prices))
 
-        bitcoin_prices_dict = self.load_currency_prices(currency_name='bitcoin', last_days=last_days)
-        bitcoin_prices = list(
-            map(lambda x: [datetime.fromtimestamp(x[0] / 1_000).strftime('%d.%m %H'), x[1]], bitcoin_prices_dict))
-        bitcoin_x_axis = list(map(lambda x: x[0], bitcoin_prices))
-        bitcoin_y_axis = list(map(lambda x: x[1], bitcoin_prices))
-
-        print(bitcoin_prices)
-        print('------')
-        print(prices)
-
         self.clear_plot()
 
         plt.plot(x_axis, y_axis, label=currency.capitalize())
-        plt.plot(bitcoin_x_axis, bitcoin_y_axis, label='Bitcoin')
 
         plt.xlabel('Timestamp')
         plt.ylabel(f'value in {self.vs_currency.upper()}')

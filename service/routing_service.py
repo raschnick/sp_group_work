@@ -12,7 +12,8 @@ def crypto() -> str:
     gecko_service = GeckoService()
     currencies = gecko_service.get_coin_ids()
     last_days = list(range(2, 31))
-    return render_template(template_name_or_list='crypto/crypto.html', title="Check Coins", currencies=currencies, last_days=last_days)
+    return render_template(template_name_or_list='crypto/crypto.html', title="Check Coins", currencies=currencies,
+                           last_days=last_days)
 
 
 def crypto_result() -> str:
@@ -20,7 +21,9 @@ def crypto_result() -> str:
     currency = request.form.get('currency_select')
     last_days = request.form.get('last_days_select')
     crypto_graph = gecko_service.get_crypto_data_as_str_buffer(currency=currency, last_days=last_days)
-    return render_template(template_name_or_list='crypto/crypto_result.html', title="Check Coins", graph=crypto_graph)
+    reference_graph = gecko_service.get_reference_graph_as_str_buffer(last_days=last_days)
+    return render_template(template_name_or_list='crypto/crypto_result.html', title="Check Coins", graph=crypto_graph,
+                           reference_graph=reference_graph)
 
 
 def fomo(search, blockchain='eth') -> str:
