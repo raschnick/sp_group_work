@@ -8,7 +8,7 @@ by Sascha, Simon and Nick
 
 ## Local Setup Guide
 
-###Installing the Dependencies
+### Installing the Dependencies
 Create a virtual env and run:
 
 ```pip install -r requirements.txt```
