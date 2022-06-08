@@ -1,6 +1,6 @@
 {
     "flask": {
-        "image": ":sp-service.sp.1",
+        "image": ":sp-coinfo-service.sp-coinfo.2",
         "ports": {
             "5000": "HTTP"
         }
